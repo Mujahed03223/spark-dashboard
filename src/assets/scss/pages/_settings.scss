@@ -1,0 +1,53 @@
+.all_settings {
+	.settings_tabs {
+		margin-block: 15px 20px;
+		.nav_pills {
+			@include flexStartAlignment;
+			column-gap: 12px;
+			.nav_item {
+				.nav_link {
+					padding: 8px 14px;
+					background-color: transparent;
+					color: var(--main);
+					font-size: 15px;
+					border: 1px solid var(--main);
+					border-radius: 10px;
+					transition: 0.3s all linear;
+					&:hover,
+					&.router-link-exact-active {
+						background-color: var(--main);
+						color: var(--white);
+					}
+				}
+			}
+		}
+	}
+
+	.setting_tabs_content {
+		padding: 15px;
+		.show_content {
+			padding: 15px;
+			background-color: var(--white);
+			border-radius: 10px;
+		}
+		.setting_title_wrapper {
+			margin-bottom: 30px;
+			@include flexSpaceBetweenAlignment;
+			.setting_title {	
+				margin: 0;
+			}
+
+			.edit_route {
+				svg, i {
+					color: var(--main);
+					font-size: 20px;
+				}
+			}
+		}
+
+		.setting_content_wrapper {
+			color: var(--mainText);
+			font-size: 18px;
+		}
+	}
+}

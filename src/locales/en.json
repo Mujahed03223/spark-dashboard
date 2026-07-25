@@ -1,0 +1,1966 @@
+{
+  "dashName": "Dashboard Spark",
+  "navs": {
+    "home": "Home page"
+  },
+  "statisticsCard": {
+    "Admins": "Admins",
+    "Ambassadors": "Ambassadors",
+    "Cities": "Cities",
+    "Countries": "Countries",
+    "Projects": "Projects",
+    "Properties": "Properties",
+    "Requests": "Requests"
+  },
+  "breadcrumb": {
+    "mainPage": "Home page",
+    "mainSettings": "Settings",
+    "message": " Welcome back!",
+
+    "transactions": {
+      "title": "Transactions",
+      "all": "All Transactions",
+      "add": "Add Transaction",
+      "edit": "Edit Transaction",
+      "show": "Show Transaction"
+    },
+
+    "wallets": {
+      "title": "Wallet",
+      "all": "All Wallets",
+      "add": "Add Wallet",
+      "edit": "Edit Wallet",
+      "show": "Show Wallet",
+      "charge": "Charge Wallet"
+    },
+
+    "clients": {
+      "title": "Clients",
+      "all": "All",
+      "add": "Add Client",
+      "edit": "Edit Client",
+      "show": "Show Client"
+    },
+
+    "banks": {
+      "title": "Bank Accounts",
+      "all": "All Bank Accounts",
+      "add": "Add Bank Account",
+      "edit": "Edit Bank Account",
+      "show": "Show Bank Account"
+    },
+
+    "check_lists": {
+      "title": "CheckBoxes List",
+      "all": "All CheckBoxes List",
+      "add": "Add Bank Account",
+      "edit": "Edit Bank Account",
+      "show": "Show Bank Account"
+    },
+
+    "most_questions": {
+      "title": "Most Questions",
+      "all": "All Most Questions",
+      "add": "Add Question",
+      "edit": "Edit Question",
+      "show": "Show Question"
+    },
+
+    "adminContacts": {
+      "title": "ِdmin Contacts",
+      "all": "All",
+      "add": "Add",
+      "edit": "Edit",
+      "show": "Show"
+    },
+
+    "statistics": {
+      "title": "Statistics",
+      "all": "All",
+      "add": "Add",
+      "edit": "Edit",
+      "show": "Show"
+    },
+
+    "photoGallery": {
+      "title": "Photo Gallery",
+      "all": "All",
+      "add": "Add",
+      "edit": "Edit",
+      "show": "Show"
+    },
+
+    "coupons": {
+      "title": "Discount Coupons",
+      "all": "All Coupons",
+      "add": "Add Coupon",
+      "edit": "Edit Coupon",
+      "show": "Show Coupon"
+    },
+
+    "CouponCodes": {
+      "title": "Coupon Codes",
+      "all": "All Coupons",
+      "add": "Add Coupon",
+      "edit": "Edit Coupon",
+      "show": "Show Coupon"
+    },
+
+    "referralLinks": {
+      "title": "Referral Links",
+      "all": "All",
+      "add": "Add",
+      "edit": "Edit",
+      "show": "Show"
+    },
+    "reportReason": {
+      "title": "Report Reason",
+      "all": "All Reports",
+      "add": "Add Report",
+      "edit": "Edit Report",
+      "show": "Show Report"
+    },
+    "profile": {
+      "title": "Personal information",
+      "edit": "Edit personal information"
+    },
+    "contact_info": {
+      "title": "Contact info"
+    },
+    "rent_requests": {
+      "title": "Rent Requests",
+      "all": "All Requests",
+      "add": "Add request",
+      "edit": "Edit request",
+      "show": "Show request"
+    },
+    "sell_requests": {
+      "title": "Sell Requests",
+      "all": "All Requests",
+      "add": "Add request",
+      "edit": "Edit request",
+      "show": "Show request"
+    },
+    "newsletters": {
+      "title": "Newsletters",
+      "all": "All Newsletters",
+      "add": "Add",
+      "edit": "Edit",
+      "show": "Show"
+    },
+    "buy_requests": {
+      "title": "Buy Requests",
+      "all": "All Requests",
+      "add": "Add request",
+      "edit": "Edit request",
+      "show": "Show request"
+    },
+    "countries": {
+      "title": "Countries",
+      "all": "All Countries",
+      "add": "Add Country",
+      "edit": "Edit Country",
+      "show": "Show Country"
+    },
+    "languages": {
+      "title": "Languages",
+      "all": "All Languages",
+      "add": "Add Language",
+      "edit": "Edit Language",
+      "show": "Show Language"
+    },
+    "cities": {
+      "title": "Cities",
+      "all": "All cities",
+      "add": "Add city",
+      "show": "Show city",
+      "edit": "Edit city"
+    },
+    "sales": {
+      "title": "Sales",
+      "all": "All cities",
+      "add": "Add city",
+      "show": "Show city"
+    },
+    "users": {
+      "title": " Users ",
+      "all": "All Users ",
+      "add": "Add User",
+      "show": " Show User",
+      "edit": "Edit User"
+    },
+    "providers": {
+      "title": "Providers",
+      "all": "All Providers",
+      "add": "Add Provider",
+      "show": " Show Provider",
+      "edit": "Edit Provider"
+    },
+    "partners": {
+      "title": "Partners",
+      "all": "All Partners",
+      "add": "Add Partner",
+      "show": " Show Partner",
+      "edit": "Edit Partner"
+    },
+    "features": {
+      "title": "Features",
+      "all": "All Features",
+      "add": "Add Feature",
+      "show": " Show Feature",
+      "edit": "Edit Feature"
+    },
+
+    "mainCategories": {
+      "title": "Main Categories",
+      "all": "All Categories",
+      "add": "Add Category",
+      "show": " Show Category",
+      "edit": "Edit Category"
+    },
+
+    "financialAnalyses": {
+      "title": "Financial Analyses",
+      "all": "All Financial Analyses",
+      "add": "Add Financial Analyses",
+      "show": " Show Financial Analyses",
+      "edit": "Edit Financial Analyses"
+    },
+
+    "package": {
+      "title": "Packages",
+      "all": "All Packages",
+      "add": "Add Package",
+      "show": " Show Package",
+      "edit": "Edit Package"
+    },
+
+    "return_packages": {
+      "title": "Return Packages",
+      "all": "All Return Packages",
+      "add": "Add Package",
+      "show": " Show Package",
+      "edit": "Edit Package"
+    },
+
+    "ownership_guide": {
+      "title": "Ownership Guide",
+      "all": "All",
+      "add": "Add",
+      "show": " Show",
+      "edit": "Edit"
+    },
+
+    "sliders": {
+      "title": "Sliders",
+      "all": "All Sliders",
+      "add": "Add Slider",
+      "show": " Show Slider",
+      "edit": "Edit Slider"
+    },
+
+    "pages": {
+      "title": "Pages",
+      "all": "All Pages",
+      "add": "Add Page",
+      "show": " Show Page",
+      "edit": "Edit Page"
+    },
+
+    "advertisements": {
+      "title": "Boards Advertisements",
+      "all": "All Advertisements",
+      "add": "Add Advertisement",
+      "show": " Show Advertisement",
+      "edit": "Edit Advertisement"
+    },
+
+    "new_advertisements": {
+      "title": "New Boards Advertisements",
+      "all": "All Advertisements",
+      "add": "Add Advertisement",
+      "show": " Show Advertisement",
+      "edit": "Edit Advertisement"
+    },
+
+    "RejectReasons": {
+      "title": "Reject Reasons",
+      "all": "All Reject Reasons",
+      "add": "Add Reason",
+      "show": " Show Reason",
+      "edit": "Edit Reason"
+    },
+
+    "complete_selling": {
+      "title": "Complete Selling",
+      "all": "All",
+      "add": "Add",
+      "show": " Show",
+      "edit": "Edit"
+    },
+
+    "buyProcess": {
+      "title": "Buy Process",
+      "all": "All",
+      "add": "Add",
+      "show": " Show",
+      "edit": "Edit"
+    },
+
+    "bankTransfers": {
+      "title": "Bank Transfers",
+      "all": "All",
+      "add": "Add",
+      "show": " Show",
+      "edit": "Edit"
+    },
+
+    "ownershipDelegation": {
+      "title": "Ownership Transfer Delegation",
+      "all": "All",
+      "add": "Add",
+      "show": " Show",
+      "edit": "Edit"
+    },
+
+    "steps": {
+      "title": " Steps ",
+      "all": "All Steps ",
+      "add": "Add Step",
+      "show": " Show Step",
+      "edit": "Edit Step"
+    },
+    "offers": {
+      "title": " Offers ",
+      "all": "All Offers ",
+      "add": "Add Offer",
+      "show": " Show Offer",
+      "edit": "Edit Offer"
+    },
+    "Points": {
+      "title": " Points ",
+      "all": "All Points ",
+      "add": "Add Point",
+      "show": " Show Point",
+      "edit": "Edit Point"
+    },
+    "discounts": {
+      "title": " Discounts ",
+      "all": "All discounts ",
+      "add": "Add discount",
+      "show": " Show discount",
+      "edit": "Edit discount"
+    },
+    "faqs": {
+      "title": " Frequently asked questions ",
+      "all": " All Fags ",
+      "add": "Add Fag",
+      "edit": "Edit Fag"
+    },
+    "cancelReasons": {
+      "title": "Cancel Reasons",
+      "all": " All Cancel Reasons ",
+      "add": "Add Cancel Reason",
+      "edit": "Edit Cancel Reason"
+    },
+    "delayReasons": {
+      "title": "Delay Reasons",
+      "all": " All Delay Reasons ",
+      "add": "Add Delay Reason",
+      "edit": "Edit Delay Reason"
+    },
+    "admins": {
+      "title": "Admins",
+      "all": "All Admins",
+      "add": "Add Admin ",
+      "show": "Show Admin ",
+      "edit": "Edit Admin "
+    },
+    "ambassadors": {
+      "title": "Ambassadors",
+      "all": "All Ambassadors",
+      "add": "Add Ambassador",
+      "show": "Show Ambassador",
+      "edit": "Edit Ambassador"
+    },
+    "permission-labels": {
+      "title": "permission labels",
+      "all": "All permission labels",
+      "add": "Add permission label",
+      "edit": "Edit permission label"
+    },
+    "permission-categories": {
+      "title": "permission categories",
+      "all": "All permission categories",
+      "add": "Edit permission categories",
+      "edit": "Edit permission categories"
+    },
+    "permissions": {
+      "title": "permissions",
+      "all": "All permissions",
+      "add": "Add permission",
+      "edit": "Edit permission"
+    },
+    "roles": {
+      "title": "roles",
+      "all": "All roles",
+      "add": "Add role",
+      "edit": "Edit role"
+    },
+    "chats": {
+      "title": "chats",
+      "all": "All Chats",
+      "add": "Add Chats",
+      "edit": "Edit Chats",
+      "partners_tracking": "partners tracking",
+      "show": "Show Chats"
+    },
+    "companies": {
+      "title": "companies",
+      "all": "All Companies",
+      "add": "Add Company",
+      "edit": "Edit Company",
+      "show": "Show Company"
+    },
+    "contacts": {
+      "title": "Contact Messages",
+      "all": "All contacts",
+      "add": "Add Contact",
+      "show": "Show Contact"
+    },
+    "usersChats": {
+      "title": "Users Chats",
+      "all": "All Chats",
+      "add": "Add Chat",
+      "show": "Show Chat"
+    },
+    "about": {
+      "title": "about",
+      "all": "All",
+      "add": "Add",
+      "edit": "Edit",
+      "show": "Show"
+    },
+    "choose_us": {
+      "title": "Why Choose US",
+      "all": "All",
+      "add": "Add",
+      "edit": "Edit"
+    },
+    "socials": {
+      "title": "Socials",
+      "all": "All",
+      "add": "Add",
+      "edit": "Edit"
+    },
+    "projects": {
+      "title": "Projects",
+      "all": "All Projects",
+      "add": "Add Projects",
+      "edit": "Edit Projects"
+    },
+
+    "terms": {
+      "title": "Terms",
+      "all": "All terms",
+      "add": "Edit Term",
+      "edit": "Edit Term",
+      "show": "Show Term"
+    },
+    "useTerms": {
+      "title": "Terms of use",
+      "all": "All Terms of use",
+      "add": "Edit Term",
+      "edit": "Edit Term",
+      "show": "Show Term"
+    },
+    "privacy": {
+      "title": "policy",
+      "all": "All Policies",
+      "add": "Add Policy",
+      "edit": "Edit Policy",
+      "show": "Show Policy"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "all": "All Notifications",
+      "add": "Add Notification",
+      "send_notification": "Send Notification",
+      "delete_all": "Delete All",
+      "sent_notifications": "Sent Notifications"
+    }
+  },
+  "profile": {
+    "show": " profile",
+    "edit": "Edit Profile",
+    "changePassword": "change Password"
+  },
+  "navbar": {
+    "notification": {
+      "topTitle_1": "Notification",
+      "topTitle_2": "Notifications",
+      "no_notifications": "No Notifications!"
+    },
+    "userMenu": {
+      "profile": "profile",
+      "updatePassword": "updatePassword",
+      "editProfile": "Edit Profile",
+      "chats": "chats",
+      "logout": "logout"
+    }
+  },
+  "sidebar": [
+    {
+      "label": "Boards Advertisements",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "fal fa-images",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "new-advertisements/show-all",
+              "name": "index-advertisements"
+            }
+          ],
+          "title": "New Boards Advertisements"
+        },
+        {
+          "icon": "fal fa-images",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "advertisements/show-all",
+              "name": "index-advertisements"
+            }
+          ],
+          "title": "Boards Advertisements"
+        },
+        {
+          "icon": "fal fa-money-bill",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "bank-transfers/show-all",
+              "name": "index-bank-transfers"
+            }
+          ],
+          "title": "Bank Transfers"
+        },
+        {
+          "icon": "fal fa-money-bill",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "ownership-transfer-delegation/show-all",
+              "name": "index-ownership-transfer-delegation"
+            }
+          ],
+          "title": "Ownership Transfer Delegation"
+        },
+        {
+          "icon": "fal fa-money-bill",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "complete-selling/show-all",
+              "name": "index-complete-selling"
+            }
+          ],
+          "title": "Complete Selling"
+        },
+        {
+          "icon": "fal fa-money-bill",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "buy-process/show-all",
+              "name": "index-buy-process"
+            }
+          ],
+          "title": "Buy Process"
+        }
+      ]
+    },
+
+    {
+      "label": "Sliders",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "fa-solid fa-image",
+          "permissions": [
+            {
+              "title": "Show All",
+              "url": "sliders/show-all"
+            },
+            {
+              "title": "Add Slider",
+              "url": "sliders/add"
+            }
+          ],
+          "title": "Sliders"
+        }
+      ]
+    },
+
+    {
+      "label": "Main Categories",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "fal fa-flag",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "main-categories/show-all",
+              "name": "index-main-categories"
+            }
+          ],
+          "title": "Main Categories"
+        }
+      ]
+    },
+
+    {
+      "label": "Packages",
+      "icon": "fa-solid fa-money-bill",
+      "categories": [
+        {
+          "icon": "fa-solid fa-money-bill",
+          "key": "with_category",
+          "permissions": [
+            {
+              "title": "Show All",
+              "url": "packages/show-all"
+            },
+            {
+              "title": "Add Package",
+              "url": "packages/add"
+            }
+          ],
+          "title": "Packages"
+        },
+        {
+          "icon": "fa-solid fa-money-bill",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "return-package/show-all",
+              "name": "index-return_packages"
+            }
+          ],
+          "title": "Returned Packages"
+        }
+      ]
+    },
+
+    {
+      "label": "Users",
+      "icon": "fa-solid fa-money-bill",
+      "categories": [
+        {
+          "icon": "fa-solid fa-users",
+          "key": "with_category",
+          "permissions": [
+            {
+              "title": "Show All",
+              "url": "users/show-all"
+            },
+            {
+              "title": "Add User",
+              "url": "users/add"
+            }
+          ],
+          "title": "Users"
+        }
+      ]
+    },
+
+    {
+      "label": "Financial Analyses",
+      "icon": "fa-solid fa-envelope",
+      "categories": [
+        {
+          "icon": "fa-solid fa-coins",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "financial_analyses/show-all",
+              "name": "index-financial_analyses"
+            }
+          ],
+          "title": "Financial Analyses"
+        }
+      ]
+    },
+
+    {
+      "label": "Bank Accounts",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "fa-solid fa-money-bill",
+          "permissions": [
+            {
+              "title": "Show All",
+              "url": "banks/show-all",
+              "name": "index-banks"
+            },
+            {
+              "title": "Add Reason",
+              "url": "banks/add",
+              "name": "push-banks"
+            }
+          ],
+          "title": "Bank Accounts"
+        }
+      ]
+    },
+
+    {
+      "label": "Contact Messages",
+      "icon": "fa-solid fa-envelope",
+      "categories": [
+        {
+          "icon": "fa-solid fa-envelope",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "contact_messages/show-all"
+            }
+          ],
+          "title": "Contact Messages"
+        }
+      ]
+    },
+
+    {
+      "label": "Reject Reasons",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "fa-solid fa-ban",
+          "permissions": [
+            {
+              "title": "Show All",
+              "url": "reject-reasons/show-all",
+              "name": "index-reject-reasons"
+            },
+            {
+              "title": "Add Reason",
+              "url": "reject-reasons/add",
+              "name": "push-reject-reasons"
+            }
+          ],
+          "title": "Reject Reasons"
+        }
+      ]
+    },
+
+    {
+      "label": "CheckBoxes List",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "far fa-flag",
+          "permissions": [
+            {
+              "title": "Show All",
+              "url": "check-lists/show-all",
+              "name": "index-check-lists"
+            },
+            {
+              "title": "Add CheckBox",
+              "url": "check-lists/add",
+              "name": "push-check-lists"
+            }
+          ],
+          "title": "CheckBoxes List"
+        }
+      ]
+    },
+
+    {
+      "label": "Roles",
+      "icon": "",
+      "categories": [
+        {
+          "key": "with_category",
+          "icon": "fal fa-allergies",
+          "permissions": [
+            {
+              "title": "Admins and Roles",
+              "url": "roles/show-all",
+              "name": "role-read"
+            },
+            {
+              "title": "Add New",
+              "url": "roles/add",
+              "name": "role-create"
+            }
+          ],
+          "title": "Roles"
+        },
+        {
+          "key": "with_category",
+          "icon": "fa-solid fa-user-shield",
+          "permissions": [
+            {
+              "title": "All Admins",
+              "url": "admins/show-all",
+              "name": "index-admin"
+            },
+            {
+              "title": "Add New",
+              "url": "admins/add",
+              "name": "create-admin"
+            }
+          ],
+          "title": "Admins"
+        }
+      ]
+    },
+
+    {
+      "label": "Notifications",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "fa-solid fa-bell",
+          "permissions": [
+            {
+              "title": "Notifications",
+              "url": "notifications/show-all",
+              "name": "index-notifications"
+            },
+            {
+              "title": "Sent Notifications",
+              "url": "notifications/sent",
+              "name": "index-sent-notifications"
+            },
+            {
+              "title": "Send Notification",
+              "url": "notifications/add",
+              "name": "push-notifications"
+            }
+          ],
+          "title": "Notifications"
+        }
+      ]
+    },
+
+    {
+      "label": "Countries",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "far fa-flag",
+          "permissions": [
+            {
+              "title": "Countries",
+              "url": "countries/show-all",
+              "name": "index-countries"
+            },
+            {
+              "title": "Add Country",
+              "url": "countries/add",
+              "name": "create-countries"
+            }
+          ],
+          "title": "Countries"
+        },
+        {
+          "icon": "far fa-city",
+          "permissions": [
+            {
+              "title": "Show All",
+              "url": "cities/show-all",
+              "name": "index-city"
+            },
+            {
+              "title": "Add City",
+              "url": "cities/add",
+              "name": "create-city"
+            }
+          ],
+          "title": "Cities"
+        }
+      ]
+    },
+
+    {
+      "label": "Most Questions",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "fal fa-tools",
+          "permissions": [
+            {
+              "title": "All Most Questions",
+              "url": "most_questions/show-all",
+              "name": "index-most_questions"
+            },
+            {
+              "title": "Add Question",
+              "url": "most_questions/add",
+              "name": "push-most_questions"
+            }
+          ],
+          "title": "Most Questions"
+        }
+      ]
+    },
+
+    {
+      "label": "Public Pages",
+      "icon": "fal fa-tools",
+      "categories": [
+        {
+          "icon": "fal fa-tools",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "pages",
+              "name": "show-pages"
+            }
+          ],
+          "title": "Public Pages"
+        }
+      ]
+    },
+    {
+      "label": "Settings",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "far fa-flag",
+          "permissions": [
+            {
+              "title": "General Settings",
+              "url": "settings",
+              "name": "show-settings"
+            }
+          ],
+          "title": "Settings"
+        }
+      ]
+    }
+  ],
+
+  "CHARTS": {
+    "dailyViews": "Daily Views",
+    "monthlyTarget": "Monthly Target",
+    "buyingTrend": "Buying Trend"
+  },
+  "TITLES": {
+    "topTrends": "Top Trends",
+    "last30Days": "TOP last 30 Days",
+    "vehicleInfo": "Vehicle Info"
+  },
+  "BUTTONS": {
+    "login": "Login",
+    "seeMore": "See More",
+    "select": "Select",
+    "cancel": "Cancel",
+    "cancel_package": "Cancel Package"
+  },
+  "table": {
+    "loadingData": "Loading Data...Loading Data",
+    "noData": "No Data",
+    "singleSelect": "Single Select",
+    "search": "Search",
+    "lessThan": "Less Than",
+    "addNew": "Add New",
+    "deleteSelected": "Delete Selected",
+    "sent_notification": "Sent Notification",
+    "deletedialog": {
+      "areYouSure": "Are you sure about the deletion ?",
+      "cancel": "Cancel",
+      "ok": "Ok"
+    }
+  },
+  "status": {
+    "delivery_uploaded": "Delivery Uploaded",
+    "no_one_auctioned": "No One Auctioned",
+    "rejected_by_admin": "Rejected by Admin",
+    "hold": "Hold",
+    "admin_approved_ownership": "Admin Approved Ownership",
+    "admin_approved_bank_transfer": "Admin Approved Bank Transfer",
+    "delivery_uploaded_buyer": "Buyer uploaded delivery information",
+    "delivery_uploaded_seller": "Seller uploaded delivery information",
+    "admin_approved_all": "Approved All",
+    "finished": "Finished",
+    "transfer_uploaded_buyer": "Transfer uploaded by the buyer",
+    "transfer_uploaded_seller": "Transfer uploaded by the seller",
+    "ownership_transfer_buyer": "Ownership transfer to the buyer",
+    "accept_ownership_buyer": "Accepted by the admin",
+    "reject_ownership_buyer": "Rejected by the admin",
+    "ownership_transfer_seller": "Ownership transfer to the seller",
+    "accept_ownership_seller": "Accepted by the admin",
+    "reject_ownership_seller": "Rejected by the admin",
+    "finish_sell_ad": "finish selling board",
+    "refused": "Refused",
+    "unactive": "Un-active",
+    "accepted_by_seller": "Accepted By Seller",
+    "accepted_by_buyer": "Accepted By Buyer",
+    "pending": "Pending",
+    "accept": "Accept",
+    "reject": "Reject",
+    "waiting": "Waiting",
+    "most_demanded": "Most Demanded",
+    "most_rated": "Most Rated",
+    "current_day": "Current Day",
+    "inactive": "Inactive",
+    "active": "Active",
+    "auto_cancel": "Auto Cancel",
+    "status_history": "Status history",
+    "rider_locked": "Rider locked",
+    "partner_locked": "Partner locked",
+    "vehicle_locked": "Vehicle locked",
+    "all": "All",
+    "reopen": "Reopen",
+    "open": "Open",
+    "onCall": "On call",
+    "closed": "Closed",
+    "reOpen": "Reopen",
+    "after_call_work": "After call work",
+    "return_from_after_call_work": "Return from after call work",
+    "order_canceled": "Trip canceled ",
+    "current_trip": "Current trip ",
+    "replied": "Replied",
+    "is_paid": "Paid",
+    "rejected": "Rejected",
+    "bro_accept": "Bro Accept",
+    "bro_reject": "Bro Accept",
+    "company_accept": "Company Accept",
+    "company_reject": "Company Reject",
+    "driver_arrived": "Driver Arrived",
+    "partner_cancel_trip": "Partner Cancel Trip",
+    "accepted": "Accepted",
+    "driver_started_trip": "Driver Started Trip",
+    "admin_cancel": "Admin Cancel",
+    "partner_accept_trip": "Partner Accept Trip",
+    "partner_in_pickup_location": "Partner In Pickup Location",
+    "partner_start_trip": "Partner Start Trip",
+    "partner_started_trip": "Partner Start Trip",
+    "reached_stop_point": "Reached Stop Point",
+    "partner_finished": "Partner Finished",
+    "rider_cancel": "Rider_Cancel",
+    "done": "Done",
+    "canceled": "Canceled",
+    "running": "Running"
+  },
+  "top_charts": {
+    "today_profits": "AED",
+    "today_trips": "Trip",
+    "today_price": "AED",
+    "profits": "AED",
+    "today_driver_profits": "AED"
+  },
+
+  "permissions": {
+    "settings": "Settings",
+    "owner_ship_guide": "Ownership Guide",
+    "cities": "Cities",
+    "countries": "Countries",
+    "main-categories": "Main Categories",
+    "sliders": "Sliders",
+    "check_lists": "Checkbox List",
+    "pages": "Public Pages",
+    "bank": "Bank Accounts",
+    "users": "Users",
+    "advertisements": "Advertisements",
+    "contacts": "Contact Messages",
+    "package": "Packages",
+    "admins": "Admins",
+    "most_questions": "Frequently Asked Questions",
+    "dash_ad": "Advertisements",
+    "role": "Roles",
+    "permission": "Permissions",
+    "reject": "Rejection Reasons"
+  },
+
+  "labels": {
+    "replies": "Replies",
+    "scheduled_date": "Scheduled Date",
+    "scheduled_time": "Scheduled Time",
+    "username": "Username",
+    "buyer_id_image": "Buyer ID Image",
+    "delivery_buyer_status": "Buyer Data Delivery Status",
+    "delivery_seller_status": "Seller Data Delivery Status",
+    "no_data": "There is no data yet",
+    "check_lists": "CheckBoxes List",
+    "ad_buyer": "Buyer's Board",
+    "total_vat": "Total Fees",
+    "package_subscribers": "Package Subscribers",
+    "ads_status": "Advertisement Status",
+    "transfer_uploaded_buyer": "Transfer uploaded by the buyer",
+    "transfer_uploaded_seller": "Transfer uploaded by the seller",
+    "owner_buyer_status": "Buyer ownership status",
+    "owner_seller_status": "Seller ownership status",
+    "auction_start_price": "Auction Start Price",
+    "auction_end_price": "Auction End Price",
+    "auction_start_date": "Auction Start Date",
+    "auction_start_time": "Auction Start Time",
+    "auction_finish_date": "Auction Finish Date",
+    "auction_finish_time": "Auction Finish Time",
+    "bank_details": "Bank Details",
+    "price_percentage": "Price Percentage",
+    "price_percentage_value": "Price Percentage Value",
+    "auction_users": "Auction Users",
+    "buyer_price": "Buyer Price",
+    "board_no": "Board Number",
+    "is_coming": "Coming Soon?",
+    "bid_amount": "Bid Amount",
+    "application_fees": "Application Fees",
+    "delivery_charge": "Delivery Charge",
+    "tracking_fees": "Tracking Fees",
+    "tax_fees": "Tax Fees",
+    "ownership_transfer_fees": "Ownership Transfer Fees",
+    "advertisement": "Advertisement",
+    "iban": "Iban",
+    "user_details": "User Details",
+    "winner_details": "Winner Details",
+    "adv_desc": "Advertisement Description",
+    "personal_data": "Personal Data",
+    "user_packages": "User Packages",
+    "participated_auctions": "Participated Auctions",
+    "reject_reason": "Reject reason",
+    "ban_status": "Banning Status",
+    "user_auctions": "User Actions",
+    "auction_price": "Auction Price",
+    "street": "Street",
+    "building": "Building",
+    "finish_sell_ad": "finish selling board",
+    "video": "Video",
+    "android_link": "Android Link",
+    "ios_link": "IOS Link",
+    "whatsapp_no": "WhatsApp Number",
+    "user_ads": "User ADs",
+    "user_favorites": "User Favorites",
+    "date_of_birth": "Date of Birth",
+    "auction_no": "Auction Number",
+    "internal": "internal",
+    "external": "External",
+    "slider_type": "Slider Type",
+    "bank_transfer": "Bank Transfer",
+    "id_image": "ID Image",
+    "ID_number": "ID Number",
+    "ownership_buyer_transfer": "Ownership Buyer Transfer",
+    "ownership_seller_transfer": "Ownership Seller Transfer",
+    "sendReply": "Send Reply",
+    "is_read": "Is Read?",
+    "start_time": "Start Time",
+    "finish_time": "Finish Time",
+    "board_image": "Board Image",
+    "main_category": "Main Category",
+    "sender_phone": "Sender Phone Number",
+    "sender_name": "Sender Name",
+    "number_of_recipients": "Number Of Recipients",
+    "logs": "Logs",
+    "log_date": "Log Date",
+    "user_name": "User Name",
+    "user_email": "User Email",
+    "value": "value",
+    "percentage": "Percentage",
+    "no_comments": "There are no comments yet",
+    "total_price": "Total Price",
+    "tax_value": "Tax Value",
+    "service_value": "Service Value",
+    "is_done": "Done?",
+    "transactions_index": "Transactions",
+    "show_transactions": "Show Transactions",
+    "wallet": "Wallet",
+    "chooseImages": "chooseImages",
+    "locale": "Locale",
+    "experience_years": "experience Years",
+    "prizes": "National awards",
+    "pending_amount": "Pending Amount",
+    "total": "Total",
+    "not_read_yet": "Not read yet",
+    "readable": "Readable",
+    "no_conversations": "No Conversations yet",
+    "messages": "Messages",
+    "receiverData": "Receiver Data",
+    "senderData": " Sender Data",
+    "receiverImage": "Receiver Image",
+    "receiverName": "Receiver Name",
+    "receiverEmail": "Receiver Email",
+    "receiverPhone": "Receiver Phone",
+    "senderImage": "Sender Image",
+    "senderName": "Sender Name",
+    "senderEmail": "Sender Email",
+    "senderPhone": "Sender Phone",
+    "recommended_price_by_app": "Recommended Price By App",
+    "application_tax": "Application Tax",
+    "VAT": "VAT",
+    "date": "Date",
+    "relative": "Relative",
+    "is_paid": "Paid?",
+    "price": "Expected Price",
+    "is_available": "Available?",
+    "available": "Available",
+    "unavailable": "Unavailable",
+    "from_price": "Price From",
+    "to_price": "Price To",
+    "language": "Language",
+    "lat": "Latitude",
+    "lng": "Longitude",
+    "title_ar": "Title (AR)",
+    "title_en": "Title (EN)",
+    "description_ar": "Description (AR)",
+    "description_en": "Description (EN)",
+    "keywords_ar": "Keywords (AR)",
+    "keywords_en": "Keywords (EN)",
+    "short_description_ar": "Short Description (AR)",
+    "short_description_en": "Short Description (EN)",
+    "meta_description_ar": "Meta Description (AR)",
+    "meta_description_en": "Meta Description (EN)",
+    "front_name": "Front name",
+    "client_name": "Client name",
+    "client_email": "Client email",
+    "client_phone": "Client phone",
+    "property_title": "Property title",
+    "start_price": "Start price",
+    "section_two": "Section Two",
+    "section_three": "Section Three",
+    "features": "Features",
+    "icon_one": "First icon",
+    "icon_two": "Second icon",
+    "icon_three": "Third icon",
+    "icon_four": "Fourth icon",
+    "icon_text_one": "First icon text",
+    "icon_text_two": "Second icon text",
+    "icon_text_three": "Third icon text",
+    "icon_text_four": "Fourth icon text",
+    "alt": "Image Alt",
+    "cities": "Cities",
+    "importPdf": "Download PDF",
+    "uploadNewPDF": "Upload PDF",
+    "showNewPDF": "Show PDF",
+    "parent_service": "Main Service",
+    "invoiceImg": "Invoice Img",
+    "sub_services": "Sub services",
+    "subscribe_from": "subscribe from",
+    "subscribe_to": "subscribe to",
+    "link": "link",
+    "provider": "provider",
+    "discount": "discount",
+    "offer": "offer",
+    "About_Image": "About Image",
+    "Privacy_Image": "Privacy Image",
+    "terms": "Terms and conditions",
+    "about": "About",
+    "privacy": "Privacy",
+    "max_point": "Maximum Point",
+    "valid_months": "Valid Month",
+    "all_providers": "All providers",
+    "all_users": "All users",
+    "providers": "Providers",
+    "importExl": "Download excel sheet",
+    "exportExl": "Upload excel sheet",
+    "money": "Money",
+    "per_page": "Rows per page",
+    "flag": "Flag",
+    "couponInnerImageAr": "Coupon Inner Image (Ar)",
+    "couponInnerImageEn": "Coupon Inner Image (En)",
+    "locationParking": "Parking Location",
+    "locationHall": "Hall Location",
+    "airport_trip": "Airport Trip",
+    "normal_trip": "Normal Trip",
+    "schedule_trip": "Schedule Trip",
+    "round_trip": "Round Trip",
+    "trip_type": "Trip Type",
+    "coupon_amount": "Coupon Amount",
+    "trip_time_stop_by_minutes": "Trip Time Cancel Automatically In Minutes",
+    "Processes&payment_method": "Invoices & Payment Method",
+    "percentage_penalty_for_canceling_scheduled_flight": "Percentage penalty for canceling scheduled flight",
+    "candidates": "Drivers Candidates",
+    "complaint_reason": "Complaint reason",
+    "trips": "trips",
+    "unlock": "Unlock",
+    "number_of_usages": "Number of usages",
+    "modified": "Modified",
+    "review": "Review",
+    "noDriverTillNow": "No Partner Till Now",
+    "activate": "Active",
+    "away": "Away",
+    "ACW": "ACW",
+    "on_meeting": "On Meeting",
+    "on_training": "On Training",
+    "after_call_work": "After call work",
+    "return_from_after_call_work": "Return from after call work",
+    "at_meeting": "  At Meeting",
+    "work_after_call": "Work after call",
+    "return_from_work_after_call": "Return from work after call",
+    "coaching": "Coaching",
+    "driver_license_number": "Driver license number",
+    "break": "  Break ",
+    "log_in": "Logged in",
+    "log_out": "Logged out",
+    "last_login": "Login date",
+    "last_logout": "Logout date",
+    "hiring": "Employeed",
+    "end_work": "End Work",
+    "training": "Training",
+    "hiring_status": "Employeed Status",
+    "Reason": "The Reason",
+    "Hour": "Hour",
+    "ticket": "Ticket",
+    "tickets": "Tickets",
+    "count_of_error_tickets": "Count Of Error Tickets",
+    "count_of_skipped_tickets": "Count Of Skipped Tickets",
+    "extraDetails": "Extra Details",
+    "changeStatus": "Change status",
+    "technical": "Technical Support",
+    "assign_agent": "Assign agent",
+    "user": "User",
+    "issue_type": "Issue type",
+    "replied": "Replied",
+    "reason": "Reason",
+    "package_id": "Package",
+    "hr_id": "HRID",
+    "open": "Open",
+    "onCall": "On call",
+    "closed": "Closed",
+    "reOpen": "Reopen",
+    "pending": "Pending",
+    "seats_number": "Seats number",
+    "extra_seats": "Extra seats",
+    "model_id": "Model",
+    "lock": "Lock",
+    "partner_id": "Partner",
+    "topPackages": "Top packages",
+    "rider_id": "Rider",
+    "android_app_link": "Application Link On Google Play",
+    "ios_app_link": "Application Link On Apple Store",
+    "andriod_partner_app_link": "Google Play Partner App Link",
+    "ios_partner_app_link": "Apple Store Partner App Link",
+    "preferred_payment_method": "Preferred Payment Method",
+    "startPoint": "Start Point",
+    "to": "To",
+    "full_name": "Full Name",
+    "showEditData": "Show Edit Data",
+    "showData": "Show Data ",
+    "company_accept": "Company Accept",
+    "bro_accept": "BRO Accept",
+    "today_profit": "Today Profits",
+    "trips_count": "Trips Count",
+    "profit": "Total Profits",
+    "owners": "Owners",
+    "chargeWallet": "Charge Wallet",
+    "radius": "Radius",
+    "fare_time_to_matched": "Faretime To Matched",
+    "minimum_wallet_to_receive_order": "Minimum Wallet To Receive Order",
+    "app_amount": "App Amount",
+    "app_amount_for_auto_accept_request_partner": "App Amount For Auto Accept Request Partner",
+    "busy_area_threshold": "Busy Area Threshold",
+    "fair_time": "Fair Time",
+    "plate_number": "Plate Number",
+    "manufacturing_year": "Manufacturing Year",
+    "riders": "Riders",
+    "question": "Question",
+    "answer": "Answer",
+    "partners": "Partners",
+    "drivers_number": "Drivers Number",
+    "cars_number": "Cars Number",
+    "users": "Usrers",
+    "copy_cr": "Original CR",
+    "copy_ids": "Original IDS",
+    "copy_rta": "Original RTA",
+    "time": "Time",
+    "contact_phones": "Contact Phones",
+    "email_addresses": "Email Addresses ",
+    "nPassword": "New Password",
+    "oldPassword": "Old Password",
+    "start": "Start",
+    "is_side_show": "Is Side Show",
+    "permission_url": "Permission Url",
+    "permission_label": "Permission Label",
+    "permission_type": "Type",
+    "frontend_url": "Frontend Url",
+    "backend_url": "Backend Url",
+    "icon": "Icon",
+    "category": "Category",
+    "main_title": "Main Title",
+    "max_amount": "Max {name} Amount",
+    "cost": "Cost",
+    "is_control_permissions": "Control",
+    "permission_categories": "Permission Categories",
+    "rate": "Rate",
+    "permissions": "Permissions",
+    "when_trip_status": "When Trip Status",
+    "speed_avg": "Speed Avg",
+    "is_all_users": "Is All Users",
+    "client": "Client",
+    "rider": "Rider",
+    "front_side_id": "Front Side Id",
+    "referral_code": "Referral Code",
+    "vehicle": "Vehicle",
+    "vehicle_requirement": "Vehicle Requirement",
+    "reply": "Reply",
+    "rta_card": "Rta Card",
+    "driver_license": "Driver License",
+    "send_type": "Send Type",
+    "content": "Content",
+    "short_desc": "Short Desc",
+    "read_at": "Read At",
+    "fullname": "Full Name",
+    "accept_reject": "Accept And Reject",
+    "bank_name": "Bank Name",
+    "branch": "Branch",
+    "start_at_time": "Start At Time",
+    "end_at_time": "End At Time",
+    "user_usage_count": "User Usage Count",
+    "usage_count": "Usage Count",
+    "account_number": "Account Number",
+    "status": "Status",
+    "created_at": "Created At",
+    "amount": "Amount",
+    "monyAmount": "Amount",
+    "wallet_type": "Wallet Type",
+    "charge_type": "Charge Type",
+    "facebook": "Facebook Link",
+    "twitter": "Twitter Link",
+    "youtube": "Youtube Link",
+    "instagram": "Instagram Link",
+    "messenger": "Messenger Link",
+    "linkedin": "Linkedin Link",
+    "tiktok": "Tiktok Link",
+    "pinterest": "Pinterest Link",
+    "behance": "Behance Link",
+    "whatsapp": "Whatsapp link",
+    "from_date": "Start date",
+    "to_date": "End date",
+    "snapchat": "SnapChat Link",
+    "map_api_key": "Map Api Key",
+    "huawei_store_app": "Huawei Store App Link",
+    "app_store_app": "App Store App Link",
+    "g_play_app": "Google Play App Link",
+    "points": "Points",
+    "balance_before": "Balance Before",
+    "balance_after": "Balance After",
+    "point_before": "Point Before",
+    "point_after": "Point After",
+    "static_verify_code": "Static Verify Code",
+    "trip_app_percentage": "Trip App Percentage",
+    "city_to_city_app_percentage": "City To City App Percentage",
+    "return_trip_app_percentage": "Return Trip App Percentage",
+    "transfer_package_app_percentage": "Transfer Package App Percentage",
+    "client_transfer_package_description_ar": "Client Transfer Package Description Ar",
+    "client_transfer_package_description_en": "Client Transfer Package Description En",
+    "use_sms_service": "Use Sms Service",
+    "sms_provider": "Sms Provider",
+    "sms_username": "Sms Username",
+    "sms_password": "Sms Password",
+    "sms_sender_name": "Sms Sender Name",
+    "project_name": "Project Name",
+    "address": "Address",
+    "control": "Control",
+    "name": "Name",
+    "message": "Message",
+    "role": "Role",
+    "company_name": "Company Name",
+    "company_email": "Company Email",
+    "commercial_register_number": "Commercial Register Number",
+    "firstname": "First Name",
+    "first_name": "First Name",
+    "lastname": "Last Name",
+    "last_name": "Last Name",
+    "middlename": "Middle Name",
+    "nationality": "Nationality",
+    "currency": "Currency",
+    "shortname": "Short Name",
+    "continent": "Continent",
+    "slug": "slug",
+    "postalcode": "Postal Code",
+    "shortcut": "Shortcut",
+    "country": "Country",
+    "company_country": "Company Country",
+    "company_city": "Company City",
+    "activation": "Activation",
+    "is_available_for_orders": "Is Available For Orders",
+    "is_in_city_active": "In City?",
+    "phonecode": "Phone Code",
+    "phone_code": "Phone Code",
+    "start_at": "Start At",
+    "end_at": "End At",
+    "code": "Code",
+    "phone": "Phone Number",
+    "email": "Email",
+    "password": "Password",
+    "passwordConfirm": "Password Confirm",
+    "city": "City",
+    "gender": "Gender",
+    "type": "Type",
+    "brand": "Brand",
+    "model": "Model",
+    "manufactruingYear": "Manufactruing Year",
+    "usertype": "User Type",
+    "isactive": "Activated?",
+    "is_active": "Activated?",
+    "is_locked": "Locked?",
+    "is_active_package": "Is Active Package",
+    "preferred_language": "Preferred Language",
+    "is_ban": "Ban?",
+    "isban": "Ban?",
+    "ban_reason": "Ban Reason",
+    "can_change_vehicle_now": "? Can Change Vehicle Now",
+    "is_trip_active": "Is Trip Active?",
+    "is_city_to_city_active": "Is City To City",
+    "rate_avg": "Rate Avg",
+    "is_driver_available": "Is Driver Available",
+    "is_admin_active_user": "Is Admin Active User?",
+    "is_package_delivering_active": "Is Package Delivering Active",
+    "is_transfer_package_active": "Is Transfer Package",
+    "createdat": "Create Date",
+    "desc": "Description",
+    "car_km_price": "Car Km Price",
+    "min_budget": "Min Budget",
+    "discount_amount": "Discount Amount",
+    "package": "Package",
+    "owner": "Owner",
+    "is_in_order": "Car In Trip",
+    "partner": "Partner",
+    "manufactruing_year": "Manufactruing Year",
+    "license_number": "License Number",
+    "license_serial_number": "License Serial Number",
+    "plate_numbers": "Plate Numbers",
+    "plate_letter_left": "Letter Left ",
+    "plate_letter_right": "Letter Right ",
+    "plate_letter_middle": "Letter Middle",
+    "max_usage_number": "Max Usage Number",
+    "discount_type": "Discount Type",
+    "usage_times": "Usage Times",
+    "frontIDImage": "Front ID Image",
+    "backIDImage": "Back ID Image",
+    "criminalRecordImage": "Criminal Record Image",
+    "mainImage": "Main Image",
+    "companyImage": "Company Image",
+    "company_image": "Company Image",
+    "vehicleImage": "vehicle Image",
+    "vehicle_image": "vehicle Image",
+    "vehicleLicenseImage": "Vehicle License Image",
+    "vehicle_license_image": "Vehicle License Image",
+    "id_number": "Id Number",
+    "licenseImage": "license Image",
+    "plateImage": "plate Image",
+    "plate_image": "plate Image",
+    "plate_type": "Plate Type",
+    "contributor_type": "Contributor Type",
+    "company_phone": "Company Phone",
+    "color": "Color",
+    "transaction_id": "Transaction Id",
+    "user_type": "User Type",
+    "ordering": "Ordering",
+    "title": "Title",
+    "image": "Image",
+    "company": "Company",
+    "profileImage": "Profile Image",
+    "uploadProfileImage": "Upload Profile Image",
+    "preferredLanguage": "Preferred Language",
+    "joinData": "Join Data",
+    "rider_app_name": "Rider App Name",
+    "partner_app_name": "Partner App Name",
+    "dashboard_name": "Dashboard Name",
+    "unReadNotifictaions": "UnRead Notifictaions",
+    "allowedNotifications": "Allowed Notifications",
+    "notification": "Notification",
+    "twoFactorAuthentication": "Two FactorAuthentication",
+    "location": "Location",
+    "base_fare": "Base Fare",
+    "minimum_fare": "Minimum Fare",
+    "price_per_kilo": "Price Per Kilo",
+    "price_per_minute": "Price Per Minute",
+    "priority": "Priority",
+    "cancel_trip": "Cancel Trip",
+    "createdAt": "Created At",
+    "report_trip": "Report Trip",
+    "admins": "Admins",
+    "notifications": "Notifications",
+    "companies": "Companies",
+    "lockedAccounts": "Locked Accounts",
+    "coupons": "Coupons",
+    "countries": "Countries",
+    "cancel_reasons": "Admins",
+    "topRiders": "Top Riders",
+    "topPartners": "Top Partners",
+    "unOtherPhone": "unOtherPhone",
+    "active": "Active {name}",
+    "ban": "Ban {name}",
+    "frequent_trips": "Frequent trips",
+    "transactions": "Transactions",
+    "vehicle_color": "Vehicle color",
+    "vehicle_requirements": "Vehicle requirements",
+    "package_image": "Package image",
+    "vechile_brand": "Vechile brand",
+    "vechile_type": "Vechile type",
+    "vehicle_model": "Vehicle model",
+    "active_status": "Active status",
+    "model_image": "Model image",
+    "showTransactions": "showTransactions",
+    "sendMessage": "sendMessage",
+    "sendNotification": "sendNotification",
+    "vehicle_package": "Vehicle package",
+    "id": "ID",
+    "brandAndModel": "brandAndModel",
+    "emails": "emails",
+    "vehicle_is_in_order": "Vehicle is in trip",
+    "in_order": "In trip",
+    "not_in_order": "Not in trip",
+    "extra": "Extra",
+    "cancel_order": "Cancel trip",
+    "phoneContacts": "Phone contacts",
+    "lockAccount": "Lock account",
+    "actual_distance": "actual_distance",
+    "max_expected_distance": "max_expected_distance",
+    "actual_time": "actual_time",
+    "max_expected_time": "max_expected_time",
+    "trip_status": "trip_status",
+    "trip_price": "trip_price",
+    "trip": "trip",
+    "no_complaints_found": "no_complaints_found",
+    "complaints": "complaints",
+    "order_details": "order_details",
+    "trip_points": "trip_points",
+    "car": "car",
+    "timetable": "timetable",
+    "no_car_til_now": "no car util now",
+    "trip_start_location": "trip start location",
+    "trip_end_location": "trip end location",
+    "location_num": "location num",
+    "waiting": "waiting",
+    "not_specified_yet": "not specified yet",
+    "Rejection&cancellation": "Rejection&cancellation",
+    "no_reports_found": "no reports found",
+    "payment_method": "payment method",
+    "matched": "matched",
+    "unmatched": "unmatched",
+    "vehicle_matched_automatically": "vehicle matched automatically",
+    "trip_waiting_time": "trip waiting time",
+    "waiting_time_cost": "waiting time cost",
+    "driver_amount": "driver amount",
+    "price_before_discount": "price before discount",
+    "min_expected_distance": "min expected distance",
+    "scheduled_trip": "scheduled trip",
+    "scheduled_at": "scheduled at",
+    "trip_details": "trip details",
+    "chats": "chats",
+    "keyword": "Keyword",
+    "start_date": "Start date",
+    "end_date": "End date",
+    "finish_date": "Finish date",
+    "from_time": "Start time",
+    "to_time": "End time",
+    "trip_bill": "trip_bill",
+    "complaint_count": "complaint_count",
+    "account_name": "account_name",
+    "extra_details": "extra_details",
+    "not": "not",
+    "in_menu_status": "in_menu_status",
+    "frequent_pickup": "Frequent pickup",
+    "frequent_destination": "Frequent destination",
+    "passport_copy": "Passport original",
+    "back_side_id": "Back ID Image",
+    "front_driver_license": "Front driver license",
+    "back_driver_license": "Back driver license",
+    "driving_license_expiration_date": "Driving license expiration",
+    "CustomerCriticalErrorAccuracy": "Customer Critical Error Accuracy",
+    "BusinessCriticalErrorAccuracy": "Business Critical Error Accuracy",
+    "ComplianceCriticalErrorAccuracy": "Compliance Critical Error Accuracy",
+    "change-QA-type": "Change QA type",
+    "agent": "Agent",
+    "today_attendment": "Today Attendment",
+    "total_attendment": "Total Attendment",
+    "business": "Business",
+    "complaint": "Complaint",
+    "customer": "Customer",
+    "all_should_attend": "All Should Attend",
+    "driver": "Driver",
+    "tickets_per_hour": "Tickets per hour(TPH)",
+    "contact_resolution": "Contact resolution",
+    "hour": "Hour",
+    "supportPhone": "Support Phone",
+    "supportEmail": "Support Email",
+    "discound": "Discount",
+    "searchPartners": "Searching For Cars",
+    "accept": "Accept",
+    "reject": "Reject",
+    "phone_length": "Phon Length",
+    "national_id_limit": "National Id Limit",
+    "month": "Month",
+    "payment": "Payment",
+    "sms_message": "SMS Message"
+  },
+  "validation": {
+    "empty": "This Field Cannot Be Empty",
+    "email": "This Is Not A Valid Email",
+    "form": "Please Fill In All The Fields",
+    "success": "The Operation Was Successful",
+    "error": "Error",
+    "appLangAr": "Writing In Arabic Must Be Observed",
+    "appLangEn": "Writing In English Must Be Observed",
+    "flag": "A Photo Of The Flag Must Be Attached"
+  },
+  "settings": {
+    "most_questions": "Most Questions",
+    "instruction_ownership_transfer": "Ownership transfer instructions",
+    "fees": "Fees",
+    "video": "Video",
+    "orderSettings": "Order Settings",
+    "general": "General Settings",
+    "social": " Social Networking ",
+    "sms": "SMS Settings",
+    "about": "About Us",
+    "appLinks": "App Links",
+    "contact": "Contact Us",
+    "faqs": "General Questions",
+    "policy": "Privacy Policy",
+    "terms": "Terms and conditions",
+    "content": "Please Add The Following Data",
+    "contactData": {
+      "phone": "Phone Number",
+      "email": "E-mail address",
+      "whatsapp": "WhatsApp Number",
+      "facebook": "Facebook Link",
+      "twitter": "Twitter Link",
+      "instagram": "Instagram Link",
+      "fax": "Fax Number",
+      "vet_value": "Vet Value",
+      "youtube": "Youtube Link",
+      "snapchat": "SnapChat Link",
+      "link_android": "Android Link",
+      "link_ios": "Apple Link"
+    },
+    "appPrices": "App Prices"
+  },
+  "trip": {
+    "pending": "Pending Trips",
+    "is_paid": "Paid Trips",
+    "all": "All Trips",
+    "current_trip": "Current Trips",
+    "rider_cancel": "Trips Cancelled By The Rider",
+    "partner_accept_trip": "Partner Accept Trip ",
+    "partner_start_trip": "Partner Start Trip",
+    "partner_finished": "Trips Cancelled By The Partner",
+    "partner_in_pickup_location": "Partner In Pickup Location",
+    "reached_stop_point": "Trips Reached Stop Point",
+    "normal": "Normal Trip",
+    "round_trip": "Round Trip",
+    "airport_trip": "Airport Trip"
+  },
+  "months": {
+    "January": "January",
+    "February": "February",
+    "March": "March",
+    "April": "April",
+    "May": "May",
+    "June": "June",
+    "July": "July",
+    "August": "August",
+    "September": "September",
+    "October": "October",
+    "November": "November",
+    "December": "December"
+  },
+  "review_report": "Review report",
+  "confirm_price": "Confirm Price",
+  "male": "Male",
+  "female": "Female",
+  "africa": "Africa",
+  "europe": "Europe",
+  "asia": "Asia",
+  "user": "User",
+  "provider": "Provider",
+  "all_providers": "All providers",
+  "all_users": "All users",
+  "client": "Client",
+  "clients": "All Clients",
+  "company_active": "Activators Of The Company",
+  "company_unactive": "Unactivators Of The Company",
+  "south_america": "South America",
+  "north_america": "North America",
+  "australia": "Australia",
+  "submit": "Submit",
+  "save": "Save",
+  "credit_withdraw": "Credit Withdraw",
+  "back": "Back",
+  "charge": "Charge",
+  "error": "Error",
+  "general": "General",
+  "with_category": "With Category",
+  "reply": "Reply",
+  "withdrawal": "Withdrawal",
+  "pre_ride": "Pre Ride",
+  "in_ride": "In Ride",
+  "post_ride": "post Ride",
+  "selectLocation": "Select Location",
+  "inArabic": " (AR) ",
+  "inEnglish": " (EN) ",
+  "addNew": "Add New",
+  "edit": "Edit",
+  "hour": "Hour",
+  "newMessage": "New Message",
+  "newComplaint": "New Complaint",
+  "showAll": "Show All",
+  "cancel": "Cancel",
+  "reject": "Reject",
+  "accept": "Accept",
+  "success": "Success",
+  "chargeSuccess": "Wallet Charged Successfully",
+  "addSuccess": "Add Success",
+  "editSuccess": "Edit Success",
+  "sendSuccess": "Send Success",
+  "submitSuccess": "Submit Success",
+  "deleteSuccess": "Delete Success",
+  "exportSuccess": "Export Success",
+  "delegateSuccessfully": "Delegated Successfully",
+  "canceledSuccessfully": "Canceled Successfully",
+  "somethingWentWrong": "Something went wrong",
+  "globalErr": "Global Error",
+  "notFound": "Not Found",
+  "add": "Add",
+  "delete": "Delete",
+  "show": "Show",
+  "yes": "Yes",
+  "no": "No",
+  "discharge": "Discharge",
+  "inactive": "Inactive",
+  "inactive_count": "Count {name} Inactive",
+  "active_count": "Count {name} Active",
+  "percentage": "Percentage {name}",
+  "count": "Count {name}",
+  "active": "Active",
+  "partner": "Partner",
+  "rider": "Rider",
+  "ban": "Ban",
+  "lastTrips": "Last Trips",
+  "frequents": "Frequent Trips",
+  "pageNotFound": "Page Not Found",
+  "iThinkYouJustWentToANon-existingPage": "I Think You Just Went To ANon-existing Page",
+  "clickHereToGoBack": "click Here To Go Back",
+  "inban": "Inban",
+  "ar": "Arabic",
+  "select_type": "Select Type",
+  "welcomeBack": "Welcome Back !",
+  "signInToAccessDashboard": "Sign InTo Access Dashboard",
+  "trips": "Trips",
+  "en": "English",
+  "enable": "Activated",
+  "firstly": "Firstly",
+  "amount": "Amount",
+  "content": "Content",
+  "monyAmount": "Amount",
+  "select": "Select",
+  "discound": "Discound",
+  "driver_didnot_arrive": "Driver Didnot Arrive",
+  "driver_arrived": "Driver Arrived",
+  "driver_started_trip": "Driver Started Trip",
+  "cash": "Cash",
+  "all": "All",
+  "issue_type": "Issue type",
+  "admin": "Admin",
+  "wallet": "Wallet",
+  "disable": "Not Activated",
+  "key": "Key",
+  "active_user_count": "Active Users Count",
+  "active_partner_count": "Active Partners Count",
+  "deactivate_user_count": "Deactivate users Count",
+  "deactivate_partner_count": "Deactivate Partners Count",
+  "total_user_count": "Total Users Count",
+  "deactivate_partner_form_admin_count": "Deactivate Partner Form Admin Count",
+  "total_partner_count": "Total Partner Count",
+  "according": "According",
+  "appCurrency": "AED",
+  "locked_vehicle_count": "Locked Vehicle Count",
+  "deactivate_vehicle_count": "Deactivate Vehicle Count",
+  "active_vehicle_count": "Active Vehicle Count",
+  "locked": "Locked",
+  "live_trip_count": "Live Trip Count",
+  "total_trip_count": "Total Trip Count",
+  "trip_canceled_count": "Trip Canceled Count",
+  "trip_finished_count": " Trip Finished Count ",
+  "trip_pending_count": " Trip Pending Count",
+  "vehicles_count": "Vehicles Count",
+  "adminActive": "Admin Active",
+  "adminInActive": "Admin Inactive",
+  "unlocked": "Unlocked",
+  "notAllowed": "Not Allowed",
+  "iThinkYouJustWentToUnAllowedPage": "اi Think You Just Went To UnAllowed Page",
+  "not_according": "Not Accordin",
+  "noPhoneFound": "No Phone Found",
+  "noEmailFound": "No Email Found",
+  "noNameFound": "No Name Found ",
+  "noRiderFound": "No Rider Found ",
+  "noPartnerFound": "No Partner Found ",
+  "app_amount": "Total Application Percentage",
+  "driver_amount": "Total Driver Percentage",
+  "coupon_amount": "Total Discounts On Trips",
+  "notExist": "Not exist {name}",
+  "UnOtherPhone": "Alternative phone",
+  "km": "k.m",
+  "min": "min",
+  "areYouSure": "Are you sure",
+  "delegate_confirmation": "Are you sure you want to delegate ownership transfer?",
+  "finish_confirmation": "Are you sure you want to finish selling the board?",
+  "youWillNotBeAbleToGoBackInTheProcess": "You will not be able to go back in the process!",
+  "noDataFound": "No data found",
+  "deletedSuccessfully": "Deleted successfully",
+  "finishedSuccessfully": "Finished successfully",
+  "sendSuccessfully": "Sent successfully",
+  "acceptedSuccessfully": "Accepted successfully",
+  "rejectedSuccessfully": "Rejected successfully",
+  "withdrawnSuccessfully": "Withdrawn successfully",
+  "replySentSuccessfully": "Reply Sent Successfully",
+  "ok": "Ok",
+  "replyedBy": "Replyed by",
+  "handle_time": "Handle Time",
+  "solved_tickets": "Solved Tickets",
+  "attend": "Attend",
+  "critical_error": "Critical Error",
+  "volume": "Volume",
+  "schadualed_attendment": "Schadualed Attendment",
+  "hours": "Hours",
+  "actual_attend": "Actual Attend",
+  "of": "Of",
+  "total_attendment": "Total Attendment",
+  "total_hours": "Total Hours",
+  "actual_tickets": "Actual tickets",
+  "business_critical_error_accuracy": "Business critical error accuracy",
+  "customer_critical_error": "Customer critical error",
+  "complain_critical_error_accuracy": "Complain critical error accuracy",
+  "start_training_at": "Training start Date",
+  "end_training_at": "Training End Date",
+  "start_hiring_at": "Employment start Date",
+  "end_hiring_at": "Employment end date",
+  "logged_in_time": "Logged in time",
+  "logged_out_time": "Logged out time",
+  "skipped_rate": "Skipped rate",
+  "skipped_tickets": "Skipped Tickets",
+  "rider_volume": "Rider volume",
+  "partner_volume": "Partner volume",
+  "minute": "Minute",
+  "aht": "aht",
+  "contact_resolution": "Contact Resolution",
+  "attrition": "Attrition",
+  "absenteeism": "Absenteeism",
+  "first_attend": "First attend",
+  "last_attend": "Last attend",
+  "weeklyStats": "Weekly statistics",
+  "from": "From",
+  "to": "To",
+  "seconds": "seconds",
+  "confirm": "Confirm",
+  "total_absenteeism": "Total absenteeism",
+
+  "auction_price": "Total price without fees",
+  "total_price": "Total purchase transactions",
+  "total_vat": "Total tax fees",
+  "ownership_transfer_fees": "Total ownership transfer fees",
+  "tracking_fees": "Total tracking fees",
+  "delivery_charge": "Total delivery fees",
+  "application_fees": "Total application fees",
+  "tax_fees_value": "Total value-added tax",
+  "price_percentage_value": "Total percentage of price"
+}

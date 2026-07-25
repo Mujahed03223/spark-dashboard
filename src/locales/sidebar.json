@@ -1,0 +1,398 @@
+{
+    "sidebar": [
+        {
+            "label": "المستخدمين",
+            "icon": "fa-solid fa-user-plus",
+            "categories": [
+                {
+                    "icon": "fa-solid fa-user-plus",
+                    "key": "with_category",
+                    "permissions": [
+                        {
+                            "title": "عرض الكل",
+                            "url": "/riders/show-all"
+                        },
+                        {
+                            "title": "اضافة جديد",
+                            "url": "/riders/add"
+                        }
+                    ],
+                    "title": "العملاء"
+                },
+                {
+                    "icon": "fa-solid fa-car",
+                    "key": "with_category",
+                    "permissions": [
+                        {
+                            "title": "عرض الكل",
+                            "url": "/partners/show-all"
+                        },
+                        {
+                            "title": "اضافة جديد",
+                            "url": "/partners/add"
+                        },
+                        {
+                            "title": "تتبع السائقين",
+                            "url": "/partners/partners_tracking"
+                        }
+                    ],
+                    "title": "السائقين"
+                }
+            ]
+        },
+        {
+            "label": "السيارات وانواعها",
+            "icon": "",
+            "categories": [
+                {
+                    "icon": "fa-solid fa-car",
+                    "key": "with_category",
+                    "permissions": [
+                        {
+                            "title": "عرض الكل",
+                            "url": "/vehicles/show-all"
+                        },
+                        {
+                            "title": "اضافة جديد",
+                            "url": "/vehicles/add"
+                        }
+                    ],
+                    "title": "السيارات"
+                },
+                {
+                    "icon": "fa-solid fa-copyright",
+                    "key": "with_category",
+                    "permissions": [
+                        {
+                            "title": "عرض الكل",
+                            "url": "/vehicle_brands/show-all"
+                        },
+                        {
+                            "title": "اضافة جديد",
+                            "url": "/vehicle_brands/add"
+                        }
+                    ],
+                    "title": "براندات السيارات"
+                },
+                {
+                    "icon": "fab fa-buromobelexperte",
+                    "key": "with_category",
+                    "categories": [
+                        {
+                            "title": "عرض الكل",
+                            "url": "/vehicle_models/show-all"
+                        },
+                        {
+                            "title": "اضافة جديد",
+                            "url": "/vehicle_models/add"
+                        }
+                    ],
+                    "title": "موديلات السيارات"
+                },
+                {
+                    "icon": "fab fa-buromobelexperte",
+                    "key": "with_category",
+                    "permissions": [
+                        {
+                            "title": "عرض الكل",
+                            "url": "/vehicle_requirements/show-all"
+                        },
+                        {
+                            "title": "اضافة جديد",
+                            "url": "/vehicle_requirements/add"
+                        }
+                    ],
+                    "title": "متطلبات السيارات"
+                }
+            ]
+        },
+        {
+            "label": "الرحلات وطلبات السحب",
+            "icon": "",
+            "categories": [
+                {
+                    "icon": "fas fa-hand-holding-usd",
+                    "key": "with_category",
+                    "permissions": [
+                        {
+                            "title": "عرض الكل",
+                            "url": "/trips/show-all"
+                        },
+                        {
+                            "title": "الشكاوي",
+                            "url": "/trips/complaint-trips"
+                        }
+                    ],
+                    "title": "الرحلات"
+                },
+                {
+                    "icon": "fas fa-exchange-alt",
+                    "key": "general",
+                    "permissions": [
+                        {
+                            "url": "/withdraw/show-all?status="
+                        }
+                    ],
+                    "title": "طلبات السحب"
+                }
+            ]
+        },
+        {
+            "label": "الباكدجات والكوبونات",
+            "icon": "",
+            "categories": [
+                {
+                    "icon": "fa-solid fa-box-open",
+                    "key": "with_category",
+                    "permissions": [
+                        {
+                            "title": "عرض الكل",
+                            "url": "/vehicle_packages/show-all"
+                        },
+                        {
+                            "title": "اضافة جديد",
+                            "url": "/vehicle_packages/add"
+                        }
+                    ],
+                    "title": "باكدجات السيارات"
+                },
+                {
+                    "icon": "fas fa-tire-rugged",
+                    "key": "with_category",
+                    "permissions": [
+                        {
+                            "title": "عرض الكل",
+                            "url": "/coupons/show-all"
+                        },
+                        {
+                            "title": "اضافة جديد",
+                            "url": "/coupons/add"
+                        }
+                    ],
+                    "title": "الكوبونات"
+                }
+            ]
+        },
+        {
+            "label": "الحسابات المحجوبة",
+            "icon": "",
+            "categories": [
+                {
+                    "key": "general",
+                    "icon": "fas fa-lock",
+                    "permissions": [
+                        {
+                            "url": "/locked-users?filter=user_locked"
+                        }
+                    ],
+                    "title": "الحسابات المحجوبه"
+                }
+            ]
+        },
+        {
+            "label": "اسباب الالغاء والابلاغ ",
+            "icon": "",
+            "categories": [
+                {
+                    "icon": "fas fa-file-prescription",
+                    "key": "with_category",
+                    "permissions": [
+                        {
+                            "title": "عرض الكل",
+                            "url": "/cancel_reasons/show-all"
+                        },
+                        {
+                            "title": "اضافة جديد",
+                            "url": "/cancel_reasons/add"
+                        }
+                    ],
+                    "title": "اسباب الالغاء"
+                },
+                {
+                    "icon": "fas fa-envelope-open-text",
+                    "key": "with_category",
+                    "permissions": [
+                        {
+                            "title": "عرض الكل",
+                            "url": "/report_reasons/show-all"
+                        },
+                        {
+                            "title": "اضافة جديد",
+                            "url": "/report_reasons/add"
+                        }
+                    ],
+                    "title": "اسباب الابلاغ"
+                }
+            ]
+        },
+        {
+            "label": "الدول",
+            "icon": "",
+            "categories": [
+                {
+                    "icon": "far fa-flag",
+                    "permissions": [
+                        {
+                            "title": "عرض الكل",
+                            "url": "/countries/show-all"
+                        },
+                        {
+                            "title": "اضافة جديد",
+                            "url": "/countries/add"
+                        }
+                    ],
+                    "title": "الدول"
+                }
+            ]
+        },
+        {
+            "label": "التواصل",
+            "icon": "",
+            "categories": [
+                {
+                    "icon": "fas fa-comment ",
+                    "key": "general",
+                    "permissions": [
+                        {
+                            "url": "/chats"
+                        }
+                    ],
+                    "title": "اللايف شات"
+                }
+            ]
+        },
+        {
+            "label": "الصلاحيات والادوار",
+            "icon": "",
+            "categories": [
+                {
+                    "key": "with_category",
+                    "icon": "fal fa-allergies",
+                    "permissions": [
+                        {
+                            "title": "عرض الكل",
+                            "url": "/permission-labels/show-all"
+                        },
+                        {
+                            "title": "اضافة جديد",
+                            "url": "/permission-labels/add"
+                        }
+                    ],
+                    "title": "الاقسام الرئيسية للصلاحيات"
+                },
+                {
+                    "key": "with_category",
+                    "icon": "fal fa-allergies",
+                    "permissions": [
+                        {
+                            "title": "عرض الكل",
+                            "url": "/permission-categories/show-all"
+                        },
+                        {
+                            "title": "اضافة جديد",
+                            "url": "/permission-categories/add"
+                        }
+                    ],
+                    "title": "اقسام الصلاحيات"
+                },
+                {
+                    "key": "with_category",
+                    "icon": "fal fa-allergies",
+                    "permissions": [
+                        {
+                            "title": "عرض الكل",
+                            "url": "/permissions/show-all"
+                        },
+                        {
+                            "title": "اضافة جديد",
+                            "url": "/permissions/add"
+                        }
+                    ],
+                    "title": "الصلاحيات"
+                }
+            ]
+        },
+        {
+            "label": "المديرين والادوار",
+            "icon": "",
+            "categories": [
+                {
+                    "key": "with_category",
+                    "icon": "fal fa-allergies",
+                    "permissions": [
+                        {
+                            "title": "عرض الكل",
+                            "url": "/roles/show-all"
+                        },
+                        {
+                            "title": "اضافة جديد",
+                            "url": "/roles/add"
+                        }
+                    ],
+                    "title": "الادوار"
+                },
+                {
+                    "key": "with_category",
+                    "icon": "fa-solid fa-user-shield",
+                    "permissions": [
+                        {
+                            "title": "عرض الكل",
+                            "url": "/admins/show-all"
+                        },
+                        {
+                            "title": "اضافة جديد",
+                            "url": "/admins/add"
+                        }
+                    ],
+                    "title": "المديرين"
+                }
+            ]
+        },
+        {
+            "label": "اعدادات لوحه التحكم",
+            "icon": "",
+            "categories": [
+                {
+                    "key": "general",
+                    "icon": "fal fa-tools",
+                    "permissions": [
+                        {
+                            "url": "/about/show-all"
+                        }
+                    ],
+                    "title": "من نحن"
+                },
+                {
+                    "key": "general",
+                    "icon": "fal fa-tools",
+                    "permissions": [
+                        {
+                            "url": "/terms/show-all"
+                        }
+                    ],
+                    "title": "الشروط والأحكام"
+                },
+                {
+                    "key": "general",
+                    "icon": "fal fa-tools",
+                    "permissions": [
+                        {
+                            "url": "/policy/show-all"
+                        }
+                    ],
+                    "title": "سياسة الخصوصية"
+                },
+                {
+                    "key": "general",
+                    "icon": "fas fa-user-cog",
+                    "permissions": [
+                        {
+                            "url": "/settings"
+                        }
+                    ],
+                    "title": "الاعدادات العامة"
+                }
+            ]
+        }
+    ]
+}

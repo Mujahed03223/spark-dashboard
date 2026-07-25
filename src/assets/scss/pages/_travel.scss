@@ -1,0 +1,523 @@
+.travel_profile {
+  border: 1px solid var(--main);
+  border-radius: 20px;
+  margin-bottom: 50px;
+  height: 85vh;
+  @include flexStartAlignment;
+  align-items: unset;
+
+  // .vue-map-container {
+  // }
+
+
+  .side_data {
+    background: #fff;
+    border-radius: 20px 2px 2px 20px;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+    // margin-bottom: 20px;
+    flex: 1;
+
+    .travel_header {
+      padding: 20px 0px 0;
+      border-bottom: 1px dashed #ccc;
+
+      .arrive_data {
+        @include flexSpaceBetweenAlignment;
+        margin-bottom: 20px;
+
+        h4 {
+          font-size: 19px;
+        }
+
+        span {
+          font-size: 14px;
+          color: #cacbcf;
+        }
+      }
+
+      .icon_shape {
+        ul {
+          @include flexCenterAlignment;
+
+          li {
+            width: 57px;
+            height: 57px;
+            @include flexCenterAlignment;
+            background-color: var(--main);
+            margin: 5px;
+            color: #fff;
+            border-radius: 22px;
+          }
+        }
+      }
+    }
+
+    .travel_types {
+      @include flexSpaceBetweenAlignment;
+      text-align: center;
+      cursor: pointer;
+      padding: 0;
+
+      .travel_type {
+        padding: 10px 0px;
+        position: relative;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        border-radius: 10px;
+        width: 32%;
+        margin: 0 5px;
+
+        &.active {
+          border: 1px solid var(--main);
+          background-color: var(--main);
+
+          h5 {
+            background-color: transparent;
+          }
+
+          &::after {
+            position: absolute;
+            bottom: -26px;
+            right: 35%;
+            content: "";
+            border-right: 13px solid transparent;
+            border-left: 13px solid transparent;
+            border-bottom: 13px solid transparent;
+            border-top: 13px solid var(--main);
+          }
+
+          i {
+            color: #fff;
+          }
+
+          h4 {
+            color: #fff;
+          }
+        }
+
+        img {
+          width: 70px;
+          height: 60px;
+          border-radius: 10px;
+          margin-bottom: 5px;
+        }
+
+        h4 {
+          font-size: 14px;
+          margin-bottom: 5px;
+        }
+
+        span {
+          font-size: 14px;
+        }
+
+        h5 {
+          background-color: #f5f6fa;
+          border-radius: 20px;
+          padding: 9px 17px;
+          color: #404958;
+          font-size: 25px;
+
+          span {
+            color: #404958;
+            font-size: 13px;
+          }
+        }
+      }
+    }
+
+    .travel_content {
+      min-height: 600px;
+
+      .content_item {
+        padding: 15px 10px;
+      }
+    }
+
+    .timeline {
+      list-style-type: none;
+      position: relative;
+
+      &::before {
+        content: " ";
+        background: #d4d9df;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        width: 2px;
+        height: calc(100% - 55px);
+        z-index: 400;
+      }
+
+      &>li {
+        margin: 20px 0;
+        padding-right: 20px;
+
+        span {
+          font-size: 15px;
+          color: var(--main);
+          padding-bottom: 5px;
+          font-weight: bold;
+        }
+
+        p {
+          font-size: 14px;
+          color: #000;
+          line-height: 1.7;
+        }
+
+        &.active {
+          &::before {
+            background-color: #26BE00;
+          }
+        }
+
+        &::before {
+          content: " ";
+          background: white;
+          display: inline-block;
+          position: absolute;
+          border-radius: 50%;
+          border: 1px solid var(--main);
+          right: -9px;
+          width: 17px;
+          height: 17px;
+          z-index: 400;
+        }
+      }
+    }
+
+    .travel_pickup {
+      padding: 20px 30px;
+      position: relative;
+
+      &::after {
+        position: absolute;
+        content: "";
+        background-color: #b8b9be;
+        width: 1px;
+        height: 64%;
+        top: 20%;
+        right: 11px;
+      }
+
+      .pick_up_item {
+        position: relative;
+
+        &:first-of-type {
+          &::after {
+            content: "\f111";
+            top: 0;
+            right: -26px;
+            z-index: 3;
+          }
+        }
+
+        &:last-of-type {
+          &::after {
+            content: "\f3c5";
+            bottom: -15px;
+            z-index: 3;
+            right: -26px;
+          }
+        }
+
+        &::after {
+          position: absolute;
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          font-size: 17px;
+        }
+
+        span {
+          font-size: 14px;
+          color: #b8b9be;
+          padding-bottom: 5px;
+        }
+
+        h5 {
+          font-size: 17px;
+        }
+      }
+    }
+  }
+
+  .users_data {
+    .personal_data {
+      @include flexCenterAlignment;
+      padding: 10px 20px 20px;
+
+      .image {
+        margin-inline-end: 15px;
+
+        img {
+          width: 50px;
+          height: 50px;
+          border-radius: 8px;
+        }
+      }
+
+      .exp {
+        @include flexCenterAlignment;
+        width: 100%;
+
+        .exp_data {
+          flex: 2;
+
+          h4 {
+            font-size: 17px;
+            margin-bottom: 0;
+          }
+
+          span {
+            font-size: 14px;
+
+            a {
+              direction: ltr;
+            }
+          }
+        }
+
+        .exp_desc {
+          .v-chip {
+            width: 100%;
+            text-align: center;
+            display: inline-block;
+            font-weight: 600;
+          }
+
+          .rate {
+            i {
+              color: #fe7902;
+              margin-inline-start: 5px;
+            }
+          }
+
+          flex: 1;
+        }
+      }
+    }
+
+    .personal_dataـdriver {
+      padding: 10px;
+      border-bottom: 1px dashed #ccc;
+    }
+  }
+
+  hr.line {
+    border-top: 1px dashed;
+  }
+
+  .travel_content {
+    min-height: 400px;
+    flex: 2;
+    position: relative;
+    overflow: hidden;
+
+    .vehicle_image {
+      .image_wrapper {
+        margin-bottom: 50px;
+
+        img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 5px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  .vehicle_data {
+
+    // @include flexSpaceBetweenAlignment;
+    // flex-wrap: wrap;
+    li {
+      @include flexSpaceBetweenAlignment;
+      border-inline-start: 2px solid var(--main);
+      margin-bottom: 20px;
+      padding-inline-start: 0.5rem;
+
+      h6 {
+        color: var(--main);
+        font-size: 0.9rem;
+      }
+
+      p {
+        margin: 0;
+        font-size: 0.8rem;
+        color: #666;
+      }
+    }
+  }
+
+  .order_siderbar {
+    flex: 1;
+    background: #fff;
+    border-radius: 2px 20px 20px 2px;
+    border-left: 1px solid #ccc;
+    overflow-y: auto;
+  }
+
+  .route_content {
+    padding: 20px 10px;
+  }
+}
+
+.travel_info {
+  @include flexSpaceBetweenAlignment;
+  border-top: 1px dashed #ccc;
+  width: 100%;
+
+  li {
+    flex: 1;
+    line-height: 1;
+    text-align: center;
+    padding: 10px 0;
+
+    &:not(:last-of-type) {
+      border-left: 1px dashed #b7b5b6;
+    }
+
+    i {
+      font-size: 17px;
+      color: #b8b9be;
+      margin-inline-end: 3px;
+    }
+
+    span {
+      font-size: 14px;
+    }
+  }
+}
+
+.travelCardTitle {
+  text-align: center;
+  color: var(--main);
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.mainTripData {
+  position: absolute;
+  bottom: 10px;
+  width: 97%;
+  background: #311d74e1;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 15px;
+
+
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    li {
+      display: flex;
+      width: 25%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 10px 5px;
+      border-left: 1px dashed #84e8f4;
+      color: #fff;
+
+      .icon {
+        line-height: 0;
+
+        i {
+          font-size: 25px;
+        }
+      }
+
+      .title {
+        font-size: 15px !important;
+        text-align: center;
+      }
+
+      .value {
+        font-size: 14px;
+        font-weight: bold;
+        color: #84e8f4;
+        text-align: center;
+      }
+
+      &:last-of-type {
+        border-left: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .travel_profile {
+    margin-block: 20px;
+    height: unset;
+    flex-direction: column;
+    row-gap: 10px;
+    border: none;
+
+    .side_data {
+      order: 3;
+    }
+
+    .order_siderbar {
+      order: 2;
+    }
+
+    .route_content {
+      padding: 20px 10px;
+    }
+  }
+
+  .travel_content {
+    order: 1;
+    width: 100%;
+
+    .vue-map-container {
+      height: 800px;
+    }
+  }
+
+  .mainTripData {
+    bottom: 5px;
+
+    ul {
+      @include flexCenterAlignment;
+      flex-wrap: wrap;
+
+      li {
+        width: 25%;
+        border-left: none;
+
+        &:not(:last-of-type) {
+          border-left: 1px dashed #84e8f4;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .mainTripData {
+    bottom: -12px;
+
+    ul {
+      @include flexCenterAlignment;
+      flex-wrap: wrap;
+
+      li {
+        width: 50%;
+        border-left: none;
+
+        &:not(:last-of-type) {
+          border-bottom: 1px dashed #84e8f4;
+        }
+      }
+    }
+  }
+}

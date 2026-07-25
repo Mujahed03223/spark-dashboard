@@ -1,0 +1,157 @@
+// ========== Start fadeInUp
+.fadeIn-enter-active,
+.fadeIn-leave-active {
+  transition-duration: 0.6s;
+  transition-property: opacity;
+  overflow: hidden;
+}
+
+.fadeIn-enter,
+.fadeIn-leave-to {
+  opacity: 0;
+}
+
+.fadeIn-enter-to,
+.fadeIn-leave {
+  opacity: 1;
+}
+.fadeIn {
+  animation: fadein 1s ease forwards;
+  -webkit-animation: fadein 1s ease forwards;
+  -moz-animation: fadein 1s ease forwards;
+  -o-animation: fadein 1s ease forwards;
+  -ms-animation: fadein 1s ease forwards;
+}
+// ========== End fadeInUp
+
+// ========== Start Slither
+.slither-enter-active,
+.slither-leave-active {
+  transition-duration: 0.6s;
+  transition-property: opacity transform;
+  overflow: hidden;
+}
+
+.slither-enter,
+.slither-leave-to {
+  opacity: 0;
+  transform: translate(3em, 0);
+}
+
+.slither-enter-to,
+.slither-leave {
+  opacity: 1;
+  transform: translate(0em, 0);
+}
+
+// ========== Start fadeUpTransform
+.fadeUpTransform-enter-active,
+.fadeUpTransform-leave-active {
+  transition: all 0.2s linear;
+}
+
+.fadeUpTransform-enter,
+.fadeUpTransform-leave-to {
+  opacity: 0;
+  transform: translateY(1rem);
+}
+
+.fadeUpTransform-enter-to,
+.fadeUpTransform-leave {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+// ========== End fadeScale
+// start of scale animation
+@keyframes scale {
+  from {
+    transform: scale(0.7);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+@keyframes up {
+  0% {
+    transform: translateY(-15px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animate {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+@keyframes animate {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}

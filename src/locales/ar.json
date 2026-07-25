@@ -1,0 +1,2122 @@
+{
+  "dashName": "لوحه تحكم سبارك",
+  "navs": {
+    "home": "الصفحة الرئيسية"
+  },
+  "statisticsCard": {
+    "Admins": "مشرفين المؤسسات",
+    "Ambassadors": "السفراء",
+    "Cities": "المدن",
+    "Countries": "الدول",
+    "Projects": "المشاريع",
+    "Properties": "الوحدات",
+    "Requests": "الطلبات"
+  },
+  "breadcrumb": {
+    "mainPage": "الصفحة الرئيسيه",
+    "mainSettings": "الاعدادات",
+    "message": "مرحبا مجددا!",
+
+    "transactions": {
+      "title": "التحويلات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "wallets": {
+      "title": "المحفظة",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض",
+      "charge": "شحن المحفظة"
+    },
+
+    "clients": {
+      "title": "العملاء",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "banks": {
+      "title": "الحسابات البنكية",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "check_lists": {
+      "title": "قائمة ال CheckBoxes",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "most_questions": {
+      "title": "الأسئلة الشائعة",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "adminContacts": {
+      "title": "جهات التواصل",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "statistics": {
+      "title": "الإحصائيات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "photoGallery": {
+      "title": "معرض الصور",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "coupons": {
+      "title": "كوبونات الخصم",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "CouponCodes": {
+      "title": "كود الكوبونات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "referralLinks": {
+      "title": "التسويق بالعمولة",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "reportReason": {
+      "title": "سبب التقرير",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "contacts": {
+      "title": "رسائل التواصل",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "show": "عرض"
+    },
+    "usersChats": {
+      "title": "رسائل العملاء",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "show": "عرض"
+    },
+
+    "profile": {
+      "title": "الصفحة الشخصية",
+      "edit": "تعديل البيانات الشخصية"
+    },
+    "contact_info": {
+      "title": "بيانات التواصل"
+    },
+    "rent_requests": {
+      "title": "طلب تأجير",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "sell_requests": {
+      "title": "طلب بيع",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "buy_requests": {
+      "title": "طلب شراء",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "newsletters": {
+      "title": "النشرات الإخبارية",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "sliders": {
+      "title": "السلايدر",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "pages": {
+      "title": "الصفحات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "what_we_offers": {
+      "title": "ما نقدمة",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "subService": {
+      "title": "الخدمات الفرعية",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "partners": {
+      "title": "شركاؤنا",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "features": {
+      "title": "التمييزات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "mainCategories": {
+      "title": "الفئات الرئيسية",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "financialAnalyses": {
+      "title": "التحليلات المالية",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "package": {
+      "title": "الباقات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "return_packages": {
+      "title": "الباقات المرتجعة",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "ownership_guide": {
+      "title": "دليل تفويض الملكية",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "advertisements": {
+      "title": "إعلانات اللوحات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "complete_selling": {
+      "title": "إتمام البيع",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "new_advertisements": {
+      "title": "إعلانات اللوحات الجديدة",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "RejectReasons": {
+      "title": "أسباب الرفض",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "buyProcess": {
+      "title": "عمليات الشراء",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "bankTransfers": {
+      "title": "الحوالات البنكية",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "ownershipDelegation": {
+      "title": "التفويض بنقل الملكية",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "maintenanceTechnician": {
+      "title": "فنين الصيانة",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "callcenter": {
+      "title": "خدمة العملاء",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "orders": {
+      "title": "الطلبات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "testimonials": {
+      "title": "الشهادات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "home_experts": {
+      "title": "خبراء الصفحة الرئيسية",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "home_services": {
+      "title": "خدمات الصفحة الرئيسية",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "advantages": {
+      "title": "المميزات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "workTimes": {
+      "title": "اوقات العمل",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "days": {
+      "title": "ايام العمل",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "privacy": {
+      "title": "سياسة الخصوصية",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "services": {
+      "title": "الخدمات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "countries": {
+      "title": "الدول",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "languages": {
+      "title": "اللغات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "cities": {
+      "title": "المدن",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "show": "عرض",
+      "edit": "تعديل"
+    },
+    "sales": {
+      "title": "المبيعات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "show": "عرض"
+    },
+    "users": {
+      "title": "المستخدمين",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "show": "عرض",
+      "edit": "تعديل"
+    },
+    "providers": {
+      "title": "الفنيين",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "show": "عرض",
+      "edit": "تعديل"
+    },
+
+    "thankingWord": {
+      "title": "كلمة الشكر",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "show": "عرض",
+      "edit": "تعديل"
+    },
+    "WeHelpYou": {
+      "title": "مساعداتنا",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "show": "عرض",
+      "edit": "تعديل"
+    },
+    "steps": {
+      "title": "خطوات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "show": "عرض",
+      "edit": "تعديل"
+    },
+    "offers": {
+      "title": "عروض",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "show": "عرض",
+      "edit": "تعديل"
+    },
+    "points": {
+      "title": "نقاط",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "show": "عرض",
+      "edit": "تعديل"
+    },
+    "discounts": {
+      "title": "الخصم",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "show": "عرض",
+      "edit": "تعديل"
+    },
+    "choose_us": {
+      "title": "لماذا تختارنا",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل"
+    },
+    "socials": {
+      "title": "الإجتماعيات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل"
+    },
+    "projects": {
+      "title": "المشاريع",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل"
+    },
+    "terms": {
+      "title": "شروط الاستخدم",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل"
+    },
+    "faqs": {
+      "title": "الاسئلة الشائعة",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل"
+    },
+    "cancelReasons": {
+      "title": "أسباب الإلغاء",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل"
+    },
+    "delayReasons": {
+      "title": "أسباب التأخير",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل"
+    },
+    "admins": {
+      "title": "مشرفين المؤسسات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "show": "عرض",
+      "edit": "تعديل"
+    },
+    "ambassadors": {
+      "title": "السفراء",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "show": "عرض",
+      "edit": "تعديل"
+    },
+    "permission-labels": {
+      "title": "الاقسام الرئيسية للصلاحيات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل"
+    },
+    "permission-categories": {
+      "title": "اقسام الصلاحيات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل"
+    },
+    "permissions": {
+      "title": "الصلاحيات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل"
+    },
+    "roles": {
+      "title": "الأدوار",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل"
+    },
+    "chats": {
+      "title": "اللايف شات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "partners_tracking": "تتبع السائقين",
+      "show": "عرض"
+    },
+    "companies": {
+      "title": "الشركات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+
+    "about": {
+      "title": "من نحن",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "policy": {
+      "title": "سياسة الخصوصية",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "edit": "تعديل",
+      "show": "عرض"
+    },
+    "notifications": {
+      "title": "الإشعارات",
+      "all": "عرض الكل",
+      "add": "اضافة",
+      "send_notification": "إرسال إشعار",
+      "delete_all": "حذف الكل",
+      "sent_notifications": "الإشعارات المرسلة"
+    }
+  },
+  "profile": {
+    "show": " البيانات الشخصية",
+    "edit": "تعديل البيانات الشخصية",
+    "changePassword": "تغيير كلمة المرور"
+  },
+  "navbar": {
+    "notification": {
+      "topTitle_1": "اشعار جديد",
+      "topTitle_2": "اشعارت التطبيق",
+      "no_notifications": "لا يوجد اشعارات بعد!"
+    },
+    "userMenu": {
+      "profile": "الصفحة الشخصية",
+      "updatePassword": "تغيير كلمة المرور",
+      "editProfile": "تعديل الصفحة الشخصية",
+      "chats": "المحادثات",
+      "logout": "تسجيل الخروج"
+    }
+  },
+  "sidebar": [
+    {
+      "label": "إعلانات اللوحات",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "fal fa-images",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "new-advertisements/show-all",
+              "name": "advertisements.index"
+            }
+          ],
+          "title": "إعلانات اللوحات الجديدة"
+        },
+        {
+          "icon": "fal fa-images",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "advertisements/show-all",
+              "name": "advertisements.index"
+            }
+          ],
+          "title": "إعلانات اللوحات"
+        },
+        {
+          "icon": "fal fa-money-bill",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "bank-transfers/show-all",
+              "name": "buy-process.index"
+            }
+          ],
+          "title": "الحوالات البنكية"
+        },
+        {
+          "icon": "fal fa-money-bill",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "ownership-transfer-delegation/show-all",
+              "name": "ownership-transfer-delegation.index"
+            }
+          ],
+          "title": "التفويض بنقل الملكية"
+        },
+        {
+          "icon": "fal fa-money-bill",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "complete-selling/show-all",
+              "name": "complete-selling.index"
+            }
+          ],
+          "title": "إتمام البيع"
+        },
+        {
+          "icon": "fal fa-money-bill",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "buy-process/show-all",
+              "name": "buy-process.index"
+            }
+          ],
+          "title": "عمليات الشراء"
+        }
+      ]
+    },
+
+    {
+      "label": "السلايدر",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "fa-solid fa-image",
+          "permissions": [
+            {
+              "title": "عرض الكل",
+              "url": "sliders/show-all",
+              "name": "sliders.index"
+            },
+            {
+              "title": "اضافة جديد",
+              "url": "sliders/add",
+              "name": "sliders.store"
+            }
+          ],
+          "title": "السلايدر"
+        }
+      ]
+    },
+
+    {
+      "label": "الفئات الرئيسية",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "fal fa-flag",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "main-categories/show-all",
+              "name": "main-categories.index"
+            }
+          ],
+          "title": "الفئات الرئيسية"
+        }
+      ]
+    },
+
+    {
+      "label": "الباقات",
+      "icon": "fa-solid fa-money-bill",
+      "categories": [
+        {
+          "icon": "fa-solid fa-money-bill",
+          "key": "with_category",
+          "permissions": [
+            {
+              "title": "عرض الكل",
+              "url": "package/show-all",
+              "name": "package.index"
+            },
+            {
+              "title": "اضافة جديد",
+              "url": "package/add",
+              "name": "package.store"
+            }
+          ],
+          "title": "الباقات"
+        },
+        {
+          "icon": "fa-solid fa-money-bill",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "return-package/show-all",
+              "name": "return-package.index"
+            }
+          ],
+          "title": "الباقات المرتجعة"
+        }
+      ]
+    },
+
+    {
+      "label": "المستخدمين",
+      "icon": "fa-solid fa-money-bill",
+      "categories": [
+        {
+          "icon": "fa-solid fa-users",
+          "key": "with_category",
+          "permissions": [
+            {
+              "title": "عرض الكل",
+              "url": "users/show-all",
+              "name": "users.index"
+            },
+            {
+              "title": "اضافة جديد",
+              "url": "users/add",
+              "name": "users.store"
+            }
+          ],
+          "title": "المستخدمين"
+        }
+      ]
+    },
+
+    {
+      "label": "التحليلات المالية",
+      "icon": "fa-solid fa-envelope",
+      "categories": [
+        {
+          "icon": "fa-solid fa-coins",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "financial_analyses/show-all",
+              "name": "financial-analyses.index"
+            }
+          ],
+          "title": "التحليلات المالية"
+        }
+      ]
+    },
+
+    {
+      "label": "الحسابات البنكية",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "fa-solid fa-money-bill",
+          "permissions": [
+            {
+              "title": "عرض الكل",
+              "url": "bank/show-all",
+              "name": "bank.index"
+            },
+            {
+              "title": "اضافة جديد",
+              "url": "bank/add",
+              "name": "bank.store"
+            }
+          ],
+          "title": "الحسابات البنكية"
+        }
+      ]
+    },
+
+    {
+      "label": "رسائل التواصل",
+      "icon": "fa-solid fa-envelope",
+      "categories": [
+        {
+          "icon": "fa-solid fa-envelope",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "contacts/show-all",
+              "name": "contacts.index"
+            }
+          ],
+          "title": "رسائل التواصل"
+        }
+      ]
+    },
+
+    {
+      "label": "قائمة الCheckBoxes",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "far fa-flag",
+          "permissions": [
+            {
+              "title": "عرض الكل",
+              "url": "check_lists/show-all",
+              "name": "check_lists.index"
+            },
+            {
+              "title": "اضافة جديد",
+              "url": "check_lists/add",
+              "name": "check_lists.store"
+            }
+          ],
+          "title": "قائمة الCheckBoxes"
+        }
+      ]
+    },
+
+    {
+      "label": "أسباب الرفض",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "fa-solid fa-ban",
+          "permissions": [
+            {
+              "title": "عرض الكل",
+              "url": "reject/show-all",
+              "name": "reject.index"
+            },
+            {
+              "title": "اضافة جديد",
+              "url": "reject/add",
+              "name": "reject.store"
+            }
+          ],
+          "title": "أسباب الرفض"
+        }
+      ]
+    },
+
+    {
+      "label": "مشرفين المؤسسات والأدوار",
+      "icon": "",
+      "categories": [
+        {
+          "key": "with_category",
+          "icon": "fal fa-allergies",
+          "permissions": [
+            {
+              "title": "عرض الكل",
+              "url": "role/show-all",
+              "name": "role.index"
+            },
+            {
+              "title": "اضافة جديد",
+              "url": "role/add",
+              "name": "role.store"
+            }
+          ],
+          "title": "الأدوار"
+        },
+        {
+          "key": "with_category",
+          "icon": "fa-solid fa-user-shield",
+          "permissions": [
+            {
+              "title": "عرض الكل",
+              "url": "admins/show-all",
+              "name": "admins.index"
+            },
+            {
+              "title": "اضافة جديد",
+              "url": "admins/add",
+              "name": "admins.store"
+            }
+          ],
+          "title": "مشرفين المؤسسات"
+        }
+      ]
+    },
+
+    {
+      "label": "الإشعارات",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "fa-solid fa-bell",
+          "permissions": [
+            {
+              "title": "عرض الكل",
+              "url": "notifications/show-all",
+              "name": "notifications.index"
+            },
+            {
+              "title": "الإشعارات المرسلة",
+              "url": "notifications/sent",
+              "name": "notifications.sent"
+            },
+            {
+              "title": "إرسال إشعار",
+              "url": "notifications/add",
+              "name": "notifications.store"
+            }
+          ],
+          "title": "الإشعارات"
+        }
+      ]
+    },
+
+    {
+      "label": "الدول",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "far fa-flag",
+          "permissions": [
+            {
+              "title": "عرض الكل",
+              "url": "countries/show-all",
+              "name": "countries.index"
+            },
+            {
+              "title": "اضافة جديد",
+              "url": "countries/add",
+              "name": "countries.store"
+            }
+          ],
+          "title": "الدول"
+        },
+        {
+          "icon": "far fa-city",
+          "permissions": [
+            {
+              "title": "عرض الكل",
+              "url": "cities/show-all",
+              "name": "cities.index"
+            },
+            {
+              "title": "اضافة جديد",
+              "url": "cities/add",
+              "name": "cities.store"
+            }
+          ],
+          "title": "المدن"
+        }
+      ]
+    },
+
+    {
+      "label": "الأسئلة الشائعة",
+      "icon": "",
+      "categories": [
+        {
+          "icon": "fal fa-tools",
+          "permissions": [
+            {
+              "title": "عرض الكل",
+              "url": "most_questions/show-all",
+              "name": "most_questions.index"
+            },
+            {
+              "title": "اضافة جديد",
+              "url": "most_questions/add",
+              "name": "most_questions.store"
+            }
+          ],
+          "title": "الأسئلة الشائعة"
+        }
+      ]
+    },
+
+    {
+      "label": "الصفحات العامة",
+      "icon": "fal fa-tools",
+      "categories": [
+        {
+          "icon": "fal fa-tools",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "pages/show",
+              "name": "pages.index"
+            }
+          ],
+          "title": "الصفحات العامة"
+        }
+      ]
+    },
+    {
+      "label": "الاعدادات العامة",
+      "icon": "",
+      "categories": [
+        {
+          "key": "general",
+          "icon": "fas fa-user-cog",
+          "permissions": [
+            {
+              "url": "settings/show-all",
+              "name": "settings.show-all"
+            }
+          ],
+          "title": "الاعدادات العامة"
+        }
+      ]
+    }
+  ],
+
+  "CHARTS": {
+    "dailyViews": "المشاهدات اليومية",
+    "monthlyTarget": "الهدف الشهري",
+    "buyingTrend": "الرائج في الشراء"
+  },
+  "TITLES": {},
+  "BUTTONS": {
+    "login": "تسجيل الدخول",
+    "seeMore": "عرض المزيد",
+    "select": "إختار",
+    "cancel": "إلغاء",
+    "cancel_package": "إلغاء الباقة"
+  },
+  "table": {
+    "loadingData": "جاري التحميل... برجاء الانتظار",
+    "noData": "لا يوجد بيانات",
+    "singleSelect": "اختيار فردي",
+    "search": "ابحث",
+    "lessThan": "اقل من",
+    "addNew": "اضافة جديد",
+    "deleteSelected": "حذف المحدد",
+    "sent_notification": "ارسال الاشعار",
+    "deletedialog": {
+      "areYouSure": "هل أنت متاكد من الحذف ؟",
+      "cancel": "الغاء",
+      "ok": "موافق"
+    }
+  },
+  "status": {
+    "delivery_uploaded": "تم تحميل التسليم",
+    "no_one_auctioned": "لم يزايد أحد",
+    "rejected_by_admin": "تم الإلغاء من قبل الأدمن",
+    "hold": "معلق",
+    "admin_approved_ownership": "ملكية معتمدة من الأدمن",
+    "admin_approved_bank_transfer": "تحويل مصرفي معتمد من الأدمن",
+    "delivery_uploaded_buyer": "المشتري رفع بيانات التوصيل",
+    "delivery_uploaded_seller": "البائع يرفع التوصيل",
+    "admin_approved_all": "تم القبول",
+    "transfer_uploaded_buyer": "تم رفع الحوالة من قبل المشتري",
+    "transfer_uploaded_seller": "تم رفع الحوالة من قبل البائع",
+    "ownership_transfer_buyer": "نقل الملكية للمشتري",
+    "accept_ownership_buyer": "تم القبول من الأدمن",
+    "reject_ownership_buyer": "تم الرفض من الأدمن",
+    "ownership_transfer_seller": "نقل الملكية للبائع",
+    "accept_ownership_seller": "تم القبول من الأدمن",
+    "reject_ownership_seller": "تم الرفض من الأدمن",
+    "finish_sell_ad": "إنهاء بيع اللوحة",
+    "refused": "مرفوض",
+    "unactive": "غير مفعل",
+    "accepted_by_seller": "مقبول بواسطة البائع",
+    "accepted_by_buyer": "مقبول بواسطة الشاري",
+    "pending": "جديد",
+    "accept": "قبول",
+    "reject": "رفض",
+    "waiting": "في الانتظار",
+    "most_demanded": "الأكثر طلبآ",
+    "most_rated": "الأكثر تقييمآ",
+    "current_day": "اليوم الحالي",
+    "inactive": "غير مفعل",
+    "active": "مفعل",
+    "client_cancel": "نم الالغاء من العميل",
+    "agent_cancel": "نم الالغاء من الفني",
+    "pre_finished": "لم ينتهي",
+    "admin_reject": "ملغية من الادمن",
+    "in_the_way": "في الطريق ",
+    "start": "تم البدأ ",
+    "ready_to_pay": "جاهز للدفع",
+    "finished": "منتهي",
+    "auto_cancel": "تم الغاء الرحلة تلقائيا",
+    "rider_locked": "عملاء محجوبة",
+    "partner_locked": "سائقين محجوبه",
+    "vehicle_locked": "سيارات محجوبة",
+    "all": "الكل",
+    "reopen": "اعادة فتح",
+    "open": "مفتوحة",
+    "onCall": "علي تواصل مع العميل",
+    "away": "غير نشط",
+    "after_call_work": "بعد مكالمة عمل",
+    "return_from_after_call_work": "العوده من مكالمة عمل",
+    "return_from_work_after_call": "العوده بعد التوقف عن العمل",
+    "closed": "مغلق",
+    "reOpen": " أعادة الفتح ",
+    "order_canceled": "الطلبات الملغية",
+    "replied": "تم الرد",
+    "current_trip": "الرحلات الجارية",
+    "is_paid": "رحلات مدفوعة",
+    "rejected": "تم الرفض",
+    "bro_accept": "تمت الموافقة من قبل برو",
+    "bro_reject": "تم الرفض من قبل برو",
+    "company_accept": "تمت الموافقة من قبل الشركة",
+    "company_reject": "تم الرفض من قبل الشركة",
+    "driver_arrived": "وصل السائق",
+    "partner_cancel_trip": "تم الغاء الرحلة من قبل السائق",
+    "accepted": "تم القبول",
+    "driver_started_trip": "السائق بدأ الرحلة",
+    "admin_cancel": "تم الرفض من قبل الادارة",
+    "partner_accept_trip": "تم الموافقة علي الرحلة من قبل السائق",
+    "partner_in_pickup_location": "السائق في مكان الالتقاء",
+    "partner_start_trip": "قام السائق ببدء الرحلة",
+    "partner_started_trip": "قام السائق ببدء الرحلة",
+    "reached_stop_point": "وصلت إلى نقطة التوقف",
+    "partner_finished": "قام السائق بانهاء الرحلة",
+    "rider_cancel": "قام العميل بإلغاء الرحلة",
+    "done": "مكتملة",
+    "canceled": "ملغية",
+    "running": "جارية"
+  },
+  "top_charts": {
+    "today_profits": "درهم",
+    "today_trips": "رحلة",
+    "today_price": "درهم",
+    "profits": "درهم",
+    "today_driver_profits": "درهم"
+  },
+
+  "permissions": {
+    "settings": "الإعدادات",
+    "owner_ship_guide": "دليل الملكية",
+    "cities": "المدن",
+    "countries": "الدول",
+    "main-categories": "الفئات الرئيسية",
+    "sliders": "السلايدر",
+    "check_lists": "قائمة ال CheckBoxes",
+    "pages": "الصفحات العامة",
+    "bank": "الحسابات البنكية",
+    "users": "المستخدمين",
+    "advertisements": "الإعلانات",
+    "contacts": "رسائل التواصل",
+    "package": "الباقات",
+    "admins": "الادمن",
+    "most_questions": "الأسئلة الشائعة",
+    "dash_ad": "الإعلانات",
+    "role": "الأدوار",
+    "permission": "الصلاحيات",
+    "reject": "أسباب الرفض",
+    "packages": "الباقات المرتجعة",
+    "financial_analyses": "التحليلات المالية"
+  },
+
+  "labels": {
+    "replies": "الردود",
+    "scheduled_date": "تاريخ الجدولة",
+    "scheduled_time": "وقت الجدولة",
+    "username": "اسم المستخدم",
+    "buyer_id_image": "هوية المشتري",
+    "delivery_buyer_status": "حالة توصيل بيانات المشتري",
+    "delivery_seller_status": "حالة توصيل بيانات البائع",
+    "no_data": "لا يوجد بيانات بعد",
+    "check_lists": "قائمة ال CheckBoxes",
+    "ad_buyer": "لوحة المشتري",
+    "total_vat": "اجمالي الرسوم",
+    "package_subscribers": "المشتركين بالباقة",
+    "ads_status": "حالة الإعلان",
+    "transfer_uploaded_buyer": "تم رفع الحوالة من قبل المشتري",
+    "transfer_uploaded_seller": "تم رفع الحوالة من قبل البائع",
+    "owner_buyer_status": "حالة ملكية المشتري",
+    "owner_seller_status": "حالة ملكية البائع",
+    "auction_start_price": "سعر بداية المزاد",
+    "auction_end_price": "سعر نهاية المزاد",
+    "auction_start_date": "تاريخ بدء المزاد",
+    "auction_start_time": "وقت بدء المزاد",
+    "auction_finish_date": "تاريخ انتهاء المزاد",
+    "auction_finish_time": "وقت انتهاء المزاد",
+    "bank_details": "التفاصيل البنكية",
+    "price_percentage": "نسبة السعر",
+    "price_percentage_value": "كم رقم النسبة من السعر",
+    "auction_users": "المزايدون",
+    "buyer_price": "سعر المشتري",
+    "board_no": "رقم اللوحة",
+    "is_coming": "قريبا؟",
+    "bid_amount": "مبلغ المزايدة",
+    "application_fees": "رسوم التقديم",
+    "delivery_charge": "رسوم التوصيل",
+    "tracking_fees": "رسوم التتبع",
+    "tax_fees": "رسوم الضرائب",
+    "ownership_transfer_fees": "رسوم نقل الملكية",
+    "advertisement": "الإعلان",
+    "iban": "آيبان",
+    "user_details": "بيانات المستخدم",
+    "winner_details": "بيانات الفائز",
+    "adv_desc": "وصف الإعلان",
+    "personal_data": "البيانات الشخصية",
+    "user_packages": "باقات المستخدم",
+    "participated_auctions": "السبارك المشترك بها",
+    "reject_reason": "سبب الرفض",
+    "ban_status": "حالة الحظر",
+    "user_auctions": "سبارك المستخدم",
+    "auction_price": "سعر المزاد",
+    "street": "الشارع",
+    "building": "المبني",
+    "finish_sell_ad": "إنهاء بيع اللوحة",
+    "video": "فيديو",
+    "android_link": "رابط الاندرويد",
+    "ios_link": "رابط IOS",
+    "whatsapp_no": "رقم الواتساب",
+    "user_ads": "إعلانات المستخدم",
+    "user_favorites": "مفضلات المستخدم",
+    "date_of_birth": "تاريخ الميلاد",
+    "auction_no": "رقم المزاد",
+    "internal": "داخلي",
+    "external": "خارجي",
+    "slider_type": "نوع السلايدر",
+    "bank_transfer": "التحويل البنكي",
+    "id_image": "صورة الهوية",
+    "ID_number": "رقم الهوية",
+    "ownership_buyer_transfer": "نقل ملكية المشتري",
+    "ownership_seller_transfer": "نقل ملكية البائع",
+    "sendReply": "إرسال رد",
+    "is_read": "مقروء؟",
+    "board_image": "صور ة الاستمارة",
+    "main_category": "الفئة الرئيسية",
+    "sender_phone": "رقم هاتف المرسل",
+    "sender_name": "اسم الراسل",
+    "number_of_recipients": "عدد المتلقين",
+    "logs": "السجلات",
+    "log_date": "تاريخ السجل",
+    "user_name": "اسم المستخدم",
+    "user_email": "بريد المستخدم",
+    "value": "القيمة",
+    "percentage": "النسبة",
+    "no_comments": "لا يوجد تعليقات",
+    "total_price": "المجموع الإجمالي",
+    "tax_value": "الضريبة",
+    "service_value": "قيمة الخدمة",
+    "is_done": "تمت؟",
+    "transactions_index": "سجل التحويلات",
+    "show_transactions": "عرض سجل التحويلات",
+    "wallet": "المحفظة",
+    "chooseImages": "اختر الصور",
+    "locale": "اللغة",
+    "experience_years": "سنوات الخبرة",
+    "prizes": "الجوائز الوطنية",
+    "pending_amount": "المبلغ المعلق",
+    "total": "الإجمالي",
+    "not_read_yet": "لم تقرأ بعد",
+    "readable": "مقروء",
+    "no_conversations": "لا يوجد محادثات بعد",
+    "messages": "الرسائل",
+    "receiverData": "بيانات المتلقي",
+    "senderData": "بيانات المرسل",
+    "receiverImage": "صورة المتلقي",
+    "receiverName": "اسم المتلقي",
+    "receiverEmail": "بريد المتلقي",
+    "receiverPhone": "هاتف المتلقي",
+    "senderImage": "صورة المرسل",
+    "senderName": "اسم المرسل",
+    "senderEmail": "بريد المرسل",
+    "senderPhone": "هاتف المرسل",
+    "recommended_price_by_app": "السعر الموصى به عن طريق التطبيق",
+    "application_tax": "ضريبة التطبيق",
+    "VAT": "ضريبة القيمة المضافة",
+    "date": "التاريخ",
+    "relative": "صلة القرابة",
+    "is_available": "متاح؟",
+    "available": "متاح",
+    "unavailable": "غير متاح",
+    "from_price": "السعر من",
+    "to_price": "السعر إلي",
+    "language": "اللغة",
+    "lat": "خطوط العرض",
+    "lng": "خط الطول",
+    "title_ar": "العنوان باللغة العربية",
+    "title_en": "العنوان باللغة الإنجليزية",
+    "description_ar": "الوصف باللغة العربية",
+    "description_en": "الوصف باللغة الإنجليزية",
+    "keywords_ar": "كلمات دلالية باللغة العربية",
+    "keywords_en": "كلمات دلالية باللغة الإنجليزية",
+    "short_description_ar": "وصف قصير باللغة العربية",
+    "short_description_en": "وصف قصير باللغة الإنجليزية",
+    "meta_description_ar": "وصف meta باللغة العربية",
+    "meta_description_en": "وصف meta باللغة الإنجليزية",
+    "phones": "رقم الهاتف",
+    "front_name": "اسم الفرونت اند",
+    "client_name": "اسم العميل",
+    "client_email": "بريد العميل",
+    "client_phone": "جوال العميل",
+    "property_title": "عنوان العقار",
+    "start_price": "السعر المبدأي",
+    "section_two": "القسم الثاني",
+    "section_three": "القسم الثالث",
+    "features": "التمييزات",
+    "icon_one": "الأيقونة الأولي",
+    "icon_two": "الأيقونة الثانية",
+    "icon_three": "الأيقونة الثالثة",
+    "icon_four": "الأيقونة الرابعة",
+    "icon_text_one": "عنوان الأيقونة الأولي",
+    "icon_text_two": "عنوان الأيقونة الثانية",
+    "icon_text_three": "عنوان الأيقونة الثالثة",
+    "icon_text_four": "عنوان الأيقونة الرابعة",
+    "alt": "عنوان الصورة",
+    "city_id": "المدينة",
+    "call_center_id": "خدمة العملاء",
+    "user_id": "العملاء",
+    "cities": "المدن",
+    "intro": "المقدمة",
+    "call_center": "خدمة العملاء",
+    "app": "تطبيق",
+    "website": "موقع",
+    "platform": "المنصة",
+    "specifics": "العملاء",
+    "uploadNewPDF": "رفع ملف",
+    "importPdf": "تحميل PDF",
+    "showNewPDF": "عرض الملف",
+    "parent_service": "الخدمة الرئيسية",
+    "invoiceImg": "صورة الفتورة",
+    "sub_services": "الخدمات الفرعية",
+    "services": "الخدمات",
+    "price": "السعر المتوقع",
+    "report_price": "سعر التقرير",
+    "is_paid": "مدفوع؟",
+    "is_delayed": "متأخر؟",
+    "job": "الوظيفة",
+    "sub_title": "العنوان الفرعي",
+    "day": "اليوم",
+    "service": "الخدمة",
+    "subscribe_from": "اشتراك من",
+    "subscribe_to": "اشتراك الى",
+    "link": "الرابط",
+    "provider": "مقدم الخدمة",
+    "discount": "خصم",
+    "offer": "عرض",
+    "About_Image": "صورة من نحن",
+    "Privacy_Image": "صورة الخصوصية",
+    "terms": "الشروط والأحكام",
+    "about": "من نحن",
+    "privacy": "الخصوصية",
+    "max_point": "اقصى حد من النقاط",
+    "valid_months": "الأشهر الصالحة",
+    "providers": "الفنيين",
+    "all_providers": "كل الفنيين",
+    "all_users": "كل  المستخدمين",
+    "importExl": "تحميل أكسيل شيت",
+    "exportExl": "رفع أكسيل شيت",
+    "money": "النقود",
+    "from_date": "التاريخ من",
+    "to_date": "التاريخ الى",
+    "per_page": "عددالصفوف فى الصفحة",
+    "flag": "العلم",
+    "couponInnerImageAr": "الصورة الداخلية (Ar)",
+    "couponInnerImageEn": "الصورة الداخلية (En)",
+    "locationParking": "موقع الباركنج",
+    "locationHall": "موقع صالة الوصول",
+    "airport_trip": "رحلة المطار",
+    "normal_trip": "رحلة عادية",
+    "schedule_trip": "رحلة مجدولة",
+    "round_trip": "رحلة ذهاب وعودة",
+    "trip_type": "نوع الرحلة",
+    "max_time_to_cancel_schedule_trip_by_minutes": "اقصى وقت لالغاء الرحلة المجدولة بالدقائق",
+    "max_schedule_days": "اقصى عدد ايام للجدولة",
+    "min_time_to_schedule_trip_by_minutes": "اقل وقت لجدولة الرحلة بالدقائق",
+    "percentage_penalty_for_canceling_scheduled_flight": "النسبة الاضافية لالغاء الرحلة المجدولة",
+    "reminder_duration_schedule_trip_by_minutes": "وقت التذكير  للرحلات المجدولة بادقايق",
+    "coupon_amount": "قيمة خصم الكوبون",
+    "trip_time_stop_by_minutes": "وقت الغاء الرحلة تلقائيا بالدقائق",
+    "Processes&payment_method": "الفواتير وطرق الدفع",
+    "candidates": "السائقين المقترحين",
+    "complaint_reason": "اسباب الشكوي",
+    "status_history": "تاريخ حالة التذكرة",
+    "unlock": "رفع الحجب",
+    "number_of_usages": "عدد مرات الاستخدام",
+    "usage_count": "مرات الاستخدام",
+    "from_time": "من",
+    "to_time": "الي",
+    "modified": "اخر تعديل",
+    "review": "مراجعه",
+    "noDriverTillNow": "لا يوجد سائق حتي الان",
+    "activate": "نشط",
+    "away": "خمول",
+    "ACW": "ACW",
+    "on_meeting": "في ميتنج",
+    "on_training": "في تدريب",
+    "after_call_work": "After call work",
+    "return_from_after_call_work": "Return from after call work",
+    "at_meeting": "في ميتنج",
+    "log_in": "تسجيل الحضور",
+    "log_out": "تسجيل الانصراف",
+    "work_after_call": "Work after call",
+    "return_from_work_after_call": "Return from work after call",
+    "break": "استراحه",
+    "end_work": "انتهاء العمل",
+    "last_login": "تاريخ تسجيل الحضور",
+    "last_logout": "تاريخ تسجيل الانصراف",
+    "hiring": "توظيف",
+    "training": "تدريب",
+    "hiring_status": "حالة التوظيف",
+    "Reason": "السبب",
+    "today_attendment": "Today Attendment",
+    "total_attendment": "Total Attendment",
+    "business": "Business",
+    "complaint": "Complaint",
+    "customer": "Customer",
+    "all_should_attend": "All Should Attend",
+    "driver": "سائق",
+    "Hour": "الساعة",
+    "tickets": "التذاكر",
+    "ticket": "تذكره",
+    "count_of_error_tickets": "Count Of Error Tickets",
+    "count_of_skipped_tickets": "Count Of Skipped Tickets",
+    "extraDetails": "المزيد من التفاصيل",
+    "issue_type": "نوع المشكلة",
+    "technical": "دعم فني",
+    "changeStatus": "تغيير الحالة",
+    "replied": "تم الرد",
+    "assign_agent": "تخصيص ممثل خدمة عملاء",
+    "user": "المستخدم",
+    "open": "مفتوحة",
+    "onCall": "علي تواصل مع العميل",
+    "closed": "مغلق",
+    "reOpen": " أعادة الفتح ",
+    "pending": "معلقة",
+    "reason": "سبب",
+    "package_id": "الباقة",
+    "model_id": "الموديل",
+    "hr_id": "اتش ار",
+    "lock": "حجب",
+    "partner_id": "السائق",
+    "topPackages": "الباقات الاكثر استخداما",
+    "rider_id": "العميل",
+    "seats_number": "عدد المقاعد",
+    "android_app_link": "رابط التطبيق علي  جوجل بلاي",
+    "ios_app_link": "رابط التطبيق علي اب ستور",
+    "andriod_partner_app_link": "رابط تطبيق السائق علي  جوجل بلاي",
+    "ios_partner_app_link": "رابط تطبيق السائق علي اب ستور",
+    "preferred_payment_method": "طريقة الدفع المفضلة",
+    "startPoint": "نقطة البداية",
+    "to": "الوجهة",
+    "full_name": "الاسم بالكامل",
+    "showEditData": "عرض بيانات التعديل",
+    "showData": "عرض البيانات ",
+    "company_accept": "موافقة الشركة",
+    "bro_accept": "موافقة BRO",
+    "today_profit": "الارباح اليومية",
+    "trips_count": "اجمالي الرحلات",
+    "profit": "اجمالي الارباح",
+    "owners": "المالكين",
+    "chargeWallet": "شحن المحفظة",
+    "radius": "Radius",
+    "fare_time_to_matched": "الوقت الاضافي للانتظار",
+    "minimum_wallet_to_receive_order": "اقل رصيد في المحفظة لاستقبال الطلبات",
+    "app_amount": "نسبة التطبيق",
+    "app_amount_for_auto_accept_request_partner": "نسبة التطبيق من السائقين المفعلين القبول التلقائي",
+    "busy_area_threshold": "نسبة معيار الازدحام",
+    "fair_time": "مقدار انتظار السائق بالثواني",
+    "plate_number": "رقم اللوحة",
+    "manufacturing_year": "سنة التصنيع",
+    "riders": "العملاء",
+    "question": "السؤال",
+    "answer": "الاجابة",
+    "partners": "السائقين",
+    "drivers_number": "عدد السائقين",
+    "cars_number": "عدد السيارات",
+    "users": "المستخدمين",
+    "copy_cr": "نسخة السجل التجاري",
+    "copy_ids": "نسخة من الهوية",
+    "copy_rta": "رخصة هيئة الطرق والمواصلات",
+    "time": "الوقت",
+    "contact_phones": "ارقام التواصل",
+    "email_addresses": "عناوين البريد الالكتروني ",
+    "nPassword": "كلمة المرور الجديدة",
+    "oldPassword": "كلمة المرور القديمة",
+    "start": "البداية",
+    "is_side_show": "الظهور في القائمة الجانبية",
+    "permission_url": "رابط الصلاحية",
+    "permission_label": "القسم الرئيسي للصلاحية",
+    "permission_type": "النوع",
+    "frontend_url": "رابط الفرونت اند",
+    "backend_url": "رابط الباك اند",
+    "icon": "الايقونة",
+    "category": "التصنيف",
+    "main_title": "العنوان الرئيسي",
+    "max_amount": "اقصي {name} للخصم",
+    "cost": "التكلفة",
+    "is_control_permissions": "التحكم",
+    "permission_categories": "اقسام الصلاحيات",
+    "rate": "التقييم",
+    "permissions": "الصلاحيات",
+    "when_trip_status": "توقيت الالغاء",
+    "speed_avg": "متوسط السرعه",
+    "is_all_users": "ارسال للجميع",
+    "client": "العميل",
+    "rider": "العميل",
+    "front_side_id": "الوجه الامامي للبطاقة الشخصية",
+    "referral_code": "كود الاحالة",
+    "vehicle": "السيارة",
+    "vehicle_requirement": "متطلبات السيارات",
+    "reply": "الرد",
+    "rta_card": "بطاقة هيئة الطرق و المواصلات",
+    "driver_license": "رخصة القيادة",
+    "send_type": "نوع الارسال",
+    "content": "المحتوي",
+    "short_desc": "وصف قصير",
+    "read_at": "زمن القراءة",
+    "fullname": "الاسم بالكامل",
+    "accept_reject": "القبول والرفض",
+    "bank_name": "اسم البنك",
+    "branch": "الفرع",
+    "start_at_time": "وقت البدء",
+    "end_at_time": "وقت الانتهاء",
+    "user_usage_count": "عدد مرات الاستخدام للعميل",
+    "account_number": "رقم الحساب",
+    "status": "الحالة",
+    "created_at": "وقت الانشاء",
+    "amount": "الكمية",
+    "monyAmount": "المبلغ",
+    "wallet_type": "نوع المحفظة",
+    "charge_type": "نوع العملية",
+    "facebook": "رابط الفيسبوك",
+    "twitter": "رابط تويتر",
+    "youtube": "رابط اليوتيوب",
+    "instagram": "رابط انستجرام",
+    "messenger": "رابط ماسنجر",
+    "linkedin": "رابط لينكيدان",
+    "tiktok": "رابط تيكتوك",
+    "pinterest": "رابط بينتريست",
+    "behance": "رابط Behance",
+    "whatsapp": "رقم الواتساب",
+    "snapchat": "رابط سناب شات",
+    "map_api_key": "Map Api Key",
+    "huawei_store_app": "لينك التطبيق علي منصة هواوي",
+    "app_store_app": "لينك التطبيق علي منصة ابل ستور",
+    "g_play_app": "لينك التطبيق علي منصة جوجل بلاي",
+    "points": "النقاط",
+    "balance_before": "الرصيد قبل العملية",
+    "balance_after": "الرصيد بعد العملية",
+    "point_before": "النقاط قبل العملية",
+    "point_after": "النقاط بعد العملية",
+    "static_verify_code": "كود تفعيل التسجيل",
+    "trip_app_percentage": "النسبة المئيوة للرحلة",
+    "city_to_city_app_percentage": "النسبة المئوية للرحلة من مدينة لمدينة",
+    "return_trip_app_percentage": "عائد النسبة المئيوية للرحلة",
+    "transfer_package_app_percentage": "النسبة المئوية لتوصيل باكدج",
+    "client_transfer_package_description_ar": "(عربي) وصف العميل لتوصل الطلبات",
+    "client_transfer_package_description_en": "(انجليزي) وصف العميل لتوصل الطلبات",
+    "use_sms_service": "خدمة ال sms",
+    "sms_provider": "مصدر ال sms",
+    "sms_username": "اسم مستخدم ال sms",
+    "sms_password": "كلمة مرور ال sms",
+    "sms_sender_name": "اسم متلقي ال sms",
+    "project_name": "اسم المشروع",
+    "address": "العنوان",
+    "control": "التحكم",
+    "name": "الاسم",
+    "message": "الرسالة",
+    "role": "الدور",
+    "company_name": "اسم الشركة",
+    "company_email": "بريد الشركة",
+    "commercial_register_number": "رقم السجل التجاري",
+    "firstname": "الاسم الأول",
+    "first_name": "الاسم الأول",
+    "lastname": "الاسم الأخير",
+    "last_name": "الاسم الأخير",
+    "middlename": "الاسم الأوسط",
+    "nationality": "الجنسية",
+    "currency": "العملة",
+    "shortname": "الاسم المختصر",
+    "continent": "القارة",
+    "slug": "slug",
+    "postalcode": "الرقم البريدي",
+    "shortcut": "الاختصار",
+    "country": "الدولة",
+    "company_country": "دولة الشركة",
+    "company_city": "مدينة الشركة",
+    "activation": "التفعيل",
+    "is_available_for_orders": "هل متاح للتوصيل",
+    "is_in_city_active": "داخل المدينة ؟",
+    "phonecode": "كود الهاتف",
+    "phone_code": "كود الهاتف",
+    "start_at": "تاريخ البدء",
+    "end_at": "تاريخ الانتهاء",
+    "code": "الكود",
+    "phone": "رقم الهاتف",
+    "email": "البريد الالكتروني",
+    "password": "كلمة المرور",
+    "passwordConfirm": "تأكيد كلمة المرور",
+    "city": "المدينة",
+    "gender": "الجنس",
+    "type": "النوع",
+    "brand": "البراند",
+    "model": "الموديل",
+    "manufactruingYear": "تاريخ التصنيع",
+    "usertype": "نوع المستخدم",
+    "isactive": "مفعل؟",
+    "is_active": "مفعل؟",
+    "is_locked": "محجوب؟",
+    "is_active_package": "هل الباقة مفعلة",
+    "preferred_language": "اللغة المفضلة",
+    "is_ban": "محظور ؟",
+    "isban": "محظور؟",
+    "ban_reason": "سبب الحظر",
+    "can_change_vehicle_now": "? بالامكان تغيير العربة الآن",
+    "is_trip_active": "هل الرحلة مفعلة ؟",
+    "is_city_to_city_active": "هل الرحلة من مدينة الي مدينة",
+    "rate_avg": "متوسط التقييم",
+    "is_driver_available": "هل السائق متاح",
+    "is_admin_active_user": "هل اليوزر مفعل من الادارة ؟",
+    "is_package_delivering_active": "هل الطلبات متاح للتوصيل",
+    "is_transfer_package_active": "هل هي رحلة توصيل باكدج",
+    "createdat": "تاريخ الانشاء",
+    "desc": "الوصف",
+    "car_km_price": "السعر لكل كم",
+    "min_budget": "اقل تكلفة ممكنة",
+    "discount_amount": "قيمة الخصم",
+    "package": "الباقة",
+    "owner": "المالك",
+    "is_in_order": "السيارة في رحله؟",
+    "partner": "السائق",
+    "manufactruing_year": "سنة التصنيع",
+    "license_number": "رقم الرخصة",
+    "license_serial_number": "رقم الرخصة التسلسلي",
+    "plate_numbers": "ارقام اللوحة",
+    "plate_letter_left": "الحرف الأيسر ",
+    "plate_letter_right": "الحرف الأيمن ",
+    "plate_letter_middle": "الحرف الأوسط ",
+    "max_usage_number": "اقصي عدد استخدام",
+    "discount_type": "نوع الخصم",
+    "usage_times": "عدد الاستخدامات",
+    "frontIDImage": "الصورة الأمامية للهوية",
+    "backIDImage": "الصورة الخلفية للهوية",
+    "criminalRecordImage": "صورة السجل الجنائي",
+    "mainImage": "الصورة الأساسية",
+    "companyImage": "صورة الشركة",
+    "company_image": "صورة الشركة",
+    "vehicleImage": "صورة السيارة",
+    "vehicle_image": "صورة السيارة",
+    "vehicleLicenseImage": "صورة رخصة السيارة",
+    "vehicle_license_image": "صورة رخصة السيارة",
+    "id_number": "رقم الهويه",
+    "licenseImage": "صورة الرخصة",
+    "plateImage": "صورة لوحة السيارة",
+    "plate_image": "صورة لوحة السيارة",
+    "plate_type": "نوع لوحة السيارة",
+    "contributor_type": "نوع الشركة",
+    "company_phone": "هاتف الشركة",
+    "color": "اللون",
+    "transaction_id": "رقم العملية",
+    "user_type": "نوع المستخدم",
+    "ordering": "الترتيب",
+    "title": "العنوان",
+    "image": "الصورة",
+    "company": "الشركة",
+    "extra_seats": "مقاعد اضافية",
+    "profileImage": "الصورة الشخصية",
+    "uploadProfileImage": "إرفاق الصورة الشخصية",
+    "preferredLanguage": "اللغة المفضله",
+    "joinData": "تاريخ الإنضمام",
+    "rider_app_name": "اسم تطبيق العميل",
+    "partner_app_name": "اسم تطبيق السائق",
+    "dashboard_name": "اسم لوحه التحكم",
+    "unReadNotifictaions": "اشعارات غير مقروءة",
+    "allowedNotifications": "مسموح بالاسعارات",
+    "notification": "اشعار",
+    "twoFactorAuthentication": "المصادقة الثنائية",
+    "location": "الموقع",
+    "base_fare": "الاجرة الاساسية",
+    "minimum_fare": "الحد الادني للاجرة",
+    "price_per_kilo": "السعر لكل كيلو متر",
+    "price_per_minute": "السعر لكل دقيقة",
+    "priority": "الاولوية",
+    "cancel_trip": "الغاء رحلة",
+    "createdAt": "تاريخ الانضمام",
+    "report_trip": "ابلاغ عن رحلة",
+    "admins": "مشرفين المؤسسات",
+    "notifications": "الإشعارات",
+    "companies": "الشركات",
+    "lockedAccounts": "الحسابات المحجوبة",
+    "coupons": "كوبونات الخصم",
+    "countries": "لدول",
+    "cancel_reasons": "مشرفين المؤسسات",
+    "topRiders": "العملاء الاكثر تفاعلا",
+    "topUsers": "العملاء الاكثر تفاعلا",
+    "topPartners": "السائقين الاكثر تفاعلا",
+    "unOtherPhone": "رقم هاتف بديل",
+    "active": "تفعيل {name}",
+    "ban": "حظر {name}",
+    "frequent_trips": "رحلات متكررة",
+    "transactions": "سجل التحويلات",
+    "vehicle_color": "لون السيارة",
+    "vehicle_requirements": "متطلبات السيارات",
+    "package_image": "صوره الباقة",
+    "vechile_brand": "براند السيارة",
+    "vechile_type": "نوع السيارة",
+    "vehicle_model": "موديل السيارة",
+    "active_status": "حالة التفعيل",
+    "model_image": "صورة الموديل",
+    "showTransactions": "عرض سجل التحويلات",
+    "sendMessage": "ارسال رسالة",
+    "sendNotification": "ارسال اشعار",
+    "vehicle_package": "باكدج السيارة",
+    "brandAndModel": "الموديلات والبراندات",
+    "emails": "عناوين البريد الالكتروني",
+    "vehicle_is_in_order": "السيارة في رحلة",
+    "in_order": "في رحلة",
+    "not_in_order": "ليست في رحلة",
+    "extra": "المزيد",
+    "cancel_order": "الغاء الطلب",
+    "phoneContacts": "ارقام التواصل",
+    "lockAccount": "حجب الحساب",
+    "actual_distance": "المسافه الفعلية",
+    "max_expected_distance": "اقصي مسافة متوقعه",
+    "actual_time": "الوقت الفعلي",
+    "max_expected_time": "اقصي وقت متوقع",
+    "trip_status": "حالة الرحلة",
+    "trip_price": "سعر الرحلة",
+    "trip": "رحلة",
+    "no_complaints_found": "لا يوجد شكاوي",
+    "complaints": "الشكاوي",
+    "order_details": "تفاصيل الرحلة",
+    "trip_points": "نقاط الرحلة",
+    "car": "سيارة",
+    "id": "ID",
+    "timetable": "timetable",
+    "no_car_til_now": "لا يوجد سيارة حتي الان",
+    "trip_start_location": "بداية الرحلة",
+    "trip_end_location": "نهاية الرحلة",
+    "location_num": "location_num",
+    "waiting": "انتظار",
+    "not_specified_yet": "not_specified_yet",
+    "Rejection&cancellation": "القبول والرفض",
+    "no_reports_found": "لا يوجد بلاغات",
+    "payment_method": "طريقة الدفع",
+    "matched": "متوافقة",
+    "unmatched": "غير متوافقة",
+    "cancel_reason": "سبب الالغاء",
+    "vehicle_matched_automatically": "توافق المركبة اتوماتكيا",
+    "min_expected_time": "اقل وقت متوقعة",
+    "trip_waiting_time": "وقت انتظار الرحلة",
+    "waiting_time_cost": "تكلفة الانتظار",
+    "driver_amount": "نسبة السائق",
+    "price_before_discount": "السعر قبل الخصم",
+    "min_expected_distance": "اقل مسافة متوقعة",
+    "scheduled_trip": "جدولة الرحلة",
+    "scheduled_at": "جدولة في",
+    "trip_details": "تفاصيل الرحلة",
+    "chats": "اللايف شات",
+    "trip_bill": "فاتورة الرحله",
+    "complaint_count": "عدد الشكاوي",
+    "account_name": "اسم الحساب",
+    "extra_details": "المزيد من التفاصيل",
+    "not": "لا",
+    "in_menu_status": "حالة الظهور في القائمة الجانبية",
+    "keyword": "بحث",
+    "start_date": "تاريخ البدء",
+    "end_date": "تاريخ الانتهاء",
+    "finish_date": "تاريخ الانتهاء",
+    "trips": "رحلات",
+    "frequent_pickup": "نقاط التقاء متكررة",
+    "frequent_destination": "وجهات متكررة",
+    "company_active": "تفعيل الشركة",
+    "passport_copy": "جواز السفر",
+    "back_side_id": "الوجه الخلفي للبطاقة الشخصية",
+    "front_driver_license": "الوجه الامامي لرخصة القيادة",
+    "back_driver_license": "الوجه الخلفي لرخصة القيادة",
+    "driver_license_number": "رقم رخصة القيادة",
+    "driving_license_expiration_date": "تاريخ انتهاء رخصة السائق",
+    "CustomerCriticalErrorAccuracy": "Customer Critical Error Accuracy",
+    "BusinessCriticalErrorAccuracy": "Business Critical Error Accuracy",
+    "ComplianceCriticalErrorAccuracy": "Compliance Critical Error Accuracy",
+    "change-QA-type": "تغيير نوع المشكله",
+    "agent": "الفني",
+    "payment_type": "طريقة الدفع",
+    "start_time": "وقت البدأ",
+    "finish_time": "وقت الانتهاء",
+    "is_rated": "تم التقيم",
+    "tickets_per_hour": "التذاكر لكل ساعه(TPH)",
+    "contact_resolution": "Contact resolution",
+    "hour": "ساعة",
+    "supportEmail": "البريد الالكتروني للدعم",
+    "supportPhone": "رقم هاتف الدعم",
+    "discound": "الخصم",
+    "searchPartners": "جاري البحث عن السيارات",
+    "accept": "موافقة",
+    "reject": "رفض",
+    "phone_length": "عدد ارقام الهاتف",
+    "national_id_limit": "عدد ارقام البطاقة الشخصية",
+    "month": "الشهر",
+    "payment": "الدفع",
+    "sms_message": "رسالة الsms",
+    "airportName": "اسم المطار",
+    "airportNameAr": "اسم المطار باللغة العربية",
+    "airportNameEn": "اسم المطار باللغة الإنجليزية",
+    "nameAr": "الاسم باللغة العربية",
+    "nameEn": "الاسم باللغة الإنجليزية",
+    "couponNameAr": "اسم الكوبون عربي",
+    "couponNameEn": "اسم الكوبون انجليزى",
+    "descriptionAr": "الوصف (عربي)",
+    "descriptionEn": "الوصف (انجليزى)",
+    "couponImageAr": "صورة الكوبون (عربي)",
+    "couponImageEn": "صورة الكوبون (إنجليزى)",
+    "discountAppliedToJourney": "يطبق الخصم علي رحلة رقم",
+    "journeyDiscount": "تطبيق الخصم علي رقم الرحلة",
+    "agent_id": "الفني",
+    "for": "الخدمة الي"
+  },
+  "validation": {
+    "empty": "هذا الحقل لا يمكن أن يكون فارغا",
+    "email": "هذا ليس ايميل صحيح",
+    "form": "رجاء املئ كل الحقول",
+    "success": "تمت العملية بنجاح",
+    "error": "حدث خطأ",
+    "appLangAr": "يجب مراعاة الكتابه بالعربية",
+    "appLangEn": "يجب مراعاة الكتابه بالانجليزية",
+    "flag": "يجل ارفاق صورة العلم"
+  },
+  "settings": {
+    "most_questions": "الأسئلة الشائعة",
+    "instruction_ownership_transfer": "تعليمات نقل الملكية",
+    "fees": "الرسوم",
+    "video": "الفيديو",
+    "orderSettings": "اعدادات الطلبات",
+    "general": "الاعدادات العامة",
+    "social": " التواصل الاجتماعي ",
+    "sms": "اعدادات الرسائل",
+    "about": "من نحن",
+    "appLinks": "روابط التطبيقات",
+    "contact": "إتصل بنا",
+    "faqs": "الأسئلة الشائعة",
+    "policy": "سياسة الخصوصية",
+    "terms": "الشروط والأحكام",
+    "content": "يرجى اضافة البيانات التالية",
+    "contactData": {
+      "phone": "رقم الهاتف",
+      "email": "البريد الإلكتروني",
+      "whatsapp": "رقم الواتساب",
+      "facebook": "رابط الفيسبوك",
+      "twitter": "رابط تويتر",
+      "instagram": "رابط انستجرام",
+      "fax": "رقم الفاكس",
+      "vet_value": "الضريبة المضافة",
+      "youtube": "رابط اليوتيوب",
+      "snapchat": "رابط سناب شات",
+      "link_android": "لينك الاندرويد",
+      "link_ios": "لينك ابل"
+    },
+    "appPrices": "أسعار التطبيق"
+  },
+  "trip": {
+    "pending": "الرحلات المنتظرة",
+    "is_paid": "رحلات مدفوع",
+    "all": "كل الرحلات",
+    "current_trip": "الرحلات الجارية",
+    "rider_cancel": "رحلات ملغية من قبل العميل",
+    "partner_accept_trip": "رحلات مقبولة من قبل السائق ",
+    "partner_start_trip": "رحلات بدات من قبل السائق",
+    "partner_finished": "رحلات انتهت من قبل السائق",
+    "partner_in_pickup_location": "العملاء في مكان الالتقاء",
+    "reached_stop_point": "رحلات وصلت لنقطة التوقف",
+    "normal": "رحلة عادية",
+    "round_trip": "رحلة ذهاب وعودة",
+    "airport_trip": "رحلة المطار"
+  },
+  "months": {
+    "January": "يناير",
+    "February": "فبراير",
+    "March": "مارس",
+    "April": "ابريل",
+    "May": "مايو",
+    "June": "يونيو",
+    "July": "يوليو",
+    "August": "اغسطس",
+    "September": "سبتمبر",
+    "October": "اكتوبر",
+    "November": "نوفمبر",
+    "December": "ديسمبر"
+  },
+  "selectAgentToAcceptOrder": "اختر الفني لقبول الطلب",
+  "review_report": "مراجعة التقرير",
+  "confirm_price": "تأكيد السعر",
+  "male": "ذكر",
+  "female": "انثي",
+  "africa": "افريقيا",
+  "europe": "اوروبا",
+  "asia": "اسيا",
+  "user": "مستخدم",
+  "provider": "مزود خدمة",
+  "client": "عميل",
+  "clients": "كل العملاء",
+  "all_providers": "كل الفنيين",
+  "all_users": "كل  المستخدمين",
+  "company_active": "المفعلين من الشركة",
+  "company_unactive": "الغير مفعلين من الشركة",
+  "south_america": "امريكا الجنوبية",
+  "north_america": "امريكا الشمالية",
+  "australia": "استراليا",
+  "submit": "ارسال",
+  "save": "حفظ",
+  "back": "عودة",
+  "credit_withdraw": "خصم الرصيد",
+  "charge": "شحن",
+  "error": "حدث خطأ",
+  "general": "عامة",
+  "with_category": "تحتوي علي اقسام",
+  "reply": "الرد",
+  "withdrawal": "سحب",
+  "pre_ride": "قبل الركوب",
+  "in_ride": "اثناء الركوب",
+  "post_ride": "بعد الركوب",
+  "selectLocation": "اختر الموقع",
+  "inArabic": " (AR) ",
+  "inEnglish": " (EN) ",
+  "addNew": "اضافة جديد",
+  "edit": "تعديل",
+  "newMessage": "رسالة جديدة",
+  "newComplaint": "شكوي جديدة",
+  "showAll": "عرض الكل",
+  "cancel": "الغاء",
+  "success": "عملية ناجحة",
+  "chargeSuccess": "تم شحن المحفظة بنجاح",
+  "addSuccess": "تم الاضافة بنجاح",
+  "editSuccess": "تم التعديل بنجاح",
+  "sendSuccess": "تم الارسال بنجاح",
+  "submitSuccess": "تم التنفيذ بنجاح",
+  "deleteSuccess": "تم الحذف بنجاح",
+  "exportSuccess": "تم التحميل بنجاح",
+  "delegateSuccessfully": "تم التفويض بنجاح",
+  "canceledSuccessfully": "تم الإلغاء بنجاح",
+  "somethingWentWrong": "حدث خطأ ما",
+  "globalErr": "حدث خطأ ما",
+  "notFound": "لا يوجد",
+  "add": "اضافة",
+  "delete": "حذف",
+  "show": "عرض",
+  "discharge": "سحب",
+  "inactive": "غير مفعل",
+  "inactive_count": "عدد {name} غير مفعل",
+  "active_count": "عدد {name} الفعال",
+  "percentage": "نسبة {name}",
+  "count": "عدد {name}",
+  "active": "مفعل",
+  "partner": "سائق",
+  "rider": "عميل",
+  "ban": "محظور",
+  "lastTrips": "اخر الرحلات",
+  "frequents": "الرحلات المتكررة",
+  "pageNotFound": "الصفحه غير موجودة",
+  "iThinkYouJustWentToANon-existingPage": "أعتقد أنك ذهبت للتو إلى صفحة غير موجودة",
+  "clickHereToGoBack": "اضغط هنا للعودة الي الصفحه الرئيسية",
+  "inban": "غير محظور",
+  "ar": "العربية",
+  "select_type": "حدد العملية",
+  "welcomeBack": "أهلا بك !",
+  "hour": "ساعة",
+  "signInToAccessDashboard": "قم بتسجيل الدخول للوصول للوحة التحكم",
+  "trips": "الرحلات",
+  "en": "الانجليزية",
+  "enable": "مفعل",
+  "firstly": "اولا",
+  "amount": "الكمية",
+  "monyAmount": "مبلغ",
+  "select": "حدد",
+  "discound": "الخصم",
+  "driver_didnot_arrive": "السائق لم يصل",
+  "driver_arrived": "وصل السائق",
+  "driver_started_trip": "السائق بدأ الرحلة",
+  "cash": "كاش",
+  "all": "الكل",
+  "admin": "ادمن",
+  "wallet": "المحفظة",
+  "disable": "غير مفعل",
+  "key": "Key",
+  "yes": "نعم",
+  "no": "لا",
+  "active_user_count": "عدد العملاء المفعلين",
+  "active_partner_count": "عدد السائقين المفعلين",
+  "deactivate_user_count": "عدد العملاء الغير المفعلين",
+  "deactivate_partner_count": "عدد السائقين الغير مفعلين",
+  "total_user_count": "اجمالي العملاء",
+  "deactivate_partner_form_admin_count": "السائقين الغير مفعلين من الادارة",
+  "total_partner_count": "اجمالي السائقين",
+  "according": "متوافقة",
+  "appCurrency": "درهم",
+  "locked_vehicle_count": "عدد السيارات المحجوبة",
+  "deactivate_vehicle_count": "عدد السيارات الغير مفعلة",
+  "active_vehicle_count": "عدد السيارات  مفعلة",
+  "locked": "محجوب",
+  "live_trip_count": "الرحلات الجارية",
+  "total_trip_count": "اجمالي  الرحلات",
+  "trip_canceled_count": " الرحلات الملغية",
+  "trip_finished_count": " الرحلات المنتهية ",
+  "trip_pending_count": " الرحلات المنتظرة",
+  "vehicles_count": "عدد السيارات",
+  "adminActive": "مفعل من الادراة",
+  "adminInActive": "غير مفعل من الادارة",
+  "unlocked": "غير محجوب",
+  "notAllowed": "غير مسموح",
+  "iThinkYouJustWentToUnAllowedPage": "اعتقد انك ذهبت الي صفحه غير مسموح لك بالدخول اليها",
+  "not_according": "غير متوافقة",
+  "noPhoneFound": "لا يوجد رقم هاتف",
+  "noEmailFound": "لا يوجد بريد الكتروني",
+  "noNameFound": "لا يوجد اسم ",
+  "noRiderFound": "لا يوجد عميل ",
+  "noPartnerFound": "لا يوجد سائق ",
+  "app_amount": "اجمالي نسبة التطبيق",
+  "driver_amount": "اجمالي نسبة السائق",
+  "coupon_amount": "اجمالي الخصومات على الرحلات",
+  "notExist": "لا يوجد {name}",
+  "unOtherPhone": "رقم هاتف اخر",
+  "km": "k.m",
+  "min": "min",
+  "areYouSure": "هل انت متاكد؟",
+  "delegate_confirmation": "هل أنت متأكد لعمل تفويض نقل ملكية؟",
+  "finish_confirmation": "هل أنت متأكد من إنهاء بيع اللوحة؟",
+  "youWillNotBeAbleToGoBackInTheProcess": "لن يكون بإمكانك الرجوع في العملية!",
+  "noDataFound": "لا يوجد بيانات",
+  "deletedSuccessfully": "تم الحذف بنجاح",
+  "finishedSuccessfully": "تم الانتهاء بنجاح",
+  "sendSuccessfully": "تم الإرسال بنجاح",
+  "acceptedSuccessfully": "تم القبول بنجاح",
+  "rejectedSuccessfully": "تم الرفض بنجاح",
+  "withdrawnSuccessfully": " تم خصم الرصيد بنجاح",
+  "replySentSuccessfully": "تم إرسال الرد بنجاح",
+  "ok": "موافق",
+  "content": "المحتوي",
+  "issue_type": "نوع للمشكله",
+  "replyedBy": "تم الرد بواسطه",
+  "handle_time": "توقيت الحل",
+  "solved_tickets": "التذاكر المنتهيه",
+  "attend": "Attend",
+  "critical_error": "Critical Error",
+  "volume": "Volume",
+  "schadualed_attendment": "Schadualed Attendment",
+  "hours": "الساعات",
+  "actual_attend": "Actual Attend",
+  "of": "من",
+  "total_attendment": "إجمالي الحضور",
+  "total_hours": "اجمالي الساعات",
+  "actual_tickets": "التذاكر الفعلية",
+  "business_critical_error_accuracy": "Business critical error accuracy",
+  "customer_critical_error": "Customer critical error",
+  "complain_critical_error_accuracy": "Complain critical error accuracy",
+  "start_training_at": "تاريخ بدأ التدريب",
+  "end_training_at": "تاريخ إنتهاء التدريب",
+  "start_hiring_at": "تاريخ بداية التوظيف",
+  "end_hiring_at": "تاريخ انتهاء التوظيف",
+  "logged_in_time": "وقت تسجيل الحضور",
+  "logged_out_time": "وقت تسجيل الانصراف",
+  "minute": "دقيقة",
+  "contact_resolution": "جوده الاتصال",
+  "rider_volume": "Rider volume",
+  "partner_volume": "Partner volume",
+  "skipped_rate": "معدل تخطي الرسائل",
+  "aht": "aht",
+  "skipped_tickets": "التذاكر المتخطيه",
+  "absenteeism": "الغياب",
+  "attrition": "Attrition",
+  "first_attend": "تاريخ اول حضور",
+  "last_attend": "تاريخ اخر حضور",
+  "weeklyStats": "احصائيات اسبوعية",
+  "from": "من",
+  "confirm": "تأكيد",
+  "total_absenteeism": "اجمالي الغياب",
+  "to": "الي",
+  "seconds": "ثواني",
+  "accept": "قبول",
+  "reject": "رفض",
+
+  "auction_price": "إجمالي السعر بدون رسوم",
+  "total_price": "إجمالي عمليات الشراء",
+  "total_vat": "إجمالي رسوم الضرائب",
+  "ownership_transfer_fees": "إجمالي رسوم نقل الملكية",
+  "tracking_fees": "إجمالي رسوم التتبع",
+  "delivery_charge": "إجمالي رسوم التوصيل",
+  "application_fees": "إجمالي رسوم التقديم",
+  "tax_fees_value": "إجمالي القيمة المضافة",
+  "price_percentage_value": "إجمالي النسبة من السعر"
+}

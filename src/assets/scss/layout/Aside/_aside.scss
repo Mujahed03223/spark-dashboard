@@ -1,0 +1,229 @@
+.charts_aside {
+    .charts_close_btn {
+        display: block;
+        font-size: 26px;
+
+        svg,
+        i {
+            color: rgb(248, 77, 77);
+        }
+    }
+
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: var(--mainBg);
+    padding-block: 15px;
+    position: absolute;
+    top: 0;
+    left: 150%;
+    transition: all 0.5s ease-in-out;
+
+    &.active_aside {
+        min-height: 100vh;
+        max-height: 100vh;
+        left: 0;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .daily_target_card {
+        padding: 0px 20px;
+        background-color: var(--main);
+        @include flexCenterAlignment;
+        column-gap: 8px;
+        border-radius: 15px;
+
+        .title_wrapper {
+            width: 90%;
+            @include verticalFlexStartAlignment;
+            row-gap: 8px;
+            color: var(--white);
+            font-size: 15px;
+            font-family: var(--mediumFont);
+            border-inline-end: 2px solid #84e9f4;
+
+            .percentage {
+                font-size: 13px;
+            }
+        }
+
+        .chart_card {
+            background-color: var(--main);
+            height: 100px;
+            padding-block: 0 8px;
+
+            .chart_title,
+            .apexcharts-legend {
+                display: none !important;
+            }
+
+            &>div {
+                .apexcharts-canvas {
+                    height: 255px !important;
+                }
+            }
+
+            .apexcharts-datalabels-group {
+                transform: translate(0px, -25px) !important;
+
+                .apexcharts-text {
+                    &.apexcharts-datalabel-label {
+                        display: none;
+                    }
+
+                    &.apexcharts-datalabel-value {
+                        fill: var(--white) !important;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .aside_area_charts {
+        background-color: var(--white);
+        border-radius: 15px;
+
+        .aside_charts_title {
+            padding-inline: 10px;
+            padding-block: 15px 0;
+            color: #ababfd;
+        }
+
+        .chart_card {
+            height: 200px;
+
+            .apexcharts-xaxis {
+                display: none !important;
+            }
+        }
+    }
+
+    .aside_radial_charts {
+        background-color: var(--white);
+        border-radius: 15px;
+        padding-block: 8px;
+
+        .aside_charts_title {
+            padding-inline: 10px;
+            padding-block: 15px 0;
+            color: #e888ff;
+        }
+
+        .chart_card {
+            height: 250px;
+
+            .apexcharts-legend {
+                flex-direction: column !important;
+            }
+
+            .apexcharts-datalabels-group {
+                transform: translate(0px, -5px);
+
+                .apexcharts-text {
+                    font-size: 15px;
+
+                    &.apexcharts-datalabel-value {
+                        fill: var(--mainText);
+                    }
+                }
+            }
+        }
+
+        .events_title {
+            margin-bottom: 15px;
+            text-align: center;
+            color: var(--mainText);
+        }
+
+        .events_icons_wrapper {
+            @include flexCenterAlignment;
+            flex-wrap: wrap;
+            column-gap: 12px;
+            row-gap: 12px;
+
+            .event {
+                @include flexCenterAlignment;
+                column-gap: 5px;
+
+                .name_wrapper {
+                    color: var(--mainText);
+                    font-size: 12px;
+                }
+
+                .event_icon_wrapper {
+                    display: inline-block;
+                    width: 26px;
+                    height: 26px;
+                    border-radius: 50%;
+                    @include flexCenterAlignment;
+
+                    svg,
+                    i {
+                        color: var(--white);
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.charts_toggeler {
+    display: block;
+    font-size: 20px;
+    padding-inline: 8px;
+    position: fixed;
+    top: 35px;
+    left: 22px;
+    z-index: 10000;
+
+    svg,
+    i {
+        color: var(--mainText);
+    }
+}
+
+// @media (min-width: 1199px) {
+//     .charts_toggeler {
+//         display: block;
+//         // left: auto;
+
+//         // right: 95px;
+//     }
+// }
+
+// @media (max-width: 990px) {
+//     .charts_toggeler {
+//         display: block;
+//         left: 100px;
+//     }
+// }
+
+// @media (max-width: 767px) {
+//     .charts_toggeler {
+//         display: block;
+//         left: 80px;
+//     }
+// }
+
+@media (min-width: 1199px) {
+    .charts_aside {
+        padding: 0;
+        background-color: transparent;
+        position: relative;
+        top: unset;
+        left: unset;
+        display: block;
+        min-height: calc(100vh - 126px);
+        max-height: calc(100vh - 126px);
+
+        .charts_close_btn {
+            display: none;
+        }
+    }
+
+    .charts_toggeler {
+        display: none;
+    }
+}

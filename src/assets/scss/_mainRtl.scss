@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "din";
+  src: url('./din.ttf')
+}
+
+body {
+  &.rtl {
+    direction: rtl;
+
+    .v-application {
+      font-family: din !important;
+    }
+  }
+}

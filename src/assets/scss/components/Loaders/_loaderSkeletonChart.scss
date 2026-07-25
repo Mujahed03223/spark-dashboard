@@ -1,0 +1,227 @@
+.container_skeletons {
+    height: 100vh;
+    overflow-y: scroll;
+
+    .skeleton_chart {
+        background-color: #e2e5e7;
+        background-image:
+            linear-gradient(90deg,
+                rgba(#fff, 0),
+                rgba(#fff, 0.5),
+                rgba(#fff, 0));
+        background-size: 40px 100%;
+        background-repeat: no-repeat;
+        background-position: left -40px top 0;
+        animation: shine 1.4s ease infinite;
+        height: 270px;
+        padding: 1rem 1rem 1rem 1rem;
+        @include flexSpaceBetweenAlignment;
+        align-items: flex-end;
+        position: relative;
+        border-radius: 15px;
+
+        .single_column {
+            width: 18px;
+            height: 100%;
+            background-color: #f5f6fa;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+
+            &:nth-child(2) {
+                height: 90%;
+            }
+
+            &:nth-child(3) {
+                height: 80%;
+            }
+
+            &:nth-child(4) {
+                height: 90%;
+            }
+
+            &:nth-child(5) {
+                height: 70%;
+            }
+
+            &:nth-child(6) {
+                height: 60%;
+            }
+
+            &:nth-child(7) {
+                height: 20%;
+            }
+
+            &:nth-child(8) {
+                height: 50%;
+            }
+
+            &:nth-child(9) {
+                height: 40%;
+            }
+
+            &:nth-child(10) {
+                height: 10%;
+            }
+        }
+
+        .container_rows {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 95%;
+            top: 1rem;
+            height: 100%;
+            @include flexSpaceBetweenAlignment;
+            flex-direction: column;
+
+            .single_row {
+                width: 100%;
+                height: 1px;
+                background-color: #f5f6fa;
+
+            }
+        }
+
+        .container_circles {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 95%;
+            top: 0;
+            height: 80%;
+            @include flexSpaceBetweenAlignment;
+
+            .single_circle {
+                width: 180px;
+                height: 180px;
+                background-color: #e2e5e7;
+                border-radius: 50%;
+                overflow: hidden;
+                position: absolute;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                top: 15px;
+                transform: rotate(-75deg);
+                &::before {
+                    position: absolute;
+                    content: "";
+                    width: 170px;
+                    height: 170px;
+                    background-color: #e2e5e7;
+                    z-index: 8;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    border-radius: 50%;
+                    top: 5px;
+                }
+
+                &:nth-child(2){
+                    width: 140px;
+                    height: 140px;
+                    z-index: 8;
+                    top: 35px;
+
+                    &::before {
+                        width: 130px;
+                        height: 130px;
+                    }
+
+                    .before_bg {
+                        height: 50%;
+                    }
+    
+                    .after_bg {
+                        height: 50%;
+                    }
+                }
+
+                &:nth-child(3){
+                    width: 100px;
+                    height: 100px;
+                    z-index: 8;
+                    top: 55px;
+
+                    &::before {
+                        width: 90px;
+                        height: 90px;
+                    }
+                }
+
+                &:nth-child(4){
+                    width: 60px;
+                    height: 60px;
+                    z-index: 8;
+                    top: 75px;
+
+                    &::before {
+                        width: 50px;
+                        height: 50px;
+                    }
+                    .before_bg {
+                        height: 50%;
+                    }
+    
+                    .after_bg {
+                        height: 50%;
+                    }
+                }
+
+                .before_bg {
+                    position: absolute;
+                    right: 0;
+                    overflow: hidden;
+                    width: 50%;
+                    height: 80%;
+                    background-color: #f5f6fa;
+                }
+
+                .after_bg {
+                    position: absolute;
+                    overflow: hidden;
+                    left: 0;
+                    width: 50%;
+                    height: 70%;
+                    background-color: #f5f6fa;
+                }
+
+            }
+
+        }
+        ul{
+            @include flexSpaceBetweenAlignment;
+            width: 100%;
+            li{
+                @include flexStartAlignment;
+                justify-content: center;
+                width: 33%;
+                span{
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                    background-color: #f5f6fa;
+                    margin-inline-start: 5px;
+                }
+                p{
+                    width: 50%;
+                    height: 18px;
+                    border-radius: 5px;
+                    background-color: #f5f6fa;
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+
+    }
+}
+
+
+@keyframes shine {
+    to {
+        background-position: right -40px top 0;
+    }
+}

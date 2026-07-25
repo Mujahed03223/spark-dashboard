@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.064" height="25.064" viewBox="0 0 25.064 25.064">
+  <g id="Group_19368" data-name="Group 19368" transform="translate(-929.108 -652.03)">
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="12.532" cy="12.532" r="12.532" transform="translate(929.108 652.03)" fill="#84e8f4"/>
+    <g id="Iconly_Curved_Swap" data-name="Iconly/Curved/Swap" transform="translate(935.933 659.067)">
+      <g id="Swap" transform="translate(-1.933 -3.067)">
+        <path id="Stroke_1" data-name="Stroke 1" d="M.333,0V8.412" transform="translate(4.319 3.068)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Stroke_3" data-name="Stroke 3" d="M0,2.733S1.446,0,2.719,0,5.437,2.733,5.437,2.733" transform="translate(1.933 3.067)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Stroke_5" data-name="Stroke 5" d="M.333,8.412V0" transform="translate(10.937 4.54)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Stroke_7" data-name="Stroke 7" d="M5.437,0S3.991,2.733,2.719,2.733,0,0,0,0" transform="translate(8.553 10.219)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

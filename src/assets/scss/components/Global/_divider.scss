@@ -1,0 +1,31 @@
+.divider {
+  width: 100%;
+  padding: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 15px 0 -25px;
+  h4 {
+    color: var(--main);
+    background: var(--lightBg);
+    border-radius: 0px;
+    font-size: 18px;
+    height: 30px;
+    position: relative;
+    z-index: 1;
+    top: 2px;
+    padding: 0 10px;
+  }
+  hr {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #e4e5e7;
+    bottom: 8px;
+    left: 0;
+    opacity: 1 !important;
+  }
+}

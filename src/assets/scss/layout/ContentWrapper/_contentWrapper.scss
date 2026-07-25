@@ -1,0 +1,49 @@
+.contentWrapper {
+  background: var(--mainBg);
+  max-height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
+  border-radius: none;
+  padding-inline: 10px 30px;
+  padding-block: 15px 10px;
+  overflow-x: hidden;
+  overflow-y: visible;
+  border-radius: 0 0 0 0;
+
+  @media (min-width: 1400px) {
+    border-radius: 40px 0 0 40px; // RTL
+    width: 84vw;
+  }
+
+  @media (max-width: 767px) {
+    padding-inline: 10px;
+  }
+
+  .row {
+    &>div {
+      height: inherit;
+
+      main {
+        background-color: transparent;
+        min-height: calc(100vh - 223px);
+        max-height: calc(100vh - 223px);
+        padding-block: 15px;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        @media (min-width: 1264px) {
+          min-height: calc(100vh - 126px);
+          max-height: calc(100vh - 126px);
+        }
+      }
+    }
+  }
+}
+
+body.rtl {
+  .contentWrapper {
+    @media (min-width: 1400px) {
+      border-radius: 0 40px 40px 0;
+    }
+  }
+}

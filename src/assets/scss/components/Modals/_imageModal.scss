@@ -1,0 +1,18 @@
+.v-dialog__content {
+  box-shadow: none;
+  // max-width: 500px;
+  .v-dialog {
+    box-shadow: none !important;
+    .v-card {
+      background-color: transparent;
+      box-shadow: none !important;
+      @include flexCenterAlignment;
+      img {
+        width: 75%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px !important;
+      }
+    }
+  }
+}

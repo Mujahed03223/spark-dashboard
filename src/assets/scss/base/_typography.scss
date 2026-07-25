@@ -1,0 +1,123 @@
+// ================ Ar Fonts
+@font-face {
+  font-family: lightEnFont;
+  // src: url("../fonts/en/Montserrat-Light.ttf");
+  src: url("../fonts/ar/NeoSansArabic.ttf");
+}
+@font-face {
+  font-family: regularEnFont;
+  // src: url("../fonts/en/Montserrat-Regular.ttf");
+  src: url("../fonts/ar/NeoSansArabic.ttf");
+}
+@font-face {
+  font-family: mediumEnFont;
+  // src: url("../fonts/en/Montserrat-Medium.ttf");
+  src: url("../fonts/ar/NeoSansArabic.ttf");
+}
+@font-face {
+  font-family: semiBoldEnFont;
+  // src: url("../fonts/en/Montserrat-SemiBold.ttf");
+  src: url("../fonts/ar/NeoSansArabic.ttf");
+}
+@font-face {
+  font-family: boldEnFont;
+  // src: url("../fonts/en/Montserrat-Bold.ttf");
+  src: url("../fonts/ar/NeoSansArabic.ttf");
+}
+
+// ================ Ar Fonts
+@font-face {
+  font-family: lightArFont;
+  // src: url("../fonts/ar/IBMPlexSansArabic-Light.ttf");
+  src: url("../fonts/ar/NeoSansArabic.ttf");
+}
+@font-face {
+  font-family: regularArFont;
+  // src: url("../fonts/ar/IBMPlexSansArabic-Regular.ttf");
+  src: url("../fonts/ar/NeoSansArabic.ttf");
+}
+@font-face {
+  font-family: mediumArFont;
+  // src: url("../fonts/ar/IBMPlexSansArabic-Medium.ttf");
+  src: url("../fonts/ar/NeoSansArabic.ttf");
+}
+@font-face {
+  font-family: semiBoldArFont;
+  // src: url("../fonts/ar/IBMPlexSansArabic-SemiBold.ttf");
+  src: url("../fonts/ar/NeoSansArabic.ttf");
+}
+@font-face {
+  font-family: boldArFont;
+  // src: url("../fonts/ar/IBMPlexSansArabic-Bold.ttf");
+  src: url("../fonts/ar/NeoSansArabic.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+  font-weight: bold;
+}
+
+// Primary Head
+.h_1 {
+}
+
+// Secondary Head
+.h_2 {
+  font-size: 20px;
+  color: #2e4765;
+  margin: 18px 0;
+  font-weight: bold;
+}
+
+// Heading tertiary
+.h_3 {
+  font-size: 20px;
+}
+
+.para {
+  color: #5d5d5d;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+// Colored Span
+.mainColor {
+  color: var(--main);
+  font-weight: bold;
+  margin-inline: 5px;
+}
+
+.status {
+  font-weight: bold;
+  font-size: 15px;
+
+  &._processing {
+    color: #ffcc00;
+  }
+  &._success {
+    color: #61e458;
+  }
+  &._maron {
+    color: #e42879;
+  }
+
+  &.small {
+    font-size: 13px;
+  }
+}
+
+.center-block {
+  display: block;
+  margin: 10px auto;
+  width: fit-content;
+}
+
+.iziToast-message {
+  font-family: "Neo Sans Arabic";
+}

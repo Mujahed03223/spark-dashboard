@@ -1,0 +1,34 @@
+.profile {
+  .row {
+    &:first-child {
+      .mainContent {
+        min-height: auto;
+        max-height: auto;
+        padding-block: 15px;
+
+        @media (min-width: 1264px) {
+          overflow-y: auto;
+          overflow-x: hidden;
+          min-height: calc(100vh - 126px);
+          max-height: calc(100vh - 126px);
+        }
+      }
+    }
+
+    &:last-child {
+      .aside {
+        padding-block: 15px;
+
+        @media (min-width: 1264px) {
+          min-height: calc(100vh - 126px);
+          max-height: calc(100vh - 126px);
+          overflow-y: auto;
+          overflow-x: hidden;
+        }
+        // @media (max-width: 1264px) {
+        //   display: none;
+        // }
+      }
+    }
+  }
+}

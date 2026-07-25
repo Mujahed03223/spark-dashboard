@@ -1,0 +1,324 @@
+@import url("all.css");
+@import url("materialdesignicons.min.css");
+@import url("responsive.scss");
+
+// ======================== abstracts
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+// ======================== base
+@import "base/glopal";
+@import "base/animations";
+@import "base/typography";
+
+// ======================== components
+// *** UI
+@import "./components/UI/baseCard";
+@import "./components/UI/mainButton";
+@import "./components/UI/baseModel";
+@import "./components/UI/statisticsCard";
+
+// *** globals
+@import "./components/Global/breadcrumb";
+@import "./components/Global/chatCom";
+@import "./components/Global/userCard";
+@import "./components/Global/theFilter";
+@import "./components/Global/customCard";
+@import "./components/Global/divider";
+
+// *** Charts
+@import "./components/Charts/charts";
+
+// *** Loaders
+@import "./components/Loaders/loaderGeneral";
+// @import "./components/Loaders/LoaderSkeletonChart";
+
+// *** Forms
+@import "./components/Forms/inputWrapper";
+
+// *** Tables
+@import "./components/Tables/dialog";
+@import "./components/Tables/tables";
+
+// *** Modals
+@import "./components/Modals/imageModal";
+
+// ======================== layout
+// *********** ContentWrapper
+@import "./layout/ContentWrapper/contentWrapper.scss";
+
+// *** Navbar
+@import "./layout/ContentWrapper/Navbar/navbar.scss";
+@import "./layout/ContentWrapper/Navbar/dropDown.scss";
+
+// *** Sidebar
+@import "./layout/Sidebar/sidebar.scss";
+
+// *** Aside
+@import "./layout/Aside/aside.scss";
+
+// ======================== Pages
+@import "./pages/homePage";
+@import "./pages/profile";
+@import "./pages/login";
+@import "./pages/settings";
+@import "./pages/travel";
+@import "./pages/chat";
+@import "./pages/usersChat";
+
+// ======================== rtl
+@import "mainRtl.scss";
+
+.v-sheet.v-card {
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.ep-legend--container {
+  .text {
+    margin: 0;
+    font-size: 0.65rem;
+    font-weight: bold;
+  }
+
+  .ep-legend--value {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .ep-legend--value__counter {
+    display: none;
+  }
+}
+
+.chart_side_page {
+  .chart_card {
+    .chart_title {
+      padding: 0;
+      padding-inline-start: 0;
+      padding-top: 10px;
+    }
+  }
+}
+
+.ep-container {
+  .ep-circle--progress {
+    stroke: #0086ff !important;
+  }
+
+  .icons {
+    small {
+      color: #0086ff !important;
+    }
+  }
+
+  &:nth-child(2) {
+    .ep-circle--progress {
+      stroke: #80c2ff !important;
+    }
+
+    .icons {
+      small {
+        color: #80c2ff !important;
+      }
+    }
+  }
+
+  &:nth-child(3) {
+    .ep-circle--progress {
+      stroke: #4caf50 !important;
+    }
+
+    .icons {
+      small {
+        color: #4caf50 !important;
+      }
+    }
+  }
+}
+
+.v-pagination__navigation {
+  margin: 0 !important;
+}
+
+.v-data-footer {
+  align-items: center;
+  // border-top: 0 !important;
+  padding: 0;
+
+  .v-data-footer__select {
+    padding-top: 10px;
+    margin: unset !important;
+    flex: 1;
+    justify-content: flex-start;
+  }
+
+  .v-input .v-input__control {
+    .v-input__slot {
+      min-width: 80px;
+      padding: 5px;
+
+      .v-select__selections {
+        margin: 0 !important;
+        justify-content: center;
+
+        input {
+          display: none !important;
+        }
+      }
+    }
+
+    .v-input__append-inner {
+      margin: 0 !important;
+      align-self: center !important;
+    }
+  }
+}
+
+.tabsss {
+  .v-item-group {
+    background-color: transparent !important;
+    box-shadow: 0px 5px 14px rgb(0 0 0 / 5%);
+
+    .v-tabs-bar__content {
+      .v-tab {
+        padding-block: 15px;
+        color: var(--main) !important;
+
+        &.v-tab-active {
+          background: linear-gradient(
+            97.46deg,
+            #322176 -1.53%,
+            #2d70ab 132.35%
+          );
+          color: #fff !important;
+          border-radius: 10px;
+        }
+      }
+    }
+
+    .v-tabs {
+      .v-tab {
+        letter-spacing: normal !important;
+        // color: var(--main) !important;
+        // &.v-tab {
+        //   color: var(--main) !important;
+        // }
+      }
+
+      background: linear-gradient(
+        97.46deg,
+        #322176 -1.53%,
+        #2d70ab 132.35%
+      ) !important;
+    }
+
+    &:not(.v-tab--active) {
+      color: transparent !important;
+    }
+  }
+}
+
+input[type="datetime-local"] {
+  background: var(--mainBg1);
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+}
+
+.notificationPopup {
+  text-align: center;
+}
+
+.button_section {
+  .submit_btn {
+    background: var(--main) !important;
+    color: #fff !important;
+    padding: 20px !important;
+    font-size: 16px;
+    border: 1px solid var(--main);
+    border-radius: 10px;
+    transition: all 0.6s ease-in-out;
+    opacity: 1;
+    &:hover {
+      color: var(--main) !important;
+      background: #fff !important;
+    }
+  }
+  .back_btn {
+    background: white;
+    color: var(--main);
+    padding: 20px !important;
+    font-size: 16px;
+    border: 1px solid var(--main);
+    border-radius: 10px;
+    opacity: 1;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.statuses {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+
+  &.pending,
+  &.ownership_transfer,
+  &.buyer_transfer,
+  &.ownership_transfer_seller,
+  &.ownership_transfer_buyer,
+  &.hold,
+  &.waiting {
+    background: #fff4cc;
+    color: #ffc800;
+  }
+
+  &.canceled,
+  &.rejected,
+  &.unactive,
+  &.admin_rejected,
+  &.reject_ownership_buyer,
+  &.reject_ownership_seller,
+  &.refused,
+  &.rejected_by_admin,
+  &.no_one_auctioned,
+  &.returned {
+    background: #ffdee8;
+    color: #ff2366;
+  }
+
+  &.shipped,
+  &.transfer_uploaded_buyer,
+  &.transfer_uploaded_seller,
+  &.finished {
+    background: #f3dcff;
+    color: #a900ff;
+  }
+
+  &.accepted,
+  &.accepted_by_seller,
+  &.accepted_by_buyer,
+  &.admin_approved,
+  &.accept_ownership_buyer,
+  &.accept_ownership_seller,
+  &.paid,
+  &.admin_approved_all,
+  &.accepted_owner_ship_seller,
+  &.delivery_uploaded_buyer,
+  &.delivery_uploaded_seller,
+  &.active {
+    background: #ccf2e4;
+    color: #16c182;
+  }
+
+  &.unpaid,
+  &.delivery_uploaded {
+    background: #e5e7ec;
+    color: #8994a8;
+  }
+}
+
+// .v-text-field {
+//   padding-top: unset !important;
+// }
