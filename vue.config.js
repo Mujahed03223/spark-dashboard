@@ -2,9 +2,9 @@ const { defineConfig } = require("@vue/cli-service");
 
 module.exports = defineConfig({
   publicPath:
-    // process.env.NODE_ENV === "production" ? "/dashboard/spark" : "/",
-    process.env.NODE_ENV === "production" ? "/dashboard" : "/",
+    process.env.NODE_ENV === "production" ? "/" : "/",
   transpileDependencies: ["vuetify"],
+  lintOnSave: false,
 
   pluginOptions: {
     i18n: {
