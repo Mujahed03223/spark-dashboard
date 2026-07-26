@@ -1,0 +1,1006 @@
+{
+  "allRoutes": [
+    {
+      "key": "cities",
+      "id": 1,
+      "name": "عرض كل المدن",
+      "frontend_url": "cities/show-all",
+      "backend_url": "cities/.GET"
+    },
+    {
+      "key": "cities",
+      "id": 2,
+      "name": "اضافة مدينة",
+      "frontend_url": "cities/add",
+      "backend_url": "cities/.POST"
+    },
+    {
+      "key": "cities",
+      "id": 3,
+      "name": "عرض مدينة",
+      "frontend_url": "cities/show/",
+      "backend_url": "cities/*/.GET"
+    },
+    {
+      "key": "cities",
+      "id": 4,
+      "name": "تعديل مدينة",
+      "frontend_url": "cities/edit/",
+      "backend_url": "cities/*/.PUT"
+    },
+    {
+      "key": "cities",
+      "id": 5,
+      "name": "حذف مدينة",
+      "frontend_url": "cities/delete",
+      "backend_url": "cities/*/.DELETE"
+    },
+    {
+      "key": "services",
+      "id": 6,
+      "name": "عرض كل الخدمات",
+      "frontend_url": "services/show-all",
+      "backend_url": "services/.GET"
+    },
+    {
+      "key": "services",
+      "id": 7,
+      "name": "اضافة خدمات",
+      "frontend_url": "services/add",
+      "backend_url": "services/.POST"
+    },
+    {
+      "key": "services",
+      "id": 8,
+      "name": "اضافة خدمات فرعية",
+      "frontend_url": "sub-services/add",
+      "backend_url": "sub-services/.POST"
+    },
+    {
+      "key": "services",
+      "id": 9,
+      "name": "عرض الخدمات",
+      "frontend_url": "services/show/",
+      "backend_url": "services/*/.GET"
+    },
+    {
+      "key": "services",
+      "id": 10,
+      "name": "تعديل خدمات",
+      "frontend_url": "services/edit/",
+      "backend_url": "services/*/.PUT"
+    },
+    {
+      "key": "services",
+      "id": 11,
+      "name": "حذف خدمات",
+      "frontend_url": "services/delete",
+      "backend_url": "services/*/.DELETE"
+    },
+    {
+      "key": "agents",
+      "id": 13,
+      "name": "عرض كل الفنيين",
+      "frontend_url": "providers/show-all",
+      "backend_url": "agents/.GET"
+    },
+    {
+      "key": "agents",
+      "id": 14,
+      "name": "اضافة فنى",
+      "frontend_url": "providers/add",
+      "backend_url": "agents/.POST"
+    },
+    {
+      "key": "agents",
+      "id": 15,
+      "name": "عرض فنى",
+      "frontend_url": "providers/show/",
+      "backend_url": "agents/*/.GET"
+    },
+    {
+      "key": "agents",
+      "id": 16,
+      "name": "تعديل فنى",
+      "frontend_url": "providers/edit/",
+      "backend_url": "agents/*/.PUT"
+    },
+    {
+      "key": "agents",
+      "id": 17,
+      "name": "حذف فنى",
+      "frontend_url": "providers/delete",
+      "backend_url": "agents/*/.DELETE"
+    },
+    {
+      "key": "sliders",
+      "id": 18,
+      "name": "عرض كل الأسلايدرز",
+      "frontend_url": "sliders/show-all",
+      "backend_url": "sliders/.GET"
+    },
+    {
+      "key": "sliders",
+      "id": 19,
+      "name": "اضافة الأسلايدرز",
+      "frontend_url": "sliders/add",
+      "backend_url": "sliders/.POST"
+    },
+    {
+      "key": "sliders",
+      "id": 20,
+      "name": "عرض الأسلايدرز",
+      "frontend_url": "sliders/show/",
+      "backend_url": "sliders/*/.GET"
+    },
+    {
+      "key": "sliders",
+      "id": 21,
+      "name": "تعديل الأسلايدرز",
+      "frontend_url": "sliders/edit/",
+      "backend_url": "sliders/*/.PUT"
+    },
+    {
+      "key": "sliders",
+      "id": 22,
+      "name": "حذف الأسلايدرز",
+      "frontend_url": "sliders/delete",
+      "backend_url": "sliders/*/.DELETE"
+    },
+    {
+      "key": "privacies",
+      "id": 23,
+      "name": "عرض كل الخصوصية",
+      "frontend_url": "privacies/show-all",
+      "backend_url": "privacies/.GET"
+    },
+    {
+      "key": "privacies",
+      "id": 24,
+      "name": "اضافة الخصوصية",
+      "frontend_url": "privacies/add",
+      "backend_url": "privacies/.POST"
+    },
+    {
+      "key": "privacies",
+      "id": 25,
+      "name": "عرض الخصوصية",
+      "frontend_url": "privacies/show/",
+      "backend_url": "privacies/*/.GET"
+    },
+    {
+      "key": "privacies",
+      "id": 26,
+      "name": "تعديل الخصوصية",
+      "frontend_url": "privacies/edit/",
+      "backend_url": "privacies/*/.PUT"
+    },
+    {
+      "key": "privacies",
+      "id": 27,
+      "name": "حذف الخصوصية",
+      "frontend_url": "privacies/delete",
+      "backend_url": "privacies/*/.DELETE"
+    },
+    {
+      "key": "terms",
+      "id": 28,
+      "name": "عرض كل الشروط والأحكام",
+      "frontend_url": "terms/show-all",
+      "backend_url": "terms/.GET"
+    },
+    {
+      "key": "terms",
+      "id": 29,
+      "name": "اضافة الشروط والأحكام",
+      "frontend_url": "terms/add",
+      "backend_url": "terms/.POST"
+    },
+    {
+      "key": "terms",
+      "id": 30,
+      "name": "عرض الشروط والأحكام",
+      "frontend_url": "terms/show/",
+      "backend_url": "terms/*/.GET"
+    },
+    {
+      "key": "terms",
+      "id": 31,
+      "name": "تعديل الشروط والأحكام",
+      "frontend_url": "terms/edit/",
+      "backend_url": "terms/*/.PUT"
+    },
+    {
+      "key": "terms",
+      "id": 32,
+      "name": "حذف الشروط والأحكام",
+      "frontend_url": "terms/delete",
+      "backend_url": "terms/*/.DELETE"
+    },
+    {
+      "key": "about",
+      "id": 33,
+      "name": "عرض كل من نحن",
+      "frontend_url": "about/show-all",
+      "backend_url": "about/.GET"
+    },
+    {
+      "key": "about",
+      "id": 34,
+      "name": "اضافة من نحن",
+      "frontend_url": "about/add",
+      "backend_url": "about/.POST"
+    },
+    {
+      "key": "about",
+      "id": 35,
+      "name": "عرض من نحن",
+      "frontend_url": "about/show/",
+      "backend_url": "about/*/.GET"
+    },
+    {
+      "key": "about",
+      "id": 36,
+      "name": "تعديل من نحن",
+      "frontend_url": "about/edit/",
+      "backend_url": "about/*/.PUT"
+    },
+    {
+      "key": "about",
+      "id": 37,
+      "name": "حذف من نحن",
+      "frontend_url": "about/delete",
+      "backend_url": "about/*/.DELETE"
+    },
+    {
+      "key": "days",
+      "id": 38,
+      "name": "عرض كل الأيام",
+      "frontend_url": "days/show-all",
+      "backend_url": "days/.GET"
+    },
+    {
+      "key": "days",
+      "id": 39,
+      "name": "اضافة يوم",
+      "frontend_url": "days/add",
+      "backend_url": "days/.POST"
+    },
+    {
+      "key": "days",
+      "id": 40,
+      "name": "عرض يوم",
+      "frontend_url": "days/show/",
+      "backend_url": "days/*/.GET"
+    },
+    {
+      "key": "days",
+      "id": 41,
+      "name": "تعديل يوم",
+      "frontend_url": "days/edit/",
+      "backend_url": "days/*/.PUT"
+    },
+    {
+      "key": "days",
+      "id": 42,
+      "name": "حذف يوم",
+      "frontend_url": "days/delete",
+      "backend_url": "days/*/.DELETE"
+    },
+    {
+      "key": "work-times",
+      "id": 43,
+      "name": "عرض كل اوقات العمل",
+      "frontend_url": "work-times/show-all",
+      "backend_url": "work-times/.GET"
+    },
+    {
+      "key": "work-times",
+      "id": 44,
+      "name": "اضافة وقت عمل",
+      "frontend_url": "work-times/add",
+      "backend_url": "work-times/.POST"
+    },
+    {
+      "key": "work-times",
+      "id": 45,
+      "name": "عرض وقت عمل",
+      "frontend_url": "work-times/show/",
+      "backend_url": "work-times/*/.GET"
+    },
+    {
+      "key": "work-times",
+      "id": 46,
+      "name": "تعديل وقت عمل",
+      "frontend_url": "work-times/edit/",
+      "backend_url": "work-times/*/.PUT"
+    },
+    {
+      "key": "work-times",
+      "id": 47,
+      "name": "حذف وقت عمل",
+      "frontend_url": "work-times/delete",
+      "backend_url": "work-times/*/.DELETE"
+    },
+    {
+      "key": "companies",
+      "id": 48,
+      "name": "عرض كل الشركات",
+      "frontend_url": "companies/show-all",
+      "backend_url": "companies/.GET"
+    },
+    {
+      "key": "companies",
+      "id": 49,
+      "name": "اضافة شركة",
+      "frontend_url": "companies/add",
+      "backend_url": "companies/.POST"
+    },
+    {
+      "key": "companies",
+      "id": 50,
+      "name": "عرض شركة",
+      "frontend_url": "companies/show/",
+      "backend_url": "companies/*/.GET"
+    },
+    {
+      "key": "companies",
+      "id": 51,
+      "name": "تعديل شركة",
+      "frontend_url": "companies/edit/",
+      "backend_url": "companies/*/.PUT"
+    },
+    {
+      "key": "companies",
+      "id": 52,
+      "name": "حذف شركة",
+      "frontend_url": "companies/delete",
+      "backend_url": "companies/*/.DELETE"
+    },
+    {
+      "key": "cancel-reasons",
+      "id": 53,
+      "name": "عرض كل الشركات",
+      "frontend_url": "cancelReasons/show-all",
+      "backend_url": "cancel-reasons/.GET"
+    },
+    {
+      "key": "cancel-reasons",
+      "id": 54,
+      "name": "اضافة شركة",
+      "frontend_url": "cancelReasons/add",
+      "backend_url": "cancel-reasons/.POST"
+    },
+    {
+      "key": "cancel-reasons",
+      "id": 55,
+      "name": "عرض شركة",
+      "frontend_url": "cancelReasons/show/",
+      "backend_url": "cancel-reasons/*/.GET"
+    },
+    {
+      "key": "cancel-reasons",
+      "id": 56,
+      "name": "تعديل شركة",
+      "frontend_url": "cancelReasons/edit/",
+      "backend_url": "cancel-reasons/*/.PUT"
+    },
+    {
+      "key": "cancel-reasons",
+      "id": 57,
+      "name": "حذف شركة",
+      "frontend_url": "cancelReasons/delete",
+      "backend_url": "cancel-reasons/*/.DELETE"
+    },
+    {
+      "key": "delay-reasons",
+      "id": 58,
+      "name": "عرض كل الشركات",
+      "frontend_url": "delayReasons/show-all",
+      "backend_url": "delay-reasons/.GET"
+    },
+    {
+      "key": "delay-reasons",
+      "id": 59,
+      "name": "اضافة شركة",
+      "frontend_url": "delayReasons/add",
+      "backend_url": "delay-reasons/.POST"
+    },
+    {
+      "key": "delay-reasons",
+      "id": 60,
+      "name": "عرض شركة",
+      "frontend_url": "delayReasons/show/",
+      "backend_url": "delay-reasons/*/.GET"
+    },
+    {
+      "key": "delay-reasons",
+      "id": 61,
+      "name": "تعديل شركة",
+      "frontend_url": "delayReasons/edit/",
+      "backend_url": "delay-reasons/*/.PUT"
+    },
+    {
+      "key": "delay-reasons",
+      "id": 62,
+      "name": "حذف شركة",
+      "frontend_url": "delayReasons/delete",
+      "backend_url": "delay-reasons/*/.DELETE"
+    },
+    {
+      "key": "home-slider",
+      "id": 63,
+      "name": "عرض كل السلايدر الصفحة الرئيسية",
+      "frontend_url": "homeSlider/show-all",
+      "backend_url": "home-slider/.GET"
+    },
+    {
+      "key": "home-slider",
+      "id": 64,
+      "name": "تعديل كل السلايدر الصفحة الرئيسية",
+      "frontend_url": "homeSlider/edit/",
+      "backend_url": "home-slider/*/.PUT"
+    },
+    {
+      "key": "home-about",
+      "id": 65,
+      "name": "عرض كل من نحن الصفحة الرئيسية",
+      "frontend_url": "homeAbout/show-all",
+      "backend_url": "home-about/.GET"
+    },
+    {
+      "key": "home-about",
+      "id": 66,
+      "name": "تعديل كل من نحن الصفحة الرئيسية",
+      "frontend_url": "homeAbout/edit/",
+      "backend_url": "home-about/*/.PUT"
+    },
+    {
+      "key": "advantages",
+      "id": 67,
+      "name": "عرض كل مميزات",
+      "frontend_url": "advantages/show-all",
+      "backend_url": "advantages/.GET"
+    },
+    {
+      "key": "advantages",
+      "id": 68,
+      "name": "اضافة مميزات",
+      "frontend_url": "advantages/add",
+      "backend_url": "advantages/.POST"
+    },
+    {
+      "key": "advantages",
+      "id": 69,
+      "name": "عرض مميزات",
+      "frontend_url": "advantages/show/",
+      "backend_url": "advantages/*/.GET"
+    },
+    {
+      "key": "advantages",
+      "id": 70,
+      "name": "تعديل مميزات",
+      "frontend_url": "advantages/edit/",
+      "backend_url": "advantages/*/.PUT"
+    },
+    {
+      "key": "advantages",
+      "id": 71,
+      "name": "حذف مميزات",
+      "frontend_url": "advantages/delete",
+      "backend_url": "advantages/*/.DELETE"
+    },
+    {
+      "key": "home_services",
+      "id": 72,
+      "name": "عرض كل خدمات الصفحة الرئيسية",
+      "frontend_url": "homeServices/show-all",
+      "backend_url": "home_services/.GET"
+    },
+    {
+      "key": "home_services",
+      "id": 73,
+      "name": "اضافة خدمات الصفحة الرئيسية",
+      "frontend_url": "homeServices/add",
+      "backend_url": "home_services/.POST"
+    },
+    {
+      "key": "home_services",
+      "id": 74,
+      "name": "عرض خدمات الصفحة الرئيسية",
+      "frontend_url": "homeServices/show/",
+      "backend_url": "home_services/*/.GET"
+    },
+    {
+      "key": "home_services",
+      "id": 75,
+      "name": "تعديل خدمات الصفحة الرئيسية",
+      "frontend_url": "homeServices/edit/",
+      "backend_url": "home_services/*/.PUT"
+    },
+    {
+      "key": "home_services",
+      "id": 76,
+      "name": "حذف خدمات الصفحة الرئيسية",
+      "frontend_url": "homeServices/delete",
+      "backend_url": "home_services/*/.DELETE"
+    },
+    {
+      "key": "home_experts",
+      "id": 77,
+      "name": "عرض كل خبراء الصفحة الرئيسية",
+      "frontend_url": "home_experts/show-all",
+      "backend_url": "home_experts/.GET"
+    },
+    {
+      "key": "home_experts",
+      "id": 78,
+      "name": "اضافة خبراء الصفحة الرئيسية",
+      "frontend_url": "home_experts/add",
+      "backend_url": "home_experts/.POST"
+    },
+    {
+      "key": "home_experts",
+      "id": 79,
+      "name": "عرض خبراء الصفحة الرئيسية",
+      "frontend_url": "home_experts/show/",
+      "backend_url": "home_experts/*/.GET"
+    },
+    {
+      "key": "home_experts",
+      "id": 80,
+      "name": "تعديل خبراء الصفحة الرئيسية",
+      "frontend_url": "home_experts/edit/",
+      "backend_url": "home_experts/*/.PUT"
+    },
+    {
+      "key": "home_experts",
+      "id": 81,
+      "name": "حذف خبراء الصفحة الرئيسية",
+      "frontend_url": "home_experts/delete",
+      "backend_url": "home_experts/*/.DELETE"
+    },
+    {
+      "key": "testimonials",
+      "id": 82,
+      "name": "عرض كل الأراء",
+      "frontend_url": "testimonials/show-all",
+      "backend_url": "testimonials/.GET"
+    },
+    {
+      "key": "testimonials",
+      "id": 83,
+      "name": "اضافة اراء",
+      "frontend_url": "testimonials/add",
+      "backend_url": "testimonials/.POST"
+    },
+    {
+      "key": "testimonials",
+      "id": 84,
+      "name": "عرض اراء",
+      "frontend_url": "testimonials/show/",
+      "backend_url": "testimonials/*/.GET"
+    },
+    {
+      "key": "testimonials",
+      "id": 85,
+      "name": "تعديل اراء",
+      "frontend_url": "testimonials/edit/",
+      "backend_url": "testimonials/*/.PUT"
+    },
+    {
+      "key": "testimonials",
+      "id": 86,
+      "name": "حذف اراء",
+      "frontend_url": "testimonials/delete",
+      "backend_url": "testimonials/*/.DELETE"
+    },
+    {
+      "key": "what_we_offers",
+      "id": 87,
+      "name": "عرض كل ما نقدمة",
+      "frontend_url": "what_we_offers/show-all",
+      "backend_url": "what_we_offers/.GET"
+    },
+    {
+      "key": "what_we_offers",
+      "id": 88,
+      "name": "اضافة ما نقدمة",
+      "frontend_url": "what_we_offers/add",
+      "backend_url": "what_we_offers/.POST"
+    },
+    {
+      "key": "what_we_offers",
+      "id": 89,
+      "name": "عرض ما نقدمة",
+      "frontend_url": "what_we_offers/show/",
+      "backend_url": "what_we_offers/*/.GET"
+    },
+    {
+      "key": "what_we_offers",
+      "id": 90,
+      "name": "تعديل ما نقدمة",
+      "frontend_url": "what_we_offers/edit/",
+      "backend_url": "what_we_offers/*/.PUT"
+    },
+    {
+      "key": "what_we_offers",
+      "id": 91,
+      "name": "حذف ما نقدمة",
+      "frontend_url": "what_we_offers/delete",
+      "backend_url": "what_we_offers/*/.DELETE"
+    },
+    {
+      "key": "contacts",
+      "id": 92,
+      "name": "عرض كل التواصل",
+      "frontend_url": "contacts/show-all",
+      "backend_url": "contacts/.GET"
+    },
+    {
+      "key": "contacts",
+      "id": 93,
+      "name": "عرض التواصل",
+      "frontend_url": "contacts/show/",
+      "backend_url": "contacts/*/.GET"
+    },
+    {
+      "key": "contacts",
+      "id": 94,
+      "name": "اضافة رد",
+      "frontend_url": "contacts/add",
+      "backend_url": "contacts/.POST"
+    },
+    {
+      "key": "contacts",
+      "id": 95,
+      "name": "حذف  رد",
+      "frontend_url": "contacts/delete",
+      "backend_url": "contacts/*/.DELETE"
+    },
+    {
+      "key": "orders",
+      "id": 96,
+      "name": "عرض كل الطلبات",
+      "frontend_url": "orders/show-all",
+      "backend_url": "orders/.GET"
+    },
+    {
+      "key": "orders",
+      "id": 200,
+      "name": "كشوفات اليوم",
+      "frontend_url": "orders/today-orders",
+      "backend_url": "orders/.GET"
+    },
+    {
+      "key": "orders",
+      "id": 97,
+      "name": "عرض الطلبات",
+      "frontend_url": "orders/show/",
+      "backend_url": "orders/*/.GET"
+    },
+    {
+      "key": "notifications",
+      "id": 98,
+      "name": "عرض كل الاشعارات",
+      "frontend_url": "notifications/show-all",
+      "backend_url": "notification/.GET"
+    },
+    {
+      "key": "notifications",
+      "id": 99,
+      "name": "ارسال اشعار",
+      "frontend_url": "notifications/add",
+      "backend_url": "notification/.POST"
+    },
+    {
+      "key": "statistics",
+      "id": 100,
+      "name": "عرض كل الأحصائيات",
+      "frontend_url": "statistics/show-all",
+      "backend_url": "statistics/.GET"
+    },
+    {
+      "key": "countries",
+      "id": 101,
+      "name": "عرض كل الدول",
+      "frontend_url": "countries/show-all",
+      "backend_url": "countries/.GET"
+    },
+    {
+      "key": "countries",
+      "id": 102,
+      "name": "تعديل دولة",
+      "frontend_url": "countries/edit/",
+      "backend_url": "countries/*/.PUT"
+    },
+    {
+      "key": "countries",
+      "id": 103,
+      "name": "اضافة دولة",
+      "frontend_url": "countries/add",
+      "backend_url": "countries/.POST"
+    },
+    {
+      "key": "countries",
+      "id": 104,
+      "name": "عرض دولة",
+      "frontend_url": "countries/show/",
+      "backend_url": "countries/*/.GET"
+    },
+    {
+      "key": "countries",
+      "id": 105,
+      "name": "حذف دولة",
+      "frontend_url": "countries/delete",
+      "backend_url": "countries/*/.DELETE"
+    },
+    {
+      "key": "admins",
+      "id": 106,
+      "name": "عرض كل المديرين",
+      "frontend_url": "admins/show-all",
+      "backend_url": "admins/.GET"
+    },
+    {
+      "key": "admins",
+      "id": 107,
+      "name": "تعديل مدير",
+      "frontend_url": "admins/edit/",
+      "backend_url": "admins/*/.PUT"
+    },
+    {
+      "key": "admins",
+      "id": 108,
+      "name": "اضافة مدير",
+      "frontend_url": "admins/add",
+      "backend_url": "admins/.POST"
+    },
+    {
+      "key": "admins",
+      "id": 109,
+      "name": "عرض مدير",
+      "frontend_url": "admins/show/",
+      "backend_url": "admins/*/.GET"
+    },
+    {
+      "key": "admins",
+      "id": 110,
+      "name": "حذف مدير",
+      "frontend_url": "admins/delete",
+      "backend_url": "admins/*/.DELETE"
+    },
+    {
+      "key": "permissions",
+      "id": 111,
+      "name": "عرض الصلاحيات",
+      "frontend_url": "permissions/show-all",
+      "backend_url": "permission/.GET"
+    },
+    {
+      "key": "permissions",
+      "id": 112,
+      "name": "تعديل  صلاحية",
+      "frontend_url": "permissions/edit/",
+      "backend_url": "permission/*/.PUT"
+    },
+    {
+      "key": "permissions",
+      "id": 113,
+      "name": "اضافة صلاحية",
+      "frontend_url": "permissions/add",
+      "backend_url": "permission/.POST"
+    },
+    {
+      "key": "permissions",
+      "id": 114,
+      "name": "حذف صلاحية",
+      "frontend_url": "permissions/delete",
+      "backend_url": "permission/*/.DELETE"
+    },
+    {
+      "key": "permission-labels",
+      "id": 115,
+      "name": "عرض الاقسام الرئيسية للصلاحيات",
+      "frontend_url": "permission-labels/show-all",
+      "backend_url": "permission_label/.GET"
+    },
+    {
+      "key": "permission-labels",
+      "id": 116,
+      "name": "تعديل  القسم الرئيسي",
+      "frontend_url": "permission-labels/edit/",
+      "backend_url": "permission_label/*/.PUT"
+    },
+    {
+      "key": "permission-labels",
+      "id": 117,
+      "name": "اضافة القسم الرئيسي",
+      "frontend_url": "permission-labels/add",
+      "backend_url": "permission_label/.POST"
+    },
+    {
+      "key": "permission-labels",
+      "id": 118,
+      "name": "حذف القسم الرئيسي",
+      "frontend_url": "permission-labels/delete",
+      "backend_url": "permission_label/*/.DELETE"
+    },
+    {
+      "key": "roles",
+      "id": 119,
+      "name": "عرض الادوار",
+      "frontend_url": "roles/show-all",
+      "backend_url": "role/.GET"
+    },
+    {
+      "key": "roles",
+      "id": 120,
+      "name": "تعديل دور",
+      "frontend_url": "roles/edit/",
+      "backend_url": "role/*/.PUT"
+    },
+    {
+      "key": "roles",
+      "id": 121,
+      "name": "اضافة دور",
+      "frontend_url": "roles/add",
+      "backend_url": "role/.POST"
+    },
+    {
+      "key": "roles",
+      "id": 122,
+      "name": "حذف دور",
+      "frontend_url": "permission-labels/delete",
+      "backend_url": "role/*/.DELETE"
+    },
+    {
+      "key": "permission-categories",
+      "id": 123,
+      "name": "عرض اقسام الصلاحيات",
+      "frontend_url": "permission-categories/show-all",
+      "backend_url": "permission_category/.GET"
+    },
+    {
+      "key": "permission-categories",
+      "id": 124,
+      "name": "تعديل قسم الصلاحية",
+      "frontend_url": "permission-categories/edit/",
+      "backend_url": "permission_category/*/.PUT"
+    },
+    {
+      "key": "permission-categories",
+      "id": 125,
+      "name": "اضافة قسم الصلاحية",
+      "frontend_url": "permission-categories/add",
+      "backend_url": "permission_category/.POST"
+    },
+    {
+      "key": "permission-categories",
+      "id": 126,
+      "name": "حذف قسم الصلاحية",
+      "frontend_url": "permission-labels/delete",
+      "backend_url": "permission_category/*/.DELETE"
+    },
+
+    {
+      "key": "settings",
+      "id": 127,
+      "name": "الاعدادات العامة",
+      "frontend_url": "settings",
+      "backend_url": "settings/.GET"
+    },
+    {
+      "key": "settings",
+      "id": 128,
+      "name": "تعديل الاعدادات العامة",
+      "frontend_url": "settings",
+      "backend_url": "settings/.POST"
+    },
+      {
+      "key": "users",
+      "id": 129,
+      "name": "عرض كل المستخدمين",
+      "frontend_url": "users/show-all",
+      "backend_url": "clients/.GET"
+    },
+    {
+      "key": "users",
+      "id": 130,
+      "name": "تعديل مستخدم",
+      "frontend_url": "users/edit/",
+      "backend_url": "clients/*/.PUT"
+    },
+    {
+      "key": "users",
+      "id": 131,
+      "name": "اضافة مستخدم",
+      "frontend_url": "users/add",
+      "backend_url": "clients/.POST"
+    },
+    {
+      "key": "users",
+      "id": 132,
+      "name": "عرض مستخدم",
+      "frontend_url": "users/show/",
+      "backend_url": "clients/*/.GET"
+    },
+    {
+      "key": "users",
+      "id": 133,
+      "name": "حذف مستخدم",
+      "frontend_url": "users/delete",
+      "backend_url": "clients/*/.DELETE"
+    },
+      {
+      "key": "callcenter",
+      "id": 134,
+      "name": "عرض كل ممثلى خدمة العملاء",
+      "frontend_url": "callcenter/show-all",
+      "backend_url": "callcenter/.GET"
+    },
+    {
+      "key": "callcenter",
+      "id": 135,
+      "name": "تعديل ممثل خدمة العملاء",
+      "frontend_url": "callcenter/edit/",
+      "backend_url": "callcenter/*/.PUT"
+    },
+    {
+      "key": "callcenter",
+      "id": 136,
+      "name": "اضافة ممثل خدمة العملاء",
+      "frontend_url": "callcenter/add",
+      "backend_url": "callcenter/.POST"
+    },
+    {
+      "key": "callcenter",
+      "id": 137,
+      "name": "عرض ممثل خدمة العملاء",
+      "frontend_url": "callcenter/show/",
+      "backend_url": "callcenter/*/.GET"
+    },
+    {
+      "key": "callcenter",
+      "id": 138,
+      "name": "حذف ممثل خدمة ممثل خدمة العملاء",
+      "frontend_url": "callcenter/delete",
+      "backend_url": "callcenter/*/.DELETE"
+    },
+    {
+      "key": "subServices",
+      "id": 139,
+      "name": "عرض كل الخدمات الفرعية",
+      "frontend_url": "subService/show-all",
+      "backend_url": "sub-services/*/.DELETE"
+    },
+    {
+      "key": "subService",
+      "id": 140,
+      "name": "اضافة خدمات فرعية",
+      "frontend_url": "subService/add",
+      "backend_url": "sub-services/.POST"
+    },
+    {
+      "key": "subService",
+      "id": 141,
+      "name": "تعديل خدمات فرعية",
+      "frontend_url": "subService/edit",
+      "backend_url": "sub-services/.POST"
+    },
+    {
+      "key": "subService",
+      "id": 142,
+      "name": "عرض خدمة فرعية",
+      "frontend_url": "subService/show/",
+      "backend_url": "sub-services/*/.GET"
+    },
+    {
+      "key": "services",
+      "id": 143,
+      "name": "حذف خدمة فرعية",
+      "frontend_url": "subService/delete",
+      "backend_url": "sub-services/*/.DELETE"
+    }
+  ]
+}

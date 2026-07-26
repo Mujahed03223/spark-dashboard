@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="522.412" height="609.01" viewBox="0 0 522.412 609.01">
+  <defs>
+    <filter id="bell" x="16.108" y="0" width="506.304" height="609.01" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-color="#3a6faf" flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_2" x="371.037" y="403.965" width="135.244" height="135.244" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-2"/>
+      <feFlood flood-color="#40ffd5" flood-opacity="0.404"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="no_notifications" transform="translate(1.238 22.717)">
+    <g transform="matrix(1, 0, 0, 1, -1.24, -22.72)" filter="url(#bell)">
+      <path id="bell-2" data-name="bell" d="M148.535,467.726H278.108a64.786,64.786,0,0,1-129.573,0ZM36.783,437A36.783,36.783,0,0,1,0,400.219a59.161,59.161,0,0,1,32.987-53.056l5.451-2.689c9.469,0,15.192-9.614,18.239-17.227V145.207a100,100,0,0,1,100-100h6.017a52.75,52.75,0,0,1,104.415,0h6.018a100,100,0,0,1,100,100V318.126h.886s.2,26.348,17.81,26.348l5.071,2.532a59.477,59.477,0,0,1,32.91,53.213A36.783,36.783,0,0,1,393.021,437Z" transform="translate(54.36 25.25)" fill="rgba(255,255,255,0)" stroke="rgba(115,103,240,0.6)" stroke-width="1.5"/>
+    </g>
+    <g id="indicator" transform="translate(381.799 391.248)">
+      <g transform="matrix(1, 0, 0, 1, -383.04, -413.97)" filter="url(#Oval_2)">
+        <circle id="Oval_2-2" data-name="Oval 2" cx="55.622" cy="55.622" r="55.622" transform="translate(383.04 413.97)" fill="#36be6c"/>
+      </g>
+      <text id="_0" data-name="0" transform="translate(40.799 77.226)" fill="#fff" font-size="53" font-family="SegoeUI, Segoe UI" letter-spacing="-0.01em"><tspan x="0" y="0">0</tspan></text>
+    </g>
+    <g id="face" transform="translate(195.34 217.431)">
+      <path id="Rectangle_3" data-name="Rectangle 3" d="M0,13.294A10.276,10.276,0,0,1,8.1,3.25L55.879-7.1,102.517,3.215a10.322,10.322,0,0,1,8.093,10.078h0a6.663,6.663,0,0,1-8.1,6.508L55.6,9.479,8.1,19.819A6.679,6.679,0,0,1,0,13.294Z" transform="translate(15.802 64.513)" fill="#36be6c" opacity="0.2"/>
+      <path id="Rectangle_3_Copy" data-name="Rectangle 3 Copy" d="M0,19.894A16.372,16.372,0,0,1,8.828,5.364L19.159,0l9.977,5.288a16.531,16.531,0,0,1,8.789,14.606h0a6,6,0,0,1-8.8,5.307L19.063,19.894,8.819,25.24A6.029,6.029,0,0,1,0,19.894Z" fill="#36be6c" opacity="0.2"/>
+      <path id="Rectangle_3_Copy_2" data-name="Rectangle 3 Copy 2" d="M0,19.894A16.372,16.372,0,0,1,8.828,5.364L19.159,0l9.977,5.288a16.531,16.531,0,0,1,8.789,14.606h0a6,6,0,0,1-8.8,5.307L19.063,19.894,8.819,25.24A6.029,6.029,0,0,1,0,19.894Z" transform="translate(107.451)" fill="#36be6c" opacity="0.2"/>
+    </g>
+    <path id="line" d="M.872,82.65C-5.262,48.617,21.881,8.368,53.661,0" transform="translate(50.842 38.216)" fill="none" stroke="#36be6c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" opacity="0.1"/>
+    <path id="line-2" data-name="line" d="M1.129,106.989C-6.811,62.933,28.325,10.832,69.464,0" transform="translate(0.277 0.292)" fill="none" stroke="#36be6c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" opacity="0.1"/>
+  </g>
+</svg>
