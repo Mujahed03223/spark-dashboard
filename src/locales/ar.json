@@ -898,12 +898,12 @@
           "permissions": [
             {
               "title": "عرض الكل",
-              "url": "role/show-all",
+              "url": "roles/show-all",
               "name": "role.index"
             },
             {
               "title": "اضافة جديد",
-              "url": "role/add",
+              "url": "roles/add",
               "name": "role.store"
             }
           ],
