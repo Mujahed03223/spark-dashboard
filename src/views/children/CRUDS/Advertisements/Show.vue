@@ -147,6 +147,19 @@
                 </div>
 
                 <div class="ads_info col-md-6 col-lg-4">
+                  <h5 class="title">{{ $t("labels.ad_number") }}</h5>
+                  <p>
+                    <span v-if="adsData?.id">
+                      #{{ adsData?.id }}
+                    </span>
+
+                    <span class="redColor fontBold" v-else>
+                      {{ $t("notFound") }}
+                    </span>
+                  </p>
+                </div>
+
+                <div class="ads_info col-md-6 col-lg-4">
                   <h5 class="title">
                     {{ $t("labels.board_no") }} {{ $t("inArabic") }}
                   </h5>

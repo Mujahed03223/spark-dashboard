@@ -1078,7 +1078,22 @@
     "dash_ad": "Advertisements",
     "role": "Roles",
     "permission": "Permissions",
-    "reject": "Rejection Reasons"
+    "reject": "Rejection Reasons",
+    "notifications": "Notifications",
+    "finance_analysis": "Finance Analysis",
+    "home_page": "Home Page",
+    "bank_transfers": "Bank Transfers",
+    "ownership_transfers": "Ownership Transfer Delegation",
+    "complete_selling": "Complete Selling",
+    "buy_process": "Buy Process",
+    "return_packages": "Return Packages",
+    "finance-analysis": "Finance Analysis",
+    "home": "Home Page",
+    "bank-transfers": "Bank Transfers",
+    "ownership-transfers": "Ownership Transfer Delegation",
+    "complete-selling": "Complete Selling",
+    "buy-process": "Buy Process",
+    "return-packages": "Return Packages"
   },
 
   "labels": {
@@ -1110,6 +1125,7 @@
     "price_percentage_value": "Price Percentage Value",
     "auction_users": "Auction Users",
     "buyer_price": "Buyer Price",
+    "ad_number": "Ad Number",
     "board_no": "Board Number",
     "is_coming": "Coming Soon?",
     "bid_amount": "Bid Amount",

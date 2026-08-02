@@ -1191,7 +1191,22 @@
     "permission": "الصلاحيات",
     "reject": "أسباب الرفض",
     "packages": "الباقات المرتجعة",
-    "financial_analyses": "التحليلات المالية"
+    "financial_analyses": "التحليلات المالية",
+    "notifications": "الإشعارات",
+    "finance_analysis": "التحليلات المالية",
+    "home_page": "الصفحة الرئيسية",
+    "bank_transfers": "التحويلات البنكية",
+    "ownership_transfers": "تفويض نقل الملكية",
+    "complete_selling": "إتمام البيع",
+    "buy_process": "عملية الشراء",
+    "return_packages": "الباقات المرتجعة",
+    "finance-analysis": "التحليلات المالية",
+    "home": "الصفحة الرئيسية",
+    "bank-transfers": "التحويلات البنكية",
+    "ownership-transfers": "تفويض نقل الملكية",
+    "complete-selling": "إتمام البيع",
+    "buy-process": "عملية الشراء",
+    "return-packages": "الباقات المرتجعة"
   },
 
   "labels": {
@@ -1223,6 +1238,7 @@
     "price_percentage_value": "كم رقم النسبة من السعر",
     "auction_users": "المزايدون",
     "buyer_price": "سعر المشتري",
+    "ad_number": "رقم الإعلان",
     "board_no": "رقم اللوحة",
     "is_coming": "قريبا؟",
     "bid_amount": "مبلغ المزايدة",

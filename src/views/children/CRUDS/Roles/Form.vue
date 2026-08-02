@@ -347,23 +347,28 @@ export default {
 }
 
 .roles-table {
-  table-layout: fixed;
+  table-layout: auto;
   width: 100%;
   text-align: center;
-  overflow-x: scroll;
+  overflow-x: auto;
   overflow-y: hidden;
   padding: 0px;
+  display: block;
 
   th {
     background-color: #eee;
     border: 1px solid lightgray;
-    padding: 5px;
+    padding: 8px 12px;
+    white-space: nowrap;
+    font-weight: bold;
+    min-width: 120px;
   }
 
   td {
     border: 1px solid #eee;
-    word-wrap: break-word;
-    white-space: pre-wrap;
+    padding: 4px 8px;
+    white-space: nowrap;
+    vertical-align: middle;
   }
 }
 

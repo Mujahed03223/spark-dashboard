@@ -316,7 +316,7 @@ export default {
           this.loading = false;
           const result = res.data.data;
           this.data.phone = {
-            number: result.phone,
+            number: result.mobile,
             key: result.phone_code,
           };
           this.data.email = result.email;
