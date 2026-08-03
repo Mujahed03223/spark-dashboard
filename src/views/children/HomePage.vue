@@ -510,15 +510,8 @@ export default {
   },
 
   created() {
-    this.canShow = this.$permission.allowed("show-dashboard");
-    // console.log(this.canShow);
-
-    if (this.user.usertype != "superadmin") {
-      if (!this.canShow) {
-        this.getHome();
-      }
-    } else {
-      this.getHome();
+    this.getHome();
+    if (this.user.usertype == "superadmin") {
       if (localStorage.getItem("spark_dash_permissions")) {
         localStorage.removeItem("spark_dash_permissions");
       }
