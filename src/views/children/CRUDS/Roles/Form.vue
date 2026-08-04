@@ -67,7 +67,6 @@
           </ValidationProvider> -->
 
           <p class="text-center mt-5">{{ $t("labels.permissions") }}</p>
-          <div style="overflow-x: auto; width: 100%;">
           <table class="roles-table border rounded-lg">
             <tr v-for="(permission, index) in permissions" :key="index">
               <th>{{ $t(`permissions.${index}`) }}</th>
@@ -86,7 +85,6 @@
               </td>
             </tr>
           </table>
-          </div>
         </div>
 
         <div class="button_section d-flex gap-1 justify-content-center mt-10">
@@ -102,7 +100,7 @@
           <v-btn
             type="button"
             class="back_btn"
-            @click="handleBack('/roles/show-all')"
+            @click="handleBack('/role/show-all')"
           >
             {{ $t("back") }}
             <span
@@ -138,7 +136,7 @@ export default {
         {
           text: this.$t("breadcrumb.roles.title"),
           disabled: false,
-          href: "/roles/show-all"
+          href: "/role/show-all"
         },
         {
           text: this.$t(`breadcrumb.roles.${this.id ? "edit" : "add"}`),
@@ -225,9 +223,9 @@ export default {
               if (!this.editMode) {
                 this.$refs.rolesForm.reset();
                 // this.resetForm();
-                this.$router.push("/roles/show-all");
+                this.$router.push("/role/show-all");
               } else {
-                this.$router.push("/roles/show-all");
+                this.$router.push("/role/show-all");
               }
 
               this.btnIsLoading = false;
@@ -349,12 +347,13 @@ export default {
 }
 
 .roles-table {
-  table-layout: fixed;
+  table-layout: auto;
   width: 100%;
   text-align: center;
   overflow-x: auto;
   overflow-y: hidden;
   padding: 0px;
+  display: block;
 
   th {
     background-color: #eee;
@@ -362,7 +361,7 @@ export default {
     padding: 8px 12px;
     white-space: nowrap;
     font-weight: bold;
-    width: 150px;
+    min-width: 120px;
   }
 
   td {
@@ -370,7 +369,6 @@ export default {
     padding: 4px 8px;
     white-space: nowrap;
     vertical-align: middle;
-    width: 120px;
   }
 }
 
