@@ -4,7 +4,7 @@
     <Breadcrumb
       :canAddNew="!canAdd"
       :items="items"
-      search_route="/role/add"
+      search_route="/roles/add"
       :search_title="$t('breadcrumb.roles.add')"
       icon="fa-plus"
     />
@@ -139,7 +139,7 @@ export default {
         {
           text: this.$t("breadcrumb.roles.title"),
           disabled: false,
-          href: "/role/show-all"
+          href: "/roles/show-all"
         },
         {
           text: this.$t("breadcrumb.roles.all"),
@@ -227,13 +227,13 @@ export default {
 
     // ==================== Start CRUD ====================
     addItem() {
-      this.$router.push({ path: "/role/add" });
+      this.$router.push({ path: "/roles/add" });
     },
     showItem(item) {
-      this.$router.push({ path: "/role/show/" + item.id });
+      this.$router.push({ path: "/roles/show/" + item.id });
     },
     editItem(item) {
-      this.$router.push({ path: "/role/edit/" + item.id });
+      this.$router.push({ path: "/roles/edit/" + item.id });
     },
     // ===== Delete
 
@@ -291,7 +291,7 @@ export default {
   created() {
     // console.log(this.canEdit);
 
-    this.canEdit = this.$permission.allowed("role/edit");
+    this.canEdit = this.$permission.allowed("roles/edit");
     this.canDelete = this.$permission.allowed("role/delete");
     this.canAdd = this.$permission.allowed("role/add");
     this.canShow = this.$permission.allowed("role/show");

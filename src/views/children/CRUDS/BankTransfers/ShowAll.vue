@@ -5,7 +5,13 @@
       <Breadcrumb :items="items" />
 
       <the-filter :inputs="inputs" />
-      <!-- :custom-filter="helper_filterSearch" -->
+
+      <!-- Status Tabs -->
+      <v-tabs v-model="activeTab" class="mb-4" @change="onTabChange">
+        <v-tab>{{ $t("labels.all") }}</v-tab>
+        <v-tab>{{ $t("labels.pending") }}</v-tab>
+        <v-tab>{{ $t("labels.completed") }}</v-tab>
+      </v-tabs>
 
       <main>
         <v-data-table
@@ -246,6 +252,7 @@ export default {
       total: 0,
       rows: [],
       search: null,
+      activeTab: 0,
 
       inputs: [
         {
@@ -389,8 +396,17 @@ export default {
     //     });
     // },
 
+    onTabChange() {
+      this.paginations.current_page = 1;
+      this.setRows();
+    },
+
     setRows() {
       this.loading = true;
+      let filterStatus = '';
+      if (this.activeTab === 1) filterStatus = 'pending';
+      else if (this.activeTab === 2) filterStatus = 'completed';
+
       this.axios({
         method: "GET",
         url: `buy_process`,
@@ -399,6 +415,7 @@ export default {
           per_page: this.$route.query.per_page,
           keyword: this.$route.query.keyword,
           ad_id: this.$route.query.ad_id,
+          filter_status: filterStatus,
         },
       })
         .then((res) => {
