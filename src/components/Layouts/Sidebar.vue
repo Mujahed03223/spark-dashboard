@@ -153,13 +153,13 @@
           <v-list-item-title>{{ $t("navs.home") }}</v-list-item-title>
         </v-list-item>
         <template v-for="item in sidebar">
-          <div class="divider_new" v-if="item.label" :key="item.id">
+          <div class="divider_new" v-if="handleShowLabels(item)" :key="item.id">
             <span>{{ item.label }}</span>
           </div>
 
           <template v-for="sub_item in item.categories">
             <v-list-item
-              v-if="sub_item.key == 'general'"
+              v-if="sub_item.key == 'general' && !$permission.allowed(`${sub_item.permissions[0].url}`)"
               :key="sub_item.id"
               :to="`/${sub_item.permissions[0].url}`"
             >
@@ -168,7 +168,7 @@
             </v-list-item>
             <!-- If DropDown -->
             <v-list-group
-              v-else
+              v-else-if="!$permission.allowed(`${sub_item.permissions[0].url}`) || !$permission.allowed(`${sub_item.permissions[1]?.url}`)"
               :key="sub_item.uuid"
               :class="{
                 activeDropDown: sub_item.active
@@ -189,6 +189,7 @@
                   v-for="child in sub_item.permissions"
                   :to="`/${child.url}`"
                   :key="child.id"
+                  v-if="!$permission.allowed(`${child.url}`)"
                 >
                   <v-list-item-content>
                     <v-list-item-title>{{ child.title }}</v-list-item-title>
