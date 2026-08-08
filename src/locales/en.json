@@ -1052,6 +1052,19 @@
     "canceled": "Canceled",
     "running": "Running"
   },
+  "admin_actions": {
+    "accepted": "Accepted",
+    "rejected": "Rejected",
+    "deleted": "Deleted",
+    "updated": "Updated",
+    "finished": "Finished",
+    "accepted_bank_transfer": "Accepted Bank Transfer",
+    "rejected_bank_transfer": "Rejected Bank Transfer",
+    "accepted_ownership_buyer": "Accepted Buyer Ownership",
+    "accepted_ownership_seller": "Accepted Seller Ownership",
+    "rejected_ownership_buyer": "Rejected Buyer Ownership",
+    "rejected_ownership_seller": "Rejected Seller Ownership"
+  },
   "top_charts": {
     "today_profits": "AED",
     "today_trips": "Trip",
@@ -1146,7 +1159,9 @@
     "iban": "Iban",
     "user_details": "User Details",
     "user_activity": "User Activity",
+    "admin_activity": "Admin Activity",
     "ad_posted_date": "Ad Posted Date",
+    "first_ad_posted_date": "First Ad Posted Date",
     "user_last_active": "Last Active",
     "user_registered_at": "Registration Date",
     "user_total_ads": "Total Ads Posted",

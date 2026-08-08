@@ -802,6 +802,43 @@
         </div>
       </div>
 
+      <!-- Admin Activity Log Section -->
+      <div class="col-12 mt-5" v-if="adsData?.admin_activity_logs && adsData.admin_activity_logs.length">
+        <BaseCard>
+          <div class="pa-4">
+            <h3 class="table-title title mb-4">
+              {{ $t("labels.admin_activity") }}
+            </h3>
+            <v-timeline dense align-top>
+              <v-timeline-item
+                v-for="(log, index) in adsData.admin_activity_logs"
+                :key="index"
+                :color="getActionColor(log.action)"
+                small
+              >
+                <div class="d-flex justify-content-between align-items-start">
+                  <div>
+                    <strong>{{ log.admin_name }}</strong>
+                    <v-chip
+                      x-small
+                      class="mx-2"
+                      :color="getActionColor(log.action)"
+                      text-color="white"
+                    >
+                      {{ $t(`admin_actions.${log.action}`) }}
+                    </v-chip>
+                    <p class="mb-0 mt-1 text--secondary" v-if="log.description">
+                      {{ log.description }}
+                    </p>
+                  </div>
+                  <span class="text--secondary text-caption">{{ log.time_ago }}</span>
+                </div>
+              </v-timeline-item>
+            </v-timeline>
+          </div>
+        </BaseCard>
+      </div>
+
       <div class="my-5 button_section d-flex gap-1 justify-content-end">
         <v-btn
           type="button"
@@ -1127,6 +1164,23 @@ export default {
   methods: {
     imageError(event) {
       event.target.src = require("@/assets/media/images/Icons/no-data.svg");
+    },
+
+    getActionColor(action) {
+      const colors = {
+        accepted: 'success',
+        rejected: 'error',
+        deleted: 'error',
+        updated: 'info',
+        finished: 'success',
+        accepted_bank_transfer: 'success',
+        rejected_bank_transfer: 'error',
+        accepted_ownership_buyer: 'success',
+        accepted_ownership_seller: 'success',
+        rejected_ownership_buyer: 'error',
+        rejected_ownership_seller: 'error',
+      };
+      return colors[action] || 'grey';
     },
 
     show_model_1(e) {

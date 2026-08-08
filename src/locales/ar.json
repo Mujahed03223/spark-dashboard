@@ -1163,6 +1163,19 @@
     "canceled": "ملغية",
     "running": "جارية"
   },
+  "admin_actions": {
+    "accepted": "تم القبول",
+    "rejected": "تم الرفض",
+    "deleted": "تم الحذف",
+    "updated": "تم التحديث",
+    "finished": "تم الإنهاء",
+    "accepted_bank_transfer": "تم قبول التحويل البنكي",
+    "rejected_bank_transfer": "تم رفض التحويل البنكي",
+    "accepted_ownership_buyer": "تم قبول نقل ملكية المشتري",
+    "accepted_ownership_seller": "تم قبول نقل ملكية البائع",
+    "rejected_ownership_buyer": "تم رفض نقل ملكية المشتري",
+    "rejected_ownership_seller": "تم رفض نقل ملكية البائع"
+  },
   "top_charts": {
     "today_profits": "درهم",
     "today_trips": "رحلة",
@@ -1259,7 +1272,9 @@
     "iban": "آيبان",
     "user_details": "بيانات المستخدم",
     "user_activity": "نشاط المستخدم",
+    "admin_activity": "نشاط المشرف",
     "ad_posted_date": "تاريخ نشر الإعلان",
+    "first_ad_posted_date": "تاريخ أول إعلان",
     "user_last_active": "آخر نشاط",
     "user_registered_at": "تاريخ التسجيل",
     "user_total_ads": "إجمالي الإعلانات",

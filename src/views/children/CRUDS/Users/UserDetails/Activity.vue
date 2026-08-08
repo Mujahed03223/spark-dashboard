@@ -44,6 +44,21 @@
                   class="activity-item d-flex justify-content-between align-items-center py-3"
                 >
                   <span class="activity-label">
+                    <i class="fal fa-bullhorn me-2"></i>
+                    {{ $t("labels.first_ad_posted_date") }}
+                  </span>
+                  <span class="activity-value" v-if="userInfo && userInfo.first_ad_date">
+                    {{ userInfo.first_ad_date }}
+                  </span>
+                  <span class="activity-value text--secondary" v-else>
+                    {{ $t("notFound") }}
+                  </span>
+                </div>
+
+                <div
+                  class="activity-item d-flex justify-content-between align-items-center py-3"
+                >
+                  <span class="activity-label">
                     <i class="fal fa-ad me-2"></i>
                     {{ $t("labels.user_total_ads") }}
                   </span>
