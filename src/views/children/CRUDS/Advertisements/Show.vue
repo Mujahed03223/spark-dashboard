@@ -777,6 +777,7 @@
                 <div class="d-flex justify-content-between align-items-start">
                   <div>
                     <strong>{{ log.admin_name }}</strong>
+                    <span class="text--secondary text-caption d-block">{{ log.admin_email }}</span>
                     <v-chip
                       x-small
                       class="mx-2"
