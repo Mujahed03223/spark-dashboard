@@ -598,6 +598,15 @@ window.rootRouter = router = new VueRouter({
                     ),
                   props: true,
                 },
+                {
+                  path: "activity",
+                  name: "UserActivity",
+                  component: () =>
+                    import(
+                      "../views/children/CRUDS/Users/UserDetails/Activity.vue"
+                    ),
+                  props: true,
+                },
               ],
             },
             // Edit

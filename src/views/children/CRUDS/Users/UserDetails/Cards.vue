@@ -64,6 +64,16 @@
           ></profile-card>
         </div>
 
+        <div class="col-md-4">
+          <profile-card
+            :link="`/users/show/${id}/activity`"
+            :icon="'fal fa-history'"
+            :title="$t('labels.user_activity')"
+            :color="'#0d4d3b'"
+            :bgColor="'#0E755612'"
+          ></profile-card>
+        </div>
+
         <div class="my-5 button_section d-flex gap-1 justify-content-end">
           <v-btn
             type="button"
