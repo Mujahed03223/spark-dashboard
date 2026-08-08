@@ -46,48 +46,6 @@
           </h3>
           <Profile :profileData="userData" name="adsUser" />
 
-          <!-- User Activity Info -->
-          <div class="user-activity-card mt-4 pa-3" v-if="adsData">
-            <h3 class="table-title title">
-              {{ $t("labels.user_activity") }}
-            </h3>
-            <div class="activity-list">
-              <div class="activity-item d-flex justify-content-between align-items-center py-2">
-                <span class="activity-label">{{ $t("labels.ad_posted_date") }}</span>
-                <span class="activity-value" v-if="adsData.created_at">{{ adsData.created_at }}</span>
-                <span class="activity-value text--secondary" v-else>{{ $t("notFound") }}</span>
-              </div>
-              <div class="activity-item d-flex justify-content-between align-items-center py-2">
-                <span class="activity-label">{{ $t("labels.user_last_active") }}</span>
-                <span class="activity-value" v-if="adsData.user_last_active">{{ adsData.user_last_active }}</span>
-                <span class="activity-value text--secondary" v-else>{{ $t("labels.never") }}</span>
-              </div>
-              <div class="activity-item d-flex justify-content-between align-items-center py-2">
-                <span class="activity-label">{{ $t("labels.user_registered_at") }}</span>
-                <span class="activity-value" v-if="adsData.user_registered_at">{{ adsData.user_registered_at }}</span>
-                <span class="activity-value text--secondary" v-else>{{ $t("notFound") }}</span>
-              </div>
-              <div class="activity-item d-flex justify-content-between align-items-center py-2">
-                <span class="activity-label">{{ $t("labels.user_total_ads") }}</span>
-                <span class="activity-value">{{ adsData.user_total_ads || 0 }}</span>
-              </div>
-              <div class="activity-item d-flex justify-content-between align-items-center py-2">
-                <span class="activity-label">{{ $t("labels.user_status") }}</span>
-                <span class="activity-value">
-                  <v-chip
-                    v-if="adsData.user_status"
-                    small
-                    :color="adsData.user_status === 'active' ? 'success' : adsData.user_status === 'banned' ? 'error' : 'warning'"
-                    text-color="white"
-                  >
-                    {{ $t(`status.${adsData.user_status}`) }}
-                  </v-chip>
-                  <span v-else class="text--secondary">{{ $t("notFound") }}</span>
-                </span>
-              </div>
-            </div>
-          </div>
-
           <template v-if="winnerData">
             <h3 class="table-title title">
               {{ $t("labels.winner_details") }}
