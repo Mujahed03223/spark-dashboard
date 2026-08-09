@@ -760,6 +760,36 @@
         </div>
       </div>
 
+      <!-- Ad Lifecycle Timeline -->
+      <div class="col-12 mt-5" v-if="adsData">
+        <BaseCard>
+          <div class="pa-4">
+            <h3 class="table-title title mb-4">
+              {{ $t("labels.ad_lifecycle") }}
+            </h3>
+            <div class="lifecycle-timeline">
+              <div
+                v-for="(step, index) in lifecycleSteps"
+                :key="'lc-' + index"
+                class="lifecycle-item d-flex align-items-center"
+                :class="{ 'completed': index + 1 <= currentStep, 'current': index + 1 === currentStep }"
+              >
+                <div class="step-indicator">
+                  <div class="step-circle">
+                    <i v-if="index + 1 < currentStep" class="fas fa-check"></i>
+                    <span v-else>{{ index + 1 }}</span>
+                  </div>
+                  <div class="step-line" v-if="index < lifecycleSteps.length - 1"></div>
+                </div>
+                <div class="step-content">
+                  <span class="step-label">{{ step.label }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </BaseCard>
+      </div>
+
       <!-- Admin Activity Log Section -->
       <div class="col-12 mt-5" v-if="adsData?.admin_activity_logs && adsData.admin_activity_logs.length">
         <BaseCard>
@@ -1117,7 +1147,31 @@ export default {
         src: null,
         show: null,
       },
+
+      lifecycleSteps: [
+        { status: 'pending', label: 'New' },
+        { status: 'unactive', label: 'Admin Accepted' },
+        { status: 'active', label: 'Auction Active' },
+        { status: 'waiting', label: 'Pending Seller' },
+        { status: 'accepted_by_seller', label: 'Seller Accepted' },
+        { status: 'request_bank_transfer_buyer', label: 'Bank Transfer Submitted' },
+        { status: 'accepted_bank_transfer', label: 'Bank Transfer Accepted' },
+        { status: 'request_owner_ship_seller', label: 'Ownership Submitted' },
+        { status: 'accepted_owner_ship_buyer', label: 'Buyer Ownership Accepted' },
+        { status: 'accepted_owner_ship_seller', label: 'Seller Ownership Accepted' },
+        { status: 'delivery_uploaded', label: 'Delivery Submitted' },
+        { status: 'finished', label: 'Completed' },
+      ],
     };
+  },
+
+  computed: {
+    currentStep() {
+      if (!this.adsData) return 0;
+      const status = this.adsData.ads_status;
+      const index = this.lifecycleSteps.findIndex(s => s.status === status);
+      return index >= 0 ? index + 1 : 1;
+    },
   },
 
   methods: {
@@ -1316,6 +1370,78 @@ export default {
   }
   .auctionUsersTable {
     background-color: transparent;
+  }
+
+  .lifecycle-timeline {
+    .lifecycle-item {
+      position: relative;
+      padding-bottom: 0;
+
+      &.completed {
+        .step-circle {
+          background-color: #0d4d3b;
+          color: white;
+          border-color: #0d4d3b;
+        }
+        .step-line {
+          background-color: #0d4d3b;
+        }
+        .step-label {
+          color: #0d4d3b;
+          font-weight: 600;
+        }
+      }
+
+      &.current {
+        .step-circle {
+          background-color: #0d4d3b;
+          color: white;
+          border-color: #0d4d3b;
+          box-shadow: 0 0 0 4px rgba(13, 77, 59, 0.2);
+        }
+        .step-label {
+          font-weight: 700;
+          color: #0d4d3b;
+        }
+      }
+
+      .step-indicator {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 16px;
+      }
+
+      .step-circle {
+        width: 32px;
+        height: 32px;
+        min-width: 32px;
+        border-radius: 50%;
+        border: 2px solid #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 600;
+        color: #999;
+        background: white;
+      }
+
+      .step-line {
+        width: 2px;
+        height: 24px;
+        background-color: #e0e0e0;
+      }
+
+      .step-content {
+        padding: 6px 0;
+
+        .step-label {
+          font-size: 14px;
+          color: #666;
+        }
+      }
+    }
   }
 
   .user-activity-card {
