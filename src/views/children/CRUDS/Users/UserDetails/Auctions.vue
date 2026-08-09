@@ -270,7 +270,7 @@ export default {
       this.loadingSpark = true;
       this.axios({
         methos: "GET",
-        url: `user-sparks/${this.id}`,
+        url: `user-mazadats/${this.id}`,
         params: {
           page: this.paginations.current_page,
           per_page: this.$route.query.per_page

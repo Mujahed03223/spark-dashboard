@@ -283,7 +283,7 @@ export default {
       this.loading = true;
       this.axios({
         methos: "GET",
-        url: `in-user-sparks/${this.id}`,
+        url: `in-user-mazadats/${this.id}`,
         params: {
           page: this.paginations.current_page,
           per_page: this.$route.query.per_page
