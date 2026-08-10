@@ -131,7 +131,10 @@
                         </div>
                         <div class="reply-meta">
                           <span class="reply-sender">
-                            {{ item?.user?.name || $t("notFound") }}
+                            {{ reply.replied_by ? reply.replied_by.name : $t("admin") }}
+                          </span>
+                          <span class="reply-email text--secondary" v-if="reply.replied_by">
+                            {{ reply.replied_by.email }}
                           </span>
                           <span class="reply-date">
                             <!-- <i class="far fa-clock"></i> -->
