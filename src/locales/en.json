@@ -1065,6 +1065,21 @@
     "rejected_ownership_buyer": "Rejected Buyer Ownership",
     "rejected_ownership_seller": "Rejected Seller Ownership"
   },
+  "lifecycle": {
+    "new": "New",
+    "admin_accepted": "Accepted by Admin",
+    "auction_active": "Auction Active",
+    "pending_seller": "Pending Seller Acceptance",
+    "seller_accepted": "Seller accepted awaiting buyer's bank transfer",
+    "bank_transfer_submitted": "Bank transfer submitted awaiting admin approval",
+    "bank_transfer_accepted": "Bank transfer accepted awaiting ownership transfer",
+    "ownership_submitted_buyer": "Ownership transfer submitted by buyer awaiting admin approval",
+    "ownership_buyer_accepted": "Ownership accepted awaiting seller to submit",
+    "ownership_submitted_seller": "Ownership transfer submitted by seller awaiting admin approval",
+    "ownership_seller_accepted": "Ownership accepted awaiting delivery details",
+    "delivery_submitted": "Delivery details submitted awaiting completion",
+    "completed": "Completed"
+  },
   "top_charts": {
     "today_profits": "AED",
     "today_trips": "Trip",

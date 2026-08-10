@@ -1176,6 +1176,21 @@
     "rejected_ownership_buyer": "تم رفض نقل ملكية المشتري",
     "rejected_ownership_seller": "تم رفض نقل ملكية البائع"
   },
+  "lifecycle": {
+    "new": "جديد",
+    "admin_accepted": "تم قبول الإعلان",
+    "auction_active": "مزاد فعال",
+    "pending_seller": "في انتظار قبول البائع",
+    "seller_accepted": "تم قبول البائع في انتظار رفع الحوالة البنكية من المشتري",
+    "bank_transfer_submitted": "تم رفع الحوالة البنكية من المشتري في انتظار قبول الإدارة",
+    "bank_transfer_accepted": "تم قبول الحوالة في انتظار رفع نقل الملكية من المشتري",
+    "ownership_submitted_buyer": "تم رفع نقل الملكية من المشتري في انتظار قبول الإدارة",
+    "ownership_buyer_accepted": "تم قبول الإدارة في انتظار رفع نقل ملكية البائع",
+    "ownership_submitted_seller": "تم رفع نقل ملكية البائع في انتظار قبول الإدارة",
+    "ownership_seller_accepted": "تم قبول الإدارة في انتظار إضافة بيانات التوصيل للطرفين",
+    "delivery_submitted": "تم إضافة بيانات التوصيل",
+    "completed": "مكتمل"
+  },
   "top_charts": {
     "today_profits": "درهم",
     "today_trips": "رحلة",
