@@ -783,7 +783,7 @@
                 </div>
                 <div class="step-content d-flex justify-content-between align-items-center flex-grow-1">
                   <span class="step-label">{{ step.label }}</span>
-                  <span class="step-date text--secondary" v-if="getStepDate(step.status)">{{ getStepDate(step.status) }}</span>
+                  <span class="step-date text--secondary" v-if="getStepDate(step.status)">{{ getStepDate(step.status) }} ({{ getStepTimeAgo(step.status) }})</span>
                 </div>
               </div>
             </div>
@@ -1215,6 +1215,21 @@ export default {
     getStepDate(status) {
       if (!this.adsData || !this.adsData.lifecycle_dates) return null;
       return this.adsData.lifecycle_dates[status] || null;
+    },
+
+    getStepTimeAgo(status) {
+      const date = this.getStepDate(status);
+      if (!date) return '';
+      const now = new Date();
+      const then = new Date(date.replace(' ', 'T'));
+      const diffMs = now - then;
+      const diffMins = Math.floor(diffMs / 60000);
+      const diffHours = Math.floor(diffMins / 60);
+      const diffDays = Math.floor(diffHours / 24);
+      if (diffDays > 0) return `${diffDays} ${diffDays === 1 ? 'day' : 'days'} ago`;
+      if (diffHours > 0) return `${diffHours} ${diffHours === 1 ? 'hour' : 'hours'} ago`;
+      if (diffMins > 0) return `${diffMins} ${diffMins === 1 ? 'minute' : 'minutes'} ago`;
+      return 'just now';
     },
 
     show_model_1(e) {
