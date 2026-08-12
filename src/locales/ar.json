@@ -1191,6 +1191,20 @@
     "delivery_submitted": "تم إضافة بيانات التوصيل",
     "completed": "مكتمل"
   },
+  "admin_actions_desc": {
+    "accepted": "تم قبول الإعلان",
+    "rejected": "تم رفض الإعلان",
+    "deleted": "تم حذف الإعلان",
+    "updated": "تم تحديث الإعلان",
+    "finished": "تم اكمال البيع",
+    "accepted_bank_transfer": "تم قبول التحويل البنكي",
+    "rejected_bank_transfer": "تم رفض التحويل البنكي",
+    "accepted_ownership_buyer": "تم قبول نقل الملكية المشتري",
+    "accepted_ownership_seller": "تم قبول نقل الملكية البائع",
+    "rejected_ownership_buyer": "تم رفض نقل الملكية المشتري",
+    "rejected_ownership_seller": "تم رفض نقل الملكية البائع",
+    "completed": "تم اكمال البيع"
+  },
   "top_charts": {
     "today_profits": "درهم",
     "today_trips": "رحلة",

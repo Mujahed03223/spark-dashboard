@@ -1080,6 +1080,20 @@
     "delivery_submitted": "Delivery details submitted awaiting completion",
     "completed": "Completed"
   },
+  "admin_actions_desc": {
+    "accepted": "Admin accepted the advertisement",
+    "rejected": "Admin rejected the advertisement",
+    "deleted": "Admin deleted the advertisement",
+    "updated": "Admin updated the advertisement",
+    "finished": "The sale has been completed",
+    "accepted_bank_transfer": "Admin accepted bank transfer",
+    "rejected_bank_transfer": "Admin rejected bank transfer",
+    "accepted_ownership_buyer": "Admin accepted buyer ownership",
+    "accepted_ownership_seller": "Admin accepted seller ownership",
+    "rejected_ownership_buyer": "Admin rejected buyer ownership",
+    "rejected_ownership_seller": "Admin rejected seller ownership",
+    "completed": "The sale has been completed"
+  },
   "top_charts": {
     "today_profits": "AED",
     "today_trips": "Trip",

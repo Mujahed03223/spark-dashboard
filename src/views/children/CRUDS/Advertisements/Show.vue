@@ -781,8 +781,9 @@
                   </div>
                   <div class="step-line" v-if="index < lifecycleSteps.length - 1"></div>
                 </div>
-                <div class="step-content">
+                <div class="step-content d-flex justify-content-between align-items-center flex-grow-1">
                   <span class="step-label">{{ step.label }}</span>
+                  <span class="step-date text--secondary" v-if="getStepDate(step.status)">{{ getStepDate(step.status) }}</span>
                 </div>
               </div>
             </div>
@@ -799,7 +800,7 @@
             </h3>
             <v-timeline dense align-top>
               <v-timeline-item
-                v-for="(log, index) in adsData.admin_activity_logs"
+                v-for="(log, index) in sortedAdminLogs"
                 :key="index"
                 :color="getActionColor(log.action)"
                 small
@@ -808,19 +809,26 @@
                   <div>
                     <strong>{{ log.admin_name }}</strong>
                     <span class="text--secondary text-caption d-block">{{ log.admin_email }}</span>
-                    <v-chip
-                      x-small
-                      class="mx-2"
-                      :color="getActionColor(log.action)"
-                      text-color="white"
-                    >
-                      {{ $t(`admin_actions.${log.action}`) }}
-                    </v-chip>
-                    <p class="mb-0 mt-1 text--secondary" v-if="log.description">
-                      {{ log.description }}
+                    <p class="mb-0 mt-1 font-weight-medium">
+                      {{ $t(`admin_actions_desc.${log.action}`) }}
                     </p>
                   </div>
-                  <span class="text--secondary text-caption">{{ log.time_ago }}</span>
+                  <span class="text--secondary text-caption">{{ log.date }}</span>
+                </div>
+              </v-timeline-item>
+              <!-- Completed step -->
+              <v-timeline-item
+                v-if="adsData.ads_status === 'finished'"
+                color="success"
+                small
+              >
+                <div class="d-flex justify-content-between align-items-start">
+                  <div>
+                    <p class="mb-0 mt-1 font-weight-bold text-success">
+                      {{ $t('admin_actions_desc.completed') }}
+                    </p>
+                  </div>
+                  <span class="text--secondary text-caption">{{ adsData.lifecycle_dates?.finished }}</span>
                 </div>
               </v-timeline-item>
             </v-timeline>
@@ -1173,6 +1181,13 @@ export default {
       const index = this.lifecycleSteps.findIndex(s => s.status === status);
       return index >= 0 ? index + 1 : 1;
     },
+    sortedAdminLogs() {
+      if (!this.adsData?.admin_activity_logs) return [];
+      const order = ['accepted', 'accepted_bank_transfer', 'accepted_ownership_buyer', 'accepted_ownership_seller', 'finished'];
+      return [...this.adsData.admin_activity_logs].sort((a, b) => {
+        return order.indexOf(a.action) - order.indexOf(b.action);
+      });
+    },
   },
 
   methods: {
@@ -1195,6 +1210,11 @@ export default {
         rejected_ownership_seller: 'error',
       };
       return colors[action] || 'grey';
+    },
+
+    getStepDate(status) {
+      if (!this.adsData || !this.adsData.lifecycle_dates) return null;
+      return this.adsData.lifecycle_dates[status] || null;
     },
 
     show_model_1(e) {
@@ -1436,10 +1456,17 @@ export default {
 
       .step-content {
         padding: 6px 0;
+        width: 100%;
 
         .step-label {
           font-size: 14px;
           color: #666;
+        }
+
+        .step-date {
+          font-size: 12px;
+          color: #999;
+          white-space: nowrap;
         }
       }
     }
