@@ -813,7 +813,7 @@
                       {{ $t(`admin_actions_desc.${log.action}`) }}
                     </p>
                   </div>
-                  <span class="text--secondary text-caption">{{ log.date }}</span>
+                  <span class="text--secondary text-caption">{{ log.date }} ({{ log.time_ago }})</span>
                 </div>
               </v-timeline-item>
               <!-- Completed step -->
