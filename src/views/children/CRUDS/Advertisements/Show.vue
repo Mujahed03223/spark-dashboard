@@ -824,11 +824,13 @@
               >
                 <div class="d-flex justify-content-between align-items-start">
                   <div>
+                    <strong v-if="completedLog">{{ completedLog.admin_name }}</strong>
+                    <span class="text--secondary text-caption d-block" v-if="completedLog">{{ completedLog.admin_email }}</span>
                     <p class="mb-0 mt-1 font-weight-bold text-success">
                       {{ $t('admin_actions_desc.completed') }}
                     </p>
                   </div>
-                  <span class="text--secondary text-caption">{{ adsData.lifecycle_dates?.finished }}</span>
+                  <span class="text--secondary text-caption" v-if="completedLog">{{ completedLog.date }} ({{ completedLog.time_ago }})</span>
                 </div>
               </v-timeline-item>
             </v-timeline>
@@ -1184,9 +1186,13 @@ export default {
     sortedAdminLogs() {
       if (!this.adsData?.admin_activity_logs) return [];
       const order = ['accepted', 'accepted_bank_transfer', 'accepted_ownership_buyer', 'accepted_ownership_seller', 'finished'];
-      return [...this.adsData.admin_activity_logs].sort((a, b) => {
+      return [...this.adsData.admin_activity_logs].filter(l => l.action !== 'finished').sort((a, b) => {
         return order.indexOf(a.action) - order.indexOf(b.action);
       });
+    },
+    completedLog() {
+      if (!this.adsData?.admin_activity_logs) return null;
+      return this.adsData.admin_activity_logs.find(l => l.action === 'finished') || null;
     },
   },
 
