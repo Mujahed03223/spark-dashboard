@@ -1630,6 +1630,8 @@
     "transaction_id": "Transaction Id",
     "user_type": "User Type",
     "ordering": "Ordering",
+    "decimal_code": "Decimal Code (2 digits)",
+    "category_code": "Category Code (3 digits)",
     "title": "Title",
     "image": "Image",
     "company": "Company",
