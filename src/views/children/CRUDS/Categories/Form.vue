@@ -97,42 +97,6 @@
               {{ errors[0] }}
             </span>
           </ValidationProvider>
-
-          <ValidationProvider
-            v-slot="{ errors }"
-            :name="$t('labels.decimal_code')"
-            class="col-lg-6"
-            rules="required|length:2"
-          >
-            <base-input
-              :name="$t('labels.decimal_code')"
-              type="text"
-              maxlength="2"
-              :placeholder="$t('labels.decimal_code')"
-              v-model="data.decimal_code"
-            />
-            <span v-if="errors[0]" class="error--text d-inline-block">
-              {{ errors[0] }}
-            </span>
-          </ValidationProvider>
-
-          <ValidationProvider
-            v-slot="{ errors }"
-            :name="$t('labels.category_code')"
-            class="col-lg-6"
-            rules="required|length:3"
-          >
-            <base-input
-              :name="$t('labels.category_code')"
-              type="text"
-              maxlength="3"
-              :placeholder="$t('labels.category_code')"
-              v-model="data.category_code"
-            />
-            <span v-if="errors[0]" class="error--text d-inline-block">
-              {{ errors[0] }}
-            </span>
-          </ValidationProvider>
         </div>
         <div class="button_section d-flex gap-1 justify-content-center mt-10">
           <v-btn
@@ -209,8 +173,6 @@ export default {
           desc: null,
         },
         ordering: null,
-        decimal_code: null,
-        category_code: null,
       },
       noData: false,
     };
@@ -236,8 +198,6 @@ export default {
           this.data.en.desc = result.en.desc;
 
           this.data.ordering = result.ordering;
-          this.data.decimal_code = result.decimal_code;
-          this.data.category_code = result.category_code;
         })
         .catch((err) => {
           this.$iziToast.error({
@@ -265,13 +225,6 @@ export default {
           data.append("en[desc]", this.data.en.desc);
 
           data.append("ordering", this.data.ordering);
-
-          if (this.data.decimal_code) {
-            data.append("decimal_code", this.data.decimal_code);
-          }
-          if (this.data.category_code) {
-            data.append("category_code", this.data.category_code);
-          }
 
           if (this.id) {
             data.append("_method", "PUT");

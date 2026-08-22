@@ -1768,8 +1768,6 @@
     "transaction_id": "رقم العملية",
     "user_type": "نوع المستخدم",
     "ordering": "الترتيب",
-    "decimal_code": "الرمز العشري (رقمين)",
-    "category_code": "رمز الفئة (3 أرقام)",
     "title": "العنوان",
     "image": "الصورة",
     "company": "الشركة",

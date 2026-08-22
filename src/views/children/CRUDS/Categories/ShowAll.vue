@@ -184,18 +184,6 @@ export default {
           sortable: false,
         },
         {
-          text: this.$t("labels.decimal_code"),
-          value: "decimal_code",
-          align: "center",
-          sortable: false,
-        },
-        {
-          text: this.$t("labels.category_code"),
-          value: "category_code",
-          align: "center",
-          sortable: false,
-        },
-        {
           text: this.$t("labels.desc"),
           value: "desc",
           align: "center",
