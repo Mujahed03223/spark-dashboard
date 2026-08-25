@@ -4,7 +4,61 @@
     <div class="form fadeIn">
       <form @submit.prevent="submit">
         <div class="row">
-          <!-- ============= Start:: Socials ============= -->
+          <!-- ============= Start:: Ownership Transfer Steps Control ============= -->
+          <div class="col-12 mb-4">
+            <h4>{{ $i18n.locale === 'ar' ? 'التحكم في خطوات نقل الملكية' : 'Ownership Transfer Steps Control' }}</h4>
+            <p class="text-muted">{{ $i18n.locale === 'ar' ? 'تفعيل أو تعطيل خطوات نقل الملكية بشكل مستقل' : 'Enable or disable ownership transfer steps independently' }}</p>
+          </div>
+
+          <div class="col-lg-6 mb-3">
+            <v-switch
+              v-model="data.ownership_require_bank_transfer"
+              :label="$i18n.locale === 'ar' ? 'طلب الحوالة البنكية' : 'Require Bank Transfer'"
+              color="primary"
+              inset
+            ></v-switch>
+          </div>
+
+          <div class="col-lg-6 mb-3">
+            <v-switch
+              v-model="data.ownership_require_buyer_transfer"
+              :label="$i18n.locale === 'ar' ? 'طلب نقل ملكية المشتري' : 'Require Buyer Ownership Transfer'"
+              color="primary"
+              inset
+            ></v-switch>
+          </div>
+
+          <div class="col-lg-6 mb-3">
+            <v-switch
+              v-model="data.ownership_require_seller_transfer"
+              :label="$i18n.locale === 'ar' ? 'طلب نقل ملكية البائع' : 'Require Seller Ownership Transfer'"
+              color="primary"
+              inset
+            ></v-switch>
+          </div>
+
+          <div class="col-lg-6 mb-3">
+            <v-switch
+              v-model="data.ownership_require_delivery"
+              :label="$i18n.locale === 'ar' ? 'طلب بيانات التوصيل' : 'Require Delivery Details'"
+              color="primary"
+              inset
+            ></v-switch>
+          </div>
+
+          <div class="col-lg-6 mb-3">
+            <v-switch
+              v-model="data.ownership_require_otp"
+              :label="$i18n.locale === 'ar' ? 'طلب رمز التحقق OTP' : 'Require OTP Code'"
+              color="primary"
+              inset
+            ></v-switch>
+          </div>
+
+          <div class="col-12 mt-4">
+            <h4>{{ $i18n.locale === 'ar' ? 'تعليمات نقل الملكية' : 'Ownership Transfer Instructions' }}</h4>
+          </div>
+
           <!-- ***** instruction_ownership_transfer -->
           <base-input
             col="12"
@@ -13,7 +67,7 @@
             v-model="data.instruction_ownership_transfer"
           />
 
-          <!-- ============= End:: Socials ============= -->
+          <!-- ============= End:: Ownership Transfer Steps Control ============= -->
         </div>
         <!-- End Map -->
         <base-button :loading="loading" class="center">
@@ -35,6 +89,11 @@ export default {
 
       data: {
         instruction_ownership_transfer: null,
+        ownership_require_bank_transfer: true,
+        ownership_require_buyer_transfer: true,
+        ownership_require_seller_transfer: true,
+        ownership_require_delivery: true,
+        ownership_require_otp: false,
       },
     };
   },
@@ -48,22 +107,13 @@ export default {
       })
         .then((res) => {
           const result = res.data.data;
-          // console.log(result)
 
           result.map((el) => {
-            if (el.value) {
+            if (el.value !== null && el.value !== undefined) {
               const found = this.data.hasOwnProperty(el.key);
               if (found) {
-                if (el.key == "use_sms_service") {
-                  this.data[el.key] = this.smsServices.find(
-                    (item) => item.id == el.value
-                  );
-                } else if (el.key == "lat") {
-                  this.data[el.key] = +el.value;
-                  this.coordinates_to_edit.lat = +el.value;
-                } else if (el.key == "lng") {
-                  this.data[el.key] = +el.value;
-                  this.coordinates_to_edit.lng = +el.value;
+                if (el.key.startsWith('ownership_require_')) {
+                  this.data[el.key] = el.value === '1' || el.value === 1 || el.value === true;
                 } else {
                   this.data[el.key] = el.value;
                 }
@@ -84,8 +134,10 @@ export default {
       // Create FormData
       const data = new FormData();
       for (const [key, value] of Object.entries(this.data)) {
-        if (value || value == 0) {
-          if (typeof value == "object") {
+        if (value !== null && value !== undefined) {
+          if (typeof value === 'boolean') {
+            data.append(key, value ? '1' : '0');
+          } else if (typeof value === "object") {
             data.append(key, value.id);
           } else {
             data.append(key, value);
