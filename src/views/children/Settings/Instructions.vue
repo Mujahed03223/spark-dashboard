@@ -56,15 +56,27 @@
           </div>
 
           <div class="col-12 mt-4">
-            <h4>{{ $i18n.locale === 'ar' ? 'تعليمات نقل الملكية' : 'Ownership Transfer Instructions' }}</h4>
+            <h4>{{ $i18n.locale === 'ar' ? 'تعليمات نقل الملكية للمشتري' : 'Buyer Ownership Transfer Instructions' }}</h4>
           </div>
 
-          <!-- ***** instruction_ownership_transfer -->
+          <!-- ***** instruction_ownership_transfer_buyer -->
           <base-input
             col="12"
             type="ckeditor"
-            :placeholder="$t('settings.instruction_ownership_transfer')"
+            :placeholder="$i18n.locale === 'ar' ? 'تعليمات نقل الملكية للمشتري' : 'Buyer Ownership Transfer Instructions'"
             v-model="data.instruction_ownership_transfer"
+          />
+
+          <div class="col-12 mt-4">
+            <h4>{{ $i18n.locale === 'ar' ? 'تعليمات نقل الملكية للبائع' : 'Seller Ownership Transfer Instructions' }}</h4>
+          </div>
+
+          <!-- ***** instruction_ownership_transfer_seller -->
+          <base-input
+            col="12"
+            type="ckeditor"
+            :placeholder="$i18n.locale === 'ar' ? 'تعليمات نقل الملكية للبائع' : 'Seller Ownership Transfer Instructions'"
+            v-model="data.instruction_ownership_transfer_seller"
           />
 
           <!-- ============= End:: Ownership Transfer Steps Control ============= -->
@@ -89,6 +101,7 @@ export default {
 
       data: {
         instruction_ownership_transfer: null,
+        instruction_ownership_transfer_seller: null,
         ownership_require_bank_transfer: true,
         ownership_require_buyer_transfer: true,
         ownership_require_seller_transfer: true,
