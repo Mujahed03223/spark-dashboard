@@ -554,14 +554,17 @@
 
                     <div class="ads_info col-12 col-md-6 col-lg-3">
                       <h6 class="title">{{ $t("labels.bank_transfer") }}</h6>
-                      <img
-                        v-if="adsData?.buy_process?.bank_transfer"
-                        @click="show_model_1(adsData.buy_process.bank_transfer)"
-                        @error="imageError"
-                        class="board_img"
-                        :src="adsData?.buy_process?.bank_transfer"
-                        alt="image"
-                      />
+                      <template v-if="bankTransferImages.length">
+                        <img
+                          v-for="(img, i) in bankTransferImages"
+                          :key="'bt-' + i"
+                          @click="show_model_1(img)"
+                          @error="imageError"
+                          class="board_img mb-2 me-2"
+                          :src="img"
+                          alt="image"
+                        />
+                      </template>
                       <span class="redColor fontBold" v-else>
                         {{ $t("notFound") }}
                       </span>
@@ -1193,6 +1196,33 @@ export default {
     completedLog() {
       if (!this.adsData?.admin_activity_logs) return null;
       return this.adsData.admin_activity_logs.find(l => l.action === 'finished') || null;
+    },
+    // Returns all bank transfer receipt images. Supports:
+    // 1) buy_process.bank_transfer_images (array from API)
+    // 2) buy_process.bank_transfer as a JSON-encoded array (multiple receipts)
+    // 3) buy_process.bank_transfer as a single string (legacy single receipt)
+    bankTransferImages() {
+      const bp = this.adsData?.buy_process;
+      if (!bp) return [];
+      if (Array.isArray(bp.bank_transfer_images) && bp.bank_transfer_images.length) {
+        return bp.bank_transfer_images;
+      }
+      const raw = bp.bank_transfer;
+      if (!raw) return [];
+      if (Array.isArray(raw)) return raw;
+      if (typeof raw === "string") {
+        const trimmed = raw.trim();
+        if (trimmed.startsWith("[")) {
+          try {
+            const parsed = JSON.parse(trimmed);
+            if (Array.isArray(parsed)) return parsed.filter(Boolean);
+          } catch (e) {
+            // not valid JSON, fall through to single string
+          }
+        }
+        return [raw];
+      }
+      return [];
     },
   },
 
