@@ -1002,7 +1002,7 @@
     "finish_sell_ad": "finish selling board",
     "refused": "Refused",
     "unactive": "Un-active",
-    "accepted_by_seller": "Accepted By Seller",
+    "accepted_by_seller": "Seller accepted awaiting buyer's bank transfer",
     "accepted_by_buyer": "Accepted By Buyer",
     "pending": "Pending",
     "accept": "Accept",

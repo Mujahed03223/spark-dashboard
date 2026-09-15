@@ -1104,7 +1104,7 @@
     "finish_sell_ad": "إنهاء بيع اللوحة",
     "refused": "مرفوض",
     "unactive": "غير مفعل",
-    "accepted_by_seller": "مقبول بواسطة البائع",
+    "accepted_by_seller": "تم قبول البائع في انتظار رفع الحوالة البنكية من المشتري",
     "accepted_by_buyer": "مقبول بواسطة الشاري",
     "pending": "جديد",
     "accept": "قبول",
