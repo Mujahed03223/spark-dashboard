@@ -509,7 +509,7 @@
                   </div>
                 </div>
 
-                <template v-if="adsData?.ad_buyer">
+                <template v-if="adsData?.ad_buyer || adsData?.buy_process">
                   <hr />
                   <div class="ads_info row mt-3">
                     <h5 class="title">{{ $t("labels.ad_buyer") }}</h5>
