@@ -31,13 +31,24 @@
             {{ index + 1 }}
           </template>
 
-          <template v-slot:[`item.bank_transfer`]="{ item, index }">
+          <template v-slot:[`item.bank_transfer`]="{ item }">
+            <div
+              v-if="item.bank_transfer_images && item.bank_transfer_images.length"
+              class="d-flex flex-wrap justify-content-center gap-1"
+            >
+              <img
+                v-for="(img, i) in item.bank_transfer_images"
+                :key="i"
+                class="image"
+                :src="img"
+                @click="show_model_1(img)"
+              />
+            </div>
             <img
+              v-else-if="item.bank_transfer"
               class="image"
               :src="item.bank_transfer"
-              @error="bank_transferError(index)"
               @click="show_model_1(item.bank_transfer)"
-              v-if="item.bank_transfer"
             />
             <span class="redColor fontBold" v-else>{{ $t("notFound") }}</span>
           </template>
