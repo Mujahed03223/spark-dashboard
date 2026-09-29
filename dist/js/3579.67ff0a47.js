@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkSpark"]=self["webpackChunkSpark"]||[]).push([[3579],{3579:function(e,r,u){u.r(r),u.d(r,{default:function(){return f}});var t=function(){var e=this,r=e._self._c;return r("router-view",{key:e.$route.path})},n=[],a={},c=a,l=u(1656),s=(0,l.A)(c,t,n,!1,null,"e47323ec",null),f=s.exports}}]);
+//# sourceMappingURL=3579.67ff0a47.js.map
