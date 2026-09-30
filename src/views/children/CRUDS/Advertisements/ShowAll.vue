@@ -178,6 +178,26 @@
                 fal fa-eye
               </v-icon>
 
+              <v-icon
+                class="cancel-ad"
+                v-if="!['finished', 'canceled'].includes(item.ads_status)"
+                small
+                color="orange darken-2"
+                @click="cancelAd(item)"
+              >
+                fal fa-ban
+              </v-icon>
+
+              <v-icon
+                class="undo-cancel-ad"
+                v-if="item.ads_status === 'canceled'"
+                small
+                color="green darken-2"
+                @click="undoCancelAd(item)"
+              >
+                fal fa-undo
+              </v-icon>
+
               <deleter
                 v-if="!canDelete"
                 :items="rows"
@@ -625,6 +645,99 @@ export default {
   },
 
   methods: {
+    // ===== Cancel advertisement (Option A: mark as canceled, do NOT delete)
+    cancelAd(item) {
+      this.$swal({
+        title: this.$t("cancelAdConfirmTitle"),
+        text: this.$t("cancelAdConfirmText"),
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#e67e22",
+        cancelButtonColor: "#d33",
+        cancelButtonText: this.$t("cancel"),
+        confirmButtonText: this.$t("status.canceled"),
+      }).then((result) => {
+        if (result.isConfirmed) {
+          this.confirmCancelAd(item.id);
+        }
+      });
+    },
+    async confirmCancelAd(id) {
+      await this.axios({
+        method: "POST",
+        url: `cancel-ads/${id}`,
+      })
+        .then((res) => {
+          // Reflect the new status locally without a full reload
+          const row = this.rows.find((r) => r.id === id);
+          if (row) row.ads_status = "canceled";
+          this.$swal({
+            title: res.data.message || this.$t("canceledSuccessfully"),
+            icon: "success",
+            confirmButtonColor: "#3085d6",
+            confirmButtonText: this.$t("ok"),
+          });
+          this.fetchData(this.paginations.current_page);
+        })
+        .catch((err) => {
+          const message =
+            err.response?.data?.message ||
+            err.response?.data?.messages ||
+            this.$t("somethingWentWrong");
+          this.$swal({
+            title: message,
+            icon: "error",
+            confirmButtonColor: "#d33",
+            confirmButtonText: this.$t("ok"),
+          });
+        });
+    },
+
+    // ===== Undo cancel (reactivate to previous status)
+    undoCancelAd(item) {
+      this.$swal({
+        title: this.$t("undoCancelAdConfirmTitle"),
+        text: this.$t("undoCancelAdConfirmText"),
+        icon: "question",
+        showCancelButton: true,
+        confirmButtonColor: "#2e7d32",
+        cancelButtonColor: "#d33",
+        cancelButtonText: this.$t("cancel"),
+        confirmButtonText: this.$t("ok"),
+      }).then((result) => {
+        if (result.isConfirmed) {
+          this.confirmUndoCancelAd(item.id);
+        }
+      });
+    },
+    async confirmUndoCancelAd(id) {
+      await this.axios({
+        method: "POST",
+        url: `undo-cancel-ads/${id}`,
+      })
+        .then((res) => {
+          this.$swal({
+            title: res.data.message || this.$t("success"),
+            icon: "success",
+            confirmButtonColor: "#3085d6",
+            confirmButtonText: this.$t("ok"),
+          });
+          this.fetchData(this.paginations.current_page);
+        })
+        .catch((err) => {
+          const message =
+            err.response?.data?.message ||
+            err.response?.data?.messages ||
+            this.$t("somethingWentWrong");
+          this.$swal({
+            title: message,
+            icon: "error",
+            confirmButtonColor: "#d33",
+            confirmButtonText: this.$t("ok"),
+          });
+        });
+    },
+
     // ===== showForm
     show_modal(item) {
       this.showForm = true;
