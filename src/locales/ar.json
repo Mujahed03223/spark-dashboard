@@ -1353,6 +1353,7 @@
     "percentage": "النسبة",
     "no_comments": "لا يوجد تعليقات",
     "total_price": "المجموع الإجمالي",
+    "seller_net_amount": "المبلغ المستحق للبائع",
     "tax_value": "الضريبة",
     "service_value": "قيمة الخدمة",
     "is_done": "تمت؟",

@@ -384,6 +384,19 @@
                 </div>
 
                 <div class="ads_info col-md-6 col-lg-4">
+                  <h5 class="title">{{ $t("labels.seller_net_amount") }}</h5>
+                  <p>
+                    <span v-if="adsData?.seller_net_amount">
+                      {{ adsData?.seller_net_amount }}
+                    </span>
+
+                    <span class="redColor fontBold" v-else>
+                      {{ $t("notFound") }}
+                    </span>
+                  </p>
+                </div>
+
+                <div class="ads_info col-md-6 col-lg-4">
                   <h5 class="title">{{ $t("labels.tracking_fees") }}</h5>
                   <p>
                     <span v-if="adsData?.tracking_fees">

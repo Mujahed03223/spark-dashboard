@@ -1242,6 +1242,7 @@
     "percentage": "Percentage",
     "no_comments": "There are no comments yet",
     "total_price": "Total Price",
+    "seller_net_amount": "Amount Paid to Seller",
     "tax_value": "Tax Value",
     "service_value": "Service Value",
     "is_done": "Done?",
