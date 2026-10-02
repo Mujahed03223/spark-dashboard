@@ -84,6 +84,13 @@
             <span class="redColor fontBold" v-else>{{ $t("notFound") }}</span>
           </template>
 
+          <template v-slot:[`item.refund_reference`]="{ item }">
+            <span v-if="item.refund_reference">
+              {{ item.refund_reference }}
+            </span>
+            <span class="redColor fontBold" v-else>{{ $t("notFound") }}</span>
+          </template>
+
           <!-- Select no data State -->
           <template v-slot:no-data>
             {{ $t("table.noData") }}
@@ -247,6 +254,13 @@ export default {
         {
           text: this.$t("labels.status"),
           value: "status",
+          align: "center",
+          sortable: false,
+        },
+
+        {
+          text: this.$t("labels.refund_reference"),
+          value: "refund_reference",
           align: "center",
           sortable: false,
         },

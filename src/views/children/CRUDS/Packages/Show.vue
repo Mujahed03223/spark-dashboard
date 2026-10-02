@@ -91,6 +91,17 @@
                 </router-link>
 
                 <button
+                  @click="refundPackage(id, item.id)"
+                  class="d-flex align-items-center justify-content-center gap-2"
+                >
+                  <span class="fw-bold" style="color: #e67e22">
+                    {{ $t("refundPackage") }}
+                  </span>
+
+                  <i class="fal fa-undo" style="color: #e67e22"></i>
+                </button>
+
+                <button
                   @click="cancelPackage(id, item.id)"
                   class="d-flex align-items-center justify-content-center gap-2"
                 >
@@ -222,6 +233,60 @@ export default {
 
     imageSubscriberError(index) {
       this.rows[index].image = require("@/assets/media/images/logo/logo.png");
+    },
+
+    refundPackage(packageId, userId) {
+      this.$swal({
+        title: this.$t("refundPackageConfirmTitle"),
+        text: this.$t("refundPackageConfirmText"),
+        icon: "question",
+        showCancelButton: true,
+        confirmButtonColor: "#e67e22",
+        cancelButtonColor: "#d33",
+        cancelButtonText: this.$t("cancel"),
+        confirmButtonText: this.$t("confirm")
+      }).then((result) => {
+        if (result.isConfirmed) {
+          this.handleRefundPackage(packageId, userId);
+        }
+      });
+    },
+
+    handleRefundPackage(packageId, userId) {
+      const data = new FormData();
+      data.append("package_id", packageId);
+
+      this.axios({
+        method: "POST",
+        url: `refund_package/${userId}`,
+        data: data
+      })
+        .then((res) => {
+          this.getPackageData();
+          const ref = res?.data?.data?.refund_reference;
+          const note = res?.data?.data?.refund_note;
+          this.$swal({
+            title: res?.data?.message || this.$t("success"),
+            text: ref
+              ? `${this.$t("labels.refund_reference")}: ${ref}`
+              : (note || ""),
+            icon: "success",
+            confirmButtonColor: "#3085d6",
+            confirmButtonText: this.$t("ok")
+          });
+        })
+        .catch((err) => {
+          const message =
+            err.response?.data?.message ||
+            err.response?.data?.messages ||
+            this.$t("somethingWentWrong");
+          this.$swal({
+            title: message,
+            icon: "error",
+            confirmButtonColor: "#d33",
+            confirmButtonText: this.$t("ok")
+          });
+        });
     },
 
     cancelPackage(packageId, userId) {
