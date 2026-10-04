@@ -825,6 +825,23 @@
     },
 
     {
+      "label": "المعاملات المالية",
+      "icon": "fa-solid fa-money-bill",
+      "categories": [
+        {
+          "icon": "fa-solid fa-money-bill",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "transactions/show-all"
+            }
+          ],
+          "title": "المعاملات المالية"
+        }
+      ]
+    },
+
+    {
       "label": "رسائل التواصل",
       "icon": "fa-solid fa-envelope",
       "categories": [
@@ -1161,7 +1178,10 @@
     "rider_cancel": "قام العميل بإلغاء الرحلة",
     "done": "مكتملة",
     "canceled": "ملغية",
-    "running": "جارية"
+    "running": "جارية",
+    "paid": "مدفوع",
+    "failed": "فشل",
+    "refunded": "تم الاسترجاع"
   },
   "admin_actions": {
     "accepted": "تم القبول",
@@ -1355,6 +1375,7 @@
     "total_price": "المجموع الإجمالي",
     "seller_net_amount": "المبلغ المستحق للبائع",
     "refund_reference": "رقم مرجع الاسترجاع",
+    "invoice_id": "رقم الفاتورة",
     "tax_value": "الضريبة",
     "service_value": "قيمة الخدمة",
     "is_done": "تمت؟",

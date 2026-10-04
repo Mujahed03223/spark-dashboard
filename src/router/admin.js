@@ -1009,6 +1009,20 @@ const admin_routers = [
         ],
       },
       // ******* End notifications *******
+      // ******* Start Transactions *******
+      {
+        path: "/transactions",
+        component: () => import("@/views/children/CRUDS/Transactions/Home.vue"),
+        children: [
+          {
+            path: "show-all",
+            name: "AllTransactions",
+            component: () =>
+              import("@/views/children/CRUDS/Transactions/ShowAll.vue"),
+          },
+        ],
+      },
+      // ******* End Transactions *******
       // ******* Start Points *******
       {
         path: "/points",

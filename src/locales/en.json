@@ -736,6 +736,23 @@
     },
 
     {
+      "label": "Transactions",
+      "icon": "fa-solid fa-money-bill",
+      "categories": [
+        {
+          "icon": "fa-solid fa-money-bill",
+          "key": "general",
+          "permissions": [
+            {
+              "url": "transactions/show-all"
+            }
+          ],
+          "title": "Transactions"
+        }
+      ]
+    },
+
+    {
       "label": "Reject Reasons",
       "icon": "",
       "categories": [
@@ -1005,6 +1022,9 @@
     "accepted_by_seller": "Seller accepted awaiting buyer's bank transfer",
     "accepted_by_buyer": "Accepted By Buyer",
     "pending": "Pending",
+    "paid": "Paid",
+    "failed": "Failed",
+    "refunded": "Refunded",
     "accept": "Accept",
     "reject": "Reject",
     "waiting": "Waiting",
@@ -1244,6 +1264,7 @@
     "total_price": "Total Price",
     "seller_net_amount": "Amount Paid to Seller",
     "refund_reference": "Refund Reference",
+    "invoice_id": "Invoice ID",
     "tax_value": "Tax Value",
     "service_value": "Service Value",
     "is_done": "Done?",
