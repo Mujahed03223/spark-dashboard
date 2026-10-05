@@ -363,6 +363,48 @@ window.rootRouter = router = new VueRouter({
         },
         // ******* End RejectReasons *******
 
+        // ******* Start Transactions *******
+        {
+          path: "/transactions",
+          component: () =>
+            import("@/views/children/CRUDS/Transactions/Home.vue"),
+          children: [
+            // Show All
+            {
+              path: "show-all",
+              name: "AllTransactions",
+              component: () =>
+                import("@/views/children/CRUDS/Transactions/ShowAll.vue"),
+            },
+            // Show one
+            {
+              path: "show/:id",
+              name: "ShowTransaction",
+              component: () =>
+                import("@/views/children/CRUDS/Transactions/Show.vue"),
+              props: true,
+            },
+          ],
+        },
+        // ******* End Transactions *******
+
+        // ******* Start ReturnPackages *******
+        {
+          path: "/return-package",
+          component: () =>
+            import("@/views/children/CRUDS/ReturnPackages/Home.vue"),
+          children: [
+            // Show All
+            {
+              path: "show-all",
+              name: "AllReturnPackages",
+              component: () =>
+                import("@/views/children/CRUDS/ReturnPackages/ShowAll.vue"),
+            },
+          ],
+        },
+        // ******* End ReturnPackages *******
+
         // ******* Start CheckLists *******
         {
           path: "/check_lists",
