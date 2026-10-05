@@ -334,17 +334,33 @@ export default {
         url: `${status}/${id}`,
         data: data,
       })
-        .then(() => {
+        .then((res) => {
           this.setRows();
-          this.$swal({
-            title:
-              status === "accept_return_packages"
-                ? this.$t("acceptedSuccessfully")
-                : this.$t("rejectedSuccessfully"),
-            icon: "success",
-            confirmButtonColor: "#3085d6",
-            confirmButtonText: this.$t("ok"),
-          });
+          // When accepting a return, the gateway refund may be rejected
+          // (e.g. insufficient merchant balance). The API returns the reason
+          // in data.refund_note when no refund_reference was produced.
+          const payload = res && res.data ? res.data.data : null;
+          const refundNote =
+            payload && !payload.refund_reference ? payload.refund_note : null;
+          if (status === "accept_return_packages" && refundNote) {
+            this.$swal({
+              title: this.$t("acceptedSuccessfully"),
+              text: this.$t("refundNotProcessed") + " " + refundNote,
+              icon: "warning",
+              confirmButtonColor: "#3085d6",
+              confirmButtonText: this.$t("ok"),
+            });
+          } else {
+            this.$swal({
+              title:
+                status === "accept_return_packages"
+                  ? this.$t("acceptedSuccessfully")
+                  : this.$t("rejectedSuccessfully"),
+              icon: "success",
+              confirmButtonColor: "#3085d6",
+              confirmButtonText: this.$t("ok"),
+            });
+          }
         })
         .catch((err) => {
           let message = "";

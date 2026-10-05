@@ -2016,6 +2016,7 @@
   "finishedSuccessfully": "Finished successfully",
   "sendSuccessfully": "Sent successfully",
   "acceptedSuccessfully": "Accepted successfully",
+  "refundNotProcessed": "The return was accepted, but the automatic refund via the payment gateway was not completed. Reason:",
   "rejectedSuccessfully": "Rejected successfully",
   "withdrawnSuccessfully": "Withdrawn successfully",
   "replySentSuccessfully": "Reply Sent Successfully",

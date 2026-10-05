@@ -2168,6 +2168,7 @@
   "finishedSuccessfully": "تم الانتهاء بنجاح",
   "sendSuccessfully": "تم الإرسال بنجاح",
   "acceptedSuccessfully": "تم القبول بنجاح",
+  "refundNotProcessed": "تم قبول الطلب، لكن لم يكتمل الاسترداد التلقائي عبر بوابة الدفع. السبب:",
   "rejectedSuccessfully": "تم الرفض بنجاح",
   "withdrawnSuccessfully": " تم خصم الرصيد بنجاح",
   "replySentSuccessfully": "تم إرسال الرد بنجاح",
