@@ -309,12 +309,17 @@ export default {
     },
 
     handleCancelPackage(packageId, userId) {
+      // Cancel = deactivate the customer's package only (no refund). Uses the
+      // dedicated cancel_package endpoint, which is not blocked by a running
+      // auction. The deposit is NOT returned here (admin can refund separately
+      // via the Refund button if they choose).
       const data = new FormData();
       data.append("package_id", packageId);
+      data.append("user_id", userId);
 
       this.axios({
         method: "POST",
-        url: `return_package/${userId}`,
+        url: `cancel_package`,
         data: data
       })
         .then(() => {
